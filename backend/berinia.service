@@ -1,0 +1,29 @@
+[Unit]
+Description=Berinia Backend Service
+After=network.target postgresql.service
+Requires=postgresql.service
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/root/berinia/backend
+Environment="PYTHONPATH=/root/berinia/backend"
+
+# Utiliser l'environnement virtuel
+ExecStart=/bin/bash -c 'source /root/berinia/backend/venv/bin/activate && \
+    export AGENTS_SERVICE_URL="http://localhost:8555" && \
+    export AGENTS_REQUEST_TIMEOUT="120" && \
+    uvicorn app.main:app --host 0.0.0.0 --port 8000'
+
+# Redémarrage automatique
+Restart=always
+RestartSec=10
+
+# Limites et sécurité
+TimeoutStartSec=30
+TimeoutStopSec=30
+PrivateTmp=true
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

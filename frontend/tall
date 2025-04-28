@@ -1,0 +1,11 @@
+[0;1;32m●[0m berinia-api.service - Berinia API Service
+     Loaded: loaded (/etc/systemd/system/berinia-api.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2025-04-23 15:15:58 UTC; 320ms ago
+   Main PID: 1772579 (uvicorn)
+      Tasks: 1 (limit: 9250)
+     Memory: 16.0M
+        CPU: 316ms
+     CGroup: /system.slice/berinia-api.service
+             └─1772579 /root/berinia/backend/venv/bin/python3 /root/berinia/backend/venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+Apr 23 15:15:58 ubuntu-8gb-nbg1-1 systemd[1]: Started Berinia API Service.
