@@ -1,0 +1,431 @@
+=== CleanerAgent LOG ===
+Timestamp: 2025-04-25T20:46:13.149647
+Operation: execute
+Status: UNKNOWN
+
+Input: {
+  "data": [
+    {
+      "id": "apify_1745613973_0",
+      "company_name": "La\u00efa Voltaire",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "http://www.laia-restaurant.com/",
+      "address": "226 Bd Voltaire, 75011 Paris, France",
+      "city": "Paris",
+      "postal_code": "75011",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 2383,
+      "category": [
+        "Restaurant",
+        "Restaurant de grillades \u00e0 la fran\u00e7aise",
+        "Restaurant italien",
+        "Restaurant espagnol"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 00:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:46:13.146590",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJCbwaj0lz5kcReRqb9xvYEFc",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%C3%AFa%20Voltaire&query_place_id=ChIJCbwaj0lz5kcReRqb9xvYEFc",
+        "description": "Restaurant \u00e9l\u00e9gant et isol\u00e9 proposant des plats m\u00e9diterran\u00e9ens, une terrasse et un jardin verdoyant.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745613973_1",
+      "company_name": "KALANK",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://www.kalank-sud.fr/",
+      "address": "52 Boulevard de Charonne, 75020 Paris, France",
+      "city": "Paris",
+      "postal_code": "75020",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 600,
+      "category": [
+        "Restaurant fran\u00e7ais",
+        "Bar \u00e0 cocktails",
+        "\u00c9picerie fine",
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 15:00, 19:30 to 23:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 15:00, 19:30 to 23:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 15:00, 19:30 to 23:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 15:00, 19:30 to 23:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 14:00, 19:30 to 23:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:46:13.146637",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ2fBeqR-lgIARHZ5qX7ETeGA",
+        "url": "https://www.google.com/maps/search/?api=1&query=KALANK&query_place_id=ChIJ2fBeqR-lgIARHZ5qX7ETeGA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745613973_2",
+      "company_name": "Wupisi",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "http://wupisi.com/",
+      "address": "54 Rue de Terre Neuve, 75020 Paris, France",
+      "city": "Paris",
+      "postal_code": "75020",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 637,
+      "category": [
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 15:00, 18:00 to 23:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 15:00, 18:00 to 23:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "12:00 to 16:00, 18:00 to 22:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 15:00, 18:00 to 23:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 15:00, 18:00 to 23:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 15:00, 18:00 to 23:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:46:13.146665",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJCzk9zRZt5kcRiTuRPOQZkjs",
+        "url": "https://www.google.com/maps/search/?api=1&query=Wupisi&query_place_id=ChIJCzk9zRZt5kcRiTuRPOQZkjs",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "campaign_id": "TEST_restaurant_1745613959"
+}
+
+Output: {
+  "clean_data": [
+    {
+      "id": "apify_1745613973_0",
+      "company_name": "La\u00efa Voltaire",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "http://www.laia-restaurant.com/",
+      "address": "226 Bd Voltaire, 75011 Paris, France",
+      "city": "Paris",
+      "postal_code": "75011",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 2383,
+      "category": [
+        "Restaurant",
+        "Restaurant de grillades \u00e0 la fran\u00e7aise",
+        "Restaurant italien",
+        "Restaurant espagnol"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 00:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:46:13.146590",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJCbwaj0lz5kcReRqb9xvYEFc",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%C3%AFa%20Voltaire&query_place_id=ChIJCbwaj0lz5kcReRqb9xvYEFc",
+        "description": "Restaurant \u00e9l\u00e9gant et isol\u00e9 proposant des plats m\u00e9diterran\u00e9ens, une terrasse et un jardin verdoyant.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:46:13.149521"
+      }
+    },
+    {
+      "id": "apify_1745613973_1",
+      "company_name": "KALANK",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "https://www.kalank-sud.fr/",
+      "address": "52 Boulevard de Charonne, 75020 Paris, France",
+      "city": "Paris",
+      "postal_code": "75020",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 600,
+      "category": [
+        "Restaurant fran\u00e7ais",
+        "Bar \u00e0 cocktails",
+        "\u00c9picerie fine",
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 15:00, 19:30 to 23:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 15:00, 19:30 to 23:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 15:00, 19:30 to 23:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 15:00, 19:30 to 23:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 14:00, 19:30 to 23:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:46:13.146637",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ2fBeqR-lgIARHZ5qX7ETeGA",
+        "url": "https://www.google.com/maps/search/?api=1&query=KALANK&query_place_id=ChIJ2fBeqR-lgIARHZ5qX7ETeGA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:46:13.149593"
+      }
+    },
+    {
+      "id": "apify_1745613973_2",
+      "company_name": "Wupisi",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "http://wupisi.com/",
+      "address": "54 Rue de Terre Neuve, 75020 Paris, France",
+      "city": "Paris",
+      "postal_code": "75020",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 637,
+      "category": [
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 15:00, 18:00 to 23:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 15:00, 18:00 to 23:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "12:00 to 16:00, 18:00 to 22:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 15:00, 18:00 to 23:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 15:00, 18:00 to 23:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 15:00, 18:00 to 23:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:46:13.146665",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJCzk9zRZt5kcRiTuRPOQZkjs",
+        "url": "https://www.google.com/maps/search/?api=1&query=Wupisi&query_place_id=ChIJCzk9zRZt5kcRiTuRPOQZkjs",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:46:13.149626"
+      }
+    }
+  ],
+  "validation_stats": {
+    "total": 3,
+    "valid": 0,
+    "invalid": 3,
+    "anomalies_count": 0
+  },
+  "anomaly_analysis": {
+    "summary": "Aucune anomalie d\u00e9tect\u00e9e",
+    "new_patterns": []
+  },
+  "validation_level": "standard"
+}

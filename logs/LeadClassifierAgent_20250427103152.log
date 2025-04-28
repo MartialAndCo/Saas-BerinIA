@@ -1,0 +1,23 @@
+=== LeadClassifierAgent LOG ===
+Timestamp: 2025-04-27T10:31:52.375564
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "cleaned_leads": [],
+  "campaign_id": "test_campaign_123"
+}
+
+Output: {
+  "operation": "classify",
+  "campaign_id": "test_campaign_123",
+  "timestamp": "2025-04-27T10:31:52.375294",
+  "status": "COMPLETED",
+  "classified_leads": [],
+  "metrics": {
+    "total_leads": 0,
+    "avg_global_score": 0,
+    "valid_contacts": 0
+  },
+  "message": "Aucun lead fourni pour la classification. Pr\u00eat pour la prochaine s\u00e9rie de leads."
+}

@@ -1,0 +1,36 @@
+=== CampaignStarterAgent LOG ===
+Timestamp: 2025-04-27T00:35:50.745637
+Operation: start_new_campaign
+Status: FAILED
+
+Input: {
+  "initiated_by": "DecisionBrainAgent",
+  "brain_decision": {
+    "decision_process": [
+      "Analyse des campagnes pass\u00e9es : aucune donn\u00e9e disponible.",
+      "Analyse des campagnes actives : aucune donn\u00e9e disponible.",
+      "Analyse des niches inexploit\u00e9es : aucune donn\u00e9e disponible.",
+      "Consid\u00e9ration du contexte d'initialisation : syst\u00e8me en phase de d\u00e9marrage initial.",
+      "D\u00e9cision bas\u00e9e sur l'absence de donn\u00e9es historiques et la n\u00e9cessit\u00e9 d'initier l'apprentissage du syst\u00e8me."
+    ],
+    "action": "nouvelle",
+    "campagne_cible": null,
+    "commentaire": "Aucune campagne existante d\u00e9tect\u00e9e. Le syst\u00e8me doit initialiser une premi\u00e8re campagne pour commencer \u00e0 collecter des donn\u00e9es et \u00e9tablir des r\u00e9f\u00e9rences de performance. Cette phase initiale est cruciale pour l'apprentissage du syst\u00e8me.",
+    "priorit\u00e9": "haute",
+    "agents_\u00e0_impliquer": [
+      "StrategyAgent",
+      "PlanningAgent",
+      "CampaignStarterAgent",
+      "ScraperAgent",
+      "CleanerAgent",
+      "ClassifierAgent"
+    ]
+  },
+  "operation": "start_new_campaign",
+  "validated_niche": null
+}
+
+Output: {
+  "error": "Aucune niche valid\u00e9e fournie",
+  "status": "FAILED"
+}

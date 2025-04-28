@@ -1,0 +1,344 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-25T19:48:48.912044
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "restaurant",
+  "campaign_id": "real_test_comparison",
+  "params": {
+    "language": "fr",
+    "locationQuery": "Paris, FR",
+    "maxCrawledPlacesPerSearch": 5,
+    "searchStringsArray": [
+      "restaurant"
+    ],
+    "skipClosedPlaces": false
+  }
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "apify_1745610528_0",
+      "company_name": "Les Mains d\u2019Or",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": null,
+      "address": "22 Rue de l'Amiral Mouchez, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 437,
+      "category": [
+        "Brasserie"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:30 to 00:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 01:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 00:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:48:48.911779",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJP-wRoqJx5kcRb5I2nD6iTVc",
+        "url": "https://www.google.com/maps/search/?api=1&query=Les%20Mains%20d%E2%80%99Or&query_place_id=ChIJP-wRoqJx5kcRb5I2nD6iTVc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745610528_1",
+      "company_name": "Jin Xin Lou",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": null,
+      "address": "63 Rue de l'Amiral Mouchez, 75013 Paris, France",
+      "city": "Paris",
+      "postal_code": "75013",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 413,
+      "category": [
+        "Restaurant",
+        "Restaurant chinois",
+        "Restaurant fran\u00e7ais"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "11:00 to 14:30, 17:00 to 22:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "11:00 to 14:30, 17:00 to 22:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:00 to 14:30, 17:00 to 22:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "11:00 to 14:30, 17:00 to 22:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "11:00 to 14:30, 17:00 to 22:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "11:00 to 14:30, 17:00 to 22:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:48:48.911817",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJT1Atu5hx5kcRt-SaHQvR7FA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jin%20Xin%20Lou&query_place_id=ChIJT1Atu5hx5kcRt-SaHQvR7FA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745610528_2",
+      "company_name": "Hai B\u00e0 Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://hai-ba-paris.site.bykomdab.com/fr/",
+      "address": "61 Rue de l'Amiral Mouchez, 75013 Paris, France",
+      "city": "Paris",
+      "postal_code": "75013",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 141,
+      "category": [
+        "Restaurant vietnamien",
+        "Restaurant asiatique",
+        "Restaurant de plats \u00e0 emporter",
+        "Restaurant de soupe vietnamienne \"pho\"",
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "11:30 to 14:30, 19:00 to 22:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "11:30 to 14:30, 19:00 to 22:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:30 to 14:30, 19:00 to 22:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "11:30 to 14:30, 19:00 to 22:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "19:00 to 22:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "11:30 to 14:30, 19:00 to 22:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:48:48.911852",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJGYwVMIRx5kcRFHlZFPaTEJw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hai%20B%C3%A0%20Paris&query_place_id=ChIJGYwVMIRx5kcRFHlZFPaTEJw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745610528_3",
+      "company_name": "SENSE\u00cf",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": null,
+      "address": "29 Rue des Orchid\u00e9es, 75013 Paris, France",
+      "city": "Paris",
+      "postal_code": "75013",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 138,
+      "category": [
+        "Restaurant tha\u00ef"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "11:00 to 14:00, 18:00 to 22:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "11:00 to 14:00, 18:00 to 22:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "18:00 to 22:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:00 to 15:00, 18:00 to 22:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "11:00 to 15:00, 18:00 to 22:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "11:00 to 15:00, 18:00 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "11:00 to 15:00, 18:00 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:48:48.911885",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJiaPzDydx5kcRcqQKN_CsAQY",
+        "url": "https://www.google.com/maps/search/?api=1&query=SENSE%C3%8F&query_place_id=ChIJiaPzDydx5kcRcqQKN_CsAQY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745610528_4",
+      "company_name": "New Kitchen Restaurant",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": null,
+      "address": "190 Av. d'Italie, 75013 Paris, France",
+      "city": "Paris",
+      "postal_code": "75013",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 284,
+      "category": [
+        "Restaurant halal",
+        "Bistro",
+        "Restaurant familial",
+        "Restaurant fran\u00e7ais",
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 02:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 02:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "17:00 to 00:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 00:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 00:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:48:48.911905",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJBynNnYNx5kcR1ae-APgCyug",
+        "url": "https://www.google.com/maps/search/?api=1&query=New%20Kitchen%20Restaurant&query_place_id=ChIJBynNnYNx5kcR1ae-APgCyug",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "count": 5,
+  "niche": "restaurant",
+  "campaign_id": "real_test_comparison",
+  "time_taken": 13.610668420791626,
+  "api_used": true,
+  "status": "COMPLETED"
+}

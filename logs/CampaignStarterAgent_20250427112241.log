@@ -1,0 +1,121 @@
+=== CampaignStarterAgent LOG ===
+Timestamp: 2025-04-27T11:22:41.104492
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "export_decision": {
+    "leads_to_export_now": [
+      {
+        "id": "test_lead_1",
+        "qualite": "WARM",
+        "raison_export": "Lead prioritaire avec fort potentiel"
+      },
+      {
+        "id": "test_lead_3",
+        "qualite": "HOT",
+        "raison_export": "Lead tr\u00e8s chaud avec besoin imm\u00e9diat"
+      }
+    ],
+    "leads_to_delay": [
+      {
+        "id": "test_lead_2",
+        "qualite": "COLD",
+        "raison_delai": "Lead froid n\u00e9cessitant plus de qualification",
+        "moment_recommande": "Semaine prochaine"
+      }
+    ],
+    "batching_strategy": {
+      "methode": "PAR_QUALITE",
+      "explication": "Les leads sont regroup\u00e9s par niveau de qualit\u00e9 pour permettre une approche personnalis\u00e9e"
+    },
+    "system_load_management": {
+      "charge_actuelle": "mod\u00e9r\u00e9e",
+      "limite_quotidienne_respectee": true,
+      "recommandation_charge": "Continuer les exports au rythme actuel"
+    }
+  },
+  "summary": {
+    "total_leads_received": 3,
+    "leads_exported_now": 2,
+    "leads_delayed": 1,
+    "quality_distribution": {
+      "chauds_exportes": 1,
+      "chauds_retardes": 0,
+      "tiedes_exportes": 1,
+      "tiedes_retardes": 0,
+      "froids_exportes": 0,
+      "froids_retardes": 1
+    }
+  },
+  "crm_impact_forecast": {
+    "charge_estimee": "L'export actuel repr\u00e9sente 10% de la capacit\u00e9 quotidienne",
+    "timing_optimal": "L'export en milieu de journ\u00e9e permet un traitement dans l'apr\u00e8s-midi",
+    "recommandations_futures": "Continuer d'exporter les leads chauds imm\u00e9diatement"
+  }
+}
+
+Output: {
+  "campaign_id": null,
+  "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+  "start_time": "2025-04-27T11:22:13.253809",
+  "phases": {
+    "scraping": {
+      "status": "COMPLETED",
+      "metrics": {
+        "leads_scraped": 75,
+        "time_taken": 27.191787969578346,
+        "sources": {
+          "apify": {
+            "leads_scraped": 50,
+            "time_taken": 24.53447675704956
+          },
+          "apollo": {
+            "leads_scraped": 25,
+            "time_taken": 2.6573112125287857
+          }
+        }
+      }
+    },
+    "cleaning": {
+      "status": "COMPLETED",
+      "metrics": {
+        "leads_cleaned": 75,
+        "leads_rejected": 0
+      }
+    },
+    "classification": {
+      "status": "COMPLETED",
+      "metrics": {
+        "leads_classified": 75,
+        "hot_leads": 0,
+        "warm_leads": 0,
+        "cold_leads": 0
+      }
+    },
+    "export": {
+      "status": "COMPLETED",
+      "metrics": {
+        "leads_exported": 2,
+        "leads_delayed": 1,
+        "export_strategy": "PAR_QUALITE"
+      }
+    },
+    "contact": {
+      "status": "FAILED",
+      "metrics": {
+        "leads_contacted": 0,
+        "by_channel": {}
+      }
+    }
+  },
+  "status": "COMPLETED",
+  "end_time": "2025-04-27T11:22:41.104033",
+  "summary": {
+    "leads_scraped": 75,
+    "leads_cleaned": 75,
+    "leads_classified": 75,
+    "leads_exported": 2,
+    "leads_contacted": 0
+  }
+}

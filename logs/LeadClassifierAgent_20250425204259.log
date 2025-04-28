@@ -1,0 +1,231 @@
+=== LeadClassifierAgent LOG ===
+Timestamp: 2025-04-25T20:42:59.794598
+Operation: execute
+Status: FAILED
+
+Input: {
+  "leads": [
+    {
+      "id": "apify_1745613779_0",
+      "company_name": "Au Bois Dor\u00e9e",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "http://www.auboisdoree.fr/",
+      "address": "270 Av. Daumesnil, 75012 Paris, France",
+      "city": "Paris",
+      "postal_code": "75012",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 511,
+      "category": [
+        "Brasserie",
+        "Restaurant fran\u00e7ais",
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "07:00 to 15:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 23:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:42:59.789651",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJMUU3tmBy5kcRzeL-OBA3wJI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Au%20Bois%20Dor%C3%A9e&query_place_id=ChIJMUU3tmBy5kcRzeL-OBA3wJI",
+        "description": "Petits-d\u00e9jeuners, burgers, plats de viande, desserts et vins propos\u00e9s dans une brasserie classique dot\u00e9e d'une terrasse c\u00f4t\u00e9 rue.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:42:59.791759"
+      }
+    },
+    {
+      "id": "apify_1745613779_1",
+      "company_name": "Le Four",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "https://instagram.com/lefourdaumesnil?igshid=YTQwZjQ0NmI0OA==",
+      "address": "269 Av. Daumesnil, 75012 Paris, France",
+      "city": "Paris",
+      "postal_code": "75012",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 557,
+      "category": [
+        "Pizzeria",
+        "Restaurant italien"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "11:30 to 22:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "11:30 to 22:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "11:30 to 22:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:30 to 22:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "11:30 to 22:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "11:30 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "11:30 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:42:59.789694",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJVVXJx2By5kcRRct0FRAs1eA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Four&query_place_id=ChIJVVXJx2By5kcRRct0FRAs1eA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:42:59.791813"
+      }
+    },
+    {
+      "id": "apify_1745613779_2",
+      "company_name": "Varia",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "http://www.variarestaurant.fr/",
+      "address": "117 Bd Poniatowski, 75012 Paris, France",
+      "city": "Paris",
+      "postal_code": "75012",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 347,
+      "category": [
+        "Restaurant grec"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 14:30, 19:30 to 23:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 14:30, 19:30 to 23:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "12:00 to 14:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 14:30, 19:30 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 14:30, 19:30 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:42:59.789728",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJV1L6Iq9z5kcRl6BycruLoSs",
+        "url": "https://www.google.com/maps/search/?api=1&query=Varia&query_place_id=ChIJV1L6Iq9z5kcRl6BycruLoSs",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:42:59.791836"
+      }
+    }
+  ],
+  "campaign_id": "TEST_restaurant_1745613764"
+}
+
+Output: {
+  "operation": "classify",
+  "campaign_id": "TEST_restaurant_1745613764",
+  "timestamp": "2025-04-25T20:42:59.793837",
+  "status": "FAILED",
+  "error": "Erreur lors de l'ex\u00e9cution de l'op\u00e9ration: 'NoneType' object has no attribute 'lower'"
+}

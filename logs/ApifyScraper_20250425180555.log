@@ -1,0 +1,767 @@
+=== ApifyScraper LOG ===
+Timestamp: 2025-04-25T18:05:55.973854
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "params": {
+    "language": "fr",
+    "locationQuery": "Paris, FR",
+    "maxCrawledPlacesPerSearch": 10,
+    "searchStringsArray": [
+      "restaurant"
+    ],
+    "skipClosedPlaces": false
+  }
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "lead_1745604355_0",
+      "company_name": "Restaurant Nicolas Petit",
+      "contact_name": "Nicolas Petit",
+      "position": "Directeur",
+      "email": "nicolas.petit@resto.fr",
+      "phone": "0664809477",
+      "website": "https://www.resto-petit.fr",
+      "address": "48 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "53000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.972538",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_1",
+      "company_name": "Restaurant Paul Michel",
+      "contact_name": "Paul Michel",
+      "position": "G\u00e9rant",
+      "email": "paul.michel@outlook.fr",
+      "phone": "0634215991",
+      "website": "https://www.resto-michel.fr",
+      "address": "19 rue de Paris",
+      "city": "Paris",
+      "postal_code": "32000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:05:55.972611",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_2",
+      "company_name": "Restaurant Nathalie Bernard",
+      "contact_name": "Nathalie Bernard",
+      "position": "Responsable",
+      "email": "nathalie.bernard@gmail.com",
+      "phone": "0696559055",
+      "website": "https://www.resto-bernard.fr",
+      "address": "53 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "95000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:05:55.972642",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_3",
+      "company_name": "Restaurant David Michel",
+      "contact_name": "David Michel",
+      "position": "Associ\u00e9",
+      "email": "david.michel@resto.fr",
+      "phone": "0659180119",
+      "website": "https://www.resto-michel.fr",
+      "address": "121 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "11000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:05:55.972670",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_4",
+      "company_name": "Restaurant Thomas Bernard",
+      "contact_name": "Thomas Bernard",
+      "position": "G\u00e9rant",
+      "email": "thomas.bernard@resto.fr",
+      "phone": "0646055555",
+      "website": "https://www.resto-bernard.fr",
+      "address": "120 rue de la R\u00e9publique",
+      "city": "Paris",
+      "postal_code": "77000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:05:55.972701",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_5",
+      "company_name": "Restaurant Paul Lefebvre",
+      "contact_name": "Paul Lefebvre",
+      "position": "Fondateur",
+      "email": null,
+      "phone": "0691576857",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "10 rue de la R\u00e9publique",
+      "city": "Paris",
+      "postal_code": "91000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:05:55.972763",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_6",
+      "company_name": "Restaurant Julie Robert",
+      "contact_name": "Julie Robert",
+      "position": "Directeur",
+      "email": null,
+      "phone": null,
+      "website": "https://www.resto-robert.fr",
+      "address": "144 rue de la R\u00e9publique",
+      "city": "Paris",
+      "postal_code": "39000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:05:55.972785",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_7",
+      "company_name": "Restaurant Julie Lefebvre",
+      "contact_name": "Julie Lefebvre",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": "0677988571",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "102 rue de la R\u00e9publique",
+      "city": "Paris",
+      "postal_code": "89000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.972812",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_8",
+      "company_name": "Restaurant Thomas Dubois",
+      "contact_name": "Thomas Dubois",
+      "position": "Associ\u00e9",
+      "email": "thomas.dubois@outlook.fr",
+      "phone": null,
+      "website": "https://www.resto-dubois.fr",
+      "address": "149 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "76000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.972836",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_9",
+      "company_name": "Restaurant \u00c9milie Simon",
+      "contact_name": "\u00c9milie Simon",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0670831537",
+      "website": "https://www.resto-simon.fr",
+      "address": "34 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "55000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:05:55.972870",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_10",
+      "company_name": "Restaurant David Durand",
+      "contact_name": "David Durand",
+      "position": "Responsable",
+      "email": null,
+      "phone": "0610055672",
+      "website": null,
+      "address": "12 rue de la R\u00e9publique",
+      "city": "Paris",
+      "postal_code": "63000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:05:55.972894",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_11",
+      "company_name": "Restaurant David Lefebvre",
+      "contact_name": "David Lefebvre",
+      "position": "G\u00e9rant",
+      "email": "david.lefebvre@outlook.fr",
+      "phone": "0151933067",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "93 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "27000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:05:55.972929",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_12",
+      "company_name": "Restaurant Sophie Bernard",
+      "contact_name": "Sophie Bernard",
+      "position": "G\u00e9rant",
+      "email": null,
+      "phone": "0648845292",
+      "website": "https://www.resto-bernard.fr",
+      "address": "95 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "88000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:05:55.972993",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_13",
+      "company_name": "Restaurant \u00c9milie Moreau",
+      "contact_name": "\u00c9milie Moreau",
+      "position": "Responsable",
+      "email": "\u00e9milie.moreau@gmail.com",
+      "phone": "0633155610",
+      "website": "https://www.resto-moreau.fr",
+      "address": "89 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "35000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.973031",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_14",
+      "company_name": "Restaurant Marie Petit",
+      "contact_name": "Marie Petit",
+      "position": "G\u00e9rant",
+      "email": null,
+      "phone": "0150497370",
+      "website": null,
+      "address": "117 rue de la R\u00e9publique",
+      "city": "Paris",
+      "postal_code": "11000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:05:55.973056",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_15",
+      "company_name": "Restaurant Nathalie Richard",
+      "contact_name": "Nathalie Richard",
+      "position": "Responsable",
+      "email": "nathalie.richard@gmail.com",
+      "phone": null,
+      "website": "https://www.resto-richard.fr",
+      "address": "138 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "80000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:05:55.973095",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_16",
+      "company_name": "Restaurant David Lefebvre",
+      "contact_name": "David Lefebvre",
+      "position": "G\u00e9rant",
+      "email": null,
+      "phone": "0687345217",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "82 rue de Paris",
+      "city": "Paris",
+      "postal_code": "51000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:05:55.973122",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_17",
+      "company_name": "Restaurant Pierre Michel",
+      "contact_name": "Pierre Michel",
+      "position": "G\u00e9rant",
+      "email": "pierre.michel@outlook.fr",
+      "phone": null,
+      "website": "https://www.resto-michel.fr",
+      "address": "95 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "51000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:05:55.973147",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_18",
+      "company_name": "Restaurant Nathalie Michel",
+      "contact_name": "Nathalie Michel",
+      "position": "G\u00e9rant",
+      "email": "contact@resto.fr",
+      "phone": "0188964517",
+      "website": "https://www.resto-michel.fr",
+      "address": "137 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "85000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:05:55.973172",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_19",
+      "company_name": "Restaurant Julie Simon",
+      "contact_name": "Julie Simon",
+      "position": "Directeur",
+      "email": null,
+      "phone": "0661111012",
+      "website": "https://www.resto-simon.fr",
+      "address": "71 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "75000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:05:55.973196",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_20",
+      "company_name": "Restaurant \u00c9milie Durand",
+      "contact_name": "\u00c9milie Durand",
+      "position": "Associ\u00e9",
+      "email": "contact@resto.fr",
+      "phone": "0159280496",
+      "website": "https://www.resto-durand.fr",
+      "address": "52 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "50000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:05:55.973226",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_21",
+      "company_name": "Restaurant Sophie Petit",
+      "contact_name": "Sophie Petit",
+      "position": "Directeur",
+      "email": null,
+      "phone": "0184553190",
+      "website": "https://www.resto-petit.fr",
+      "address": "120 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "48000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:05:55.973251",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_22",
+      "company_name": "Restaurant L\u00e9a Thomas",
+      "contact_name": "L\u00e9a Thomas",
+      "position": "Fondateur",
+      "email": "l\u00e9a.thomas@resto.fr",
+      "phone": "0635189530",
+      "website": "https://www.resto-thomas.fr",
+      "address": "123 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "75000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:05:55.973291",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_23",
+      "company_name": "Restaurant L\u00e9a Robert",
+      "contact_name": "L\u00e9a Robert",
+      "position": "Directeur",
+      "email": "l\u00e9a.robert@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-robert.fr",
+      "address": "3 rue de Paris",
+      "city": "Paris",
+      "postal_code": "62000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:05:55.973328",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_24",
+      "company_name": "Restaurant Nathalie Leroy",
+      "contact_name": "Nathalie Leroy",
+      "position": "Responsable",
+      "email": "nathalie.leroy@outlook.fr",
+      "phone": "0693115637",
+      "website": null,
+      "address": "85 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "36000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.973360",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_25",
+      "company_name": "Restaurant Marie Michel",
+      "contact_name": "Marie Michel",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0679933670",
+      "website": "https://www.resto-michel.fr",
+      "address": "42 rue de Paris",
+      "city": "Paris",
+      "postal_code": "16000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:05:55.973386",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_26",
+      "company_name": "Restaurant L\u00e9a Richard",
+      "contact_name": "L\u00e9a Richard",
+      "position": "Fondateur",
+      "email": "l\u00e9a.richard@resto.fr",
+      "phone": "0172688936",
+      "website": "https://www.resto-richard.fr",
+      "address": "52 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "63000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:05:55.973426",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_27",
+      "company_name": "Restaurant Pierre Laurent",
+      "contact_name": "Pierre Laurent",
+      "position": "Responsable",
+      "email": "pierre.laurent@gmail.com",
+      "phone": null,
+      "website": null,
+      "address": "45 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "41000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.973455",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_28",
+      "company_name": "Restaurant Julie Moreau",
+      "contact_name": "Julie Moreau",
+      "position": "Associ\u00e9",
+      "email": "julie.moreau@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-moreau.fr",
+      "address": "85 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "74000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:05:55.973479",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_29",
+      "company_name": "Restaurant Marie Thomas",
+      "contact_name": "Marie Thomas",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": "0187406829",
+      "website": "https://www.resto-thomas.fr",
+      "address": "105 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "41000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:05:55.973506",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_30",
+      "company_name": "Restaurant Nathalie Thomas",
+      "contact_name": "Nathalie Thomas",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-thomas.fr",
+      "address": "132 rue de la R\u00e9publique",
+      "city": "Paris",
+      "postal_code": "46000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:05:55.973537",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_31",
+      "company_name": "Restaurant Sophie Moreau",
+      "contact_name": "Sophie Moreau",
+      "position": "G\u00e9rant",
+      "email": "sophie.moreau@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-moreau.fr",
+      "address": "112 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "93000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:05:55.973559",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_32",
+      "company_name": "Restaurant \u00c9milie Simon",
+      "contact_name": "\u00c9milie Simon",
+      "position": "G\u00e9rant",
+      "email": "\u00e9milie.simon@orange.fr",
+      "phone": null,
+      "website": "https://www.resto-simon.fr",
+      "address": "39 rue de la Paix",
+      "city": "Paris",
+      "postal_code": "71000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.973595",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_33",
+      "company_name": "Restaurant Sophie Richard",
+      "contact_name": "Sophie Richard",
+      "position": "Associ\u00e9",
+      "email": "sophie.richard@outlook.fr",
+      "phone": "0193806090",
+      "website": "https://www.resto-richard.fr",
+      "address": "38 rue de Paris",
+      "city": "Paris",
+      "postal_code": "30000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.973634",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_34",
+      "company_name": "Restaurant David Moreau",
+      "contact_name": "David Moreau",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": "0199938161",
+      "website": "https://www.resto-moreau.fr",
+      "address": "103 rue de la R\u00e9publique",
+      "city": "Paris",
+      "postal_code": "87000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.973671",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_35",
+      "company_name": "Restaurant Julie Moreau",
+      "contact_name": "Julie Moreau",
+      "position": "Directeur",
+      "email": "julie.moreau@orange.fr",
+      "phone": "0622028077",
+      "website": null,
+      "address": "135 rue de Paris",
+      "city": "Paris",
+      "postal_code": "94000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:05:55.973688",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_36",
+      "company_name": "Restaurant David Robert",
+      "contact_name": "David Robert",
+      "position": "Directeur",
+      "email": "david.robert@yahoo.fr",
+      "phone": null,
+      "website": "https://www.resto-robert.fr",
+      "address": "85 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "47000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:05:55.973712",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_37",
+      "company_name": "Restaurant Nathalie Martin",
+      "contact_name": "Nathalie Martin",
+      "position": "G\u00e9rant",
+      "email": "contact@resto.fr",
+      "phone": "0149918623",
+      "website": "https://www.resto-martin.fr",
+      "address": "41 rue de la R\u00e9publique",
+      "city": "Paris",
+      "postal_code": "35000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:05:55.973751",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_38",
+      "company_name": "Restaurant Nathalie Moreau",
+      "contact_name": "Nathalie Moreau",
+      "position": "Directeur",
+      "email": null,
+      "phone": "0178589400",
+      "website": "https://www.resto-moreau.fr",
+      "address": "136 rue de Marseille",
+      "city": "Paris",
+      "postal_code": "49000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:05:55.973780",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_39",
+      "company_name": "Restaurant Thomas Michel",
+      "contact_name": "Thomas Michel",
+      "position": "Directeur",
+      "email": "thomas.michel@yahoo.fr",
+      "phone": "0689633142",
+      "website": "https://www.resto-michel.fr",
+      "address": "36 rue de Paris",
+      "city": "Paris",
+      "postal_code": "16000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:05:55.973812",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604355_40",
+      "company_name": "Restaurant Jean Dubois",
+      "contact_name": "Jean Dubois",
+      "position": "Directeur",
+      "email": "jean.dubois@yahoo.fr",
+      "phone": "0660723050",
+      "website": null,
+      "address": "18 rue de Paris",
+      "city": "Paris",
+      "postal_code": "78000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:05:55.973832",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Paris, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    }
+  ],
+  "count": 41,
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "time_taken": 1.8283138551045093,
+  "api_used": false,
+  "status": "COMPLETED"
+}

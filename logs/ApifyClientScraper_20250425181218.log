@@ -1,0 +1,695 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-25T18:12:18.416567
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "params": {
+    "language": "fr",
+    "locationQuery": "Paris, FR",
+    "maxCrawledPlacesPerSearch": 10,
+    "searchStringsArray": [
+      "restaurant"
+    ],
+    "skipClosedPlaces": false
+  }
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "lead_1745604738_0",
+      "company_name": "Restaurant Julie Lefebvre",
+      "contact_name": "Julie Lefebvre",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": "0623979188",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "118 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "39000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:18.415467",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_1",
+      "company_name": "Restaurant David Bernard",
+      "contact_name": "David Bernard",
+      "position": "Directeur",
+      "email": "david.bernard@resto.fr",
+      "phone": "0197841061",
+      "website": null,
+      "address": "81 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "39000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:18.415515",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_2",
+      "company_name": "Restaurant Julie Moreau",
+      "contact_name": "Julie Moreau",
+      "position": "Fondateur",
+      "email": "julie.moreau@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-moreau.fr",
+      "address": "88 rue de la Paix",
+      "city": "Lyon",
+      "postal_code": "20000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:18.415544",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_3",
+      "company_name": "Restaurant Nicolas Moreau",
+      "contact_name": "Nicolas Moreau",
+      "position": "Fondateur",
+      "email": null,
+      "phone": "0169917714",
+      "website": "https://www.resto-moreau.fr",
+      "address": "126 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "66000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:18.415571",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_4",
+      "company_name": "Restaurant \u00c9milie Durand",
+      "contact_name": "\u00c9milie Durand",
+      "position": "Directeur",
+      "email": null,
+      "phone": "0615111974",
+      "website": "https://www.resto-durand.fr",
+      "address": "104 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "35000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:18.415596",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_5",
+      "company_name": "Restaurant Marie Durand",
+      "contact_name": "Marie Durand",
+      "position": "G\u00e9rant",
+      "email": null,
+      "phone": "0662130834",
+      "website": "https://www.resto-durand.fr",
+      "address": "113 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "44000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:18.415621",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_6",
+      "company_name": "Restaurant L\u00e9a Petit",
+      "contact_name": "L\u00e9a Petit",
+      "position": "Fondateur",
+      "email": "l\u00e9a.petit@resto.fr",
+      "phone": "0152606594",
+      "website": "https://www.resto-petit.fr",
+      "address": "10 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "89000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:18.415650",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_7",
+      "company_name": "Restaurant Michel Simon",
+      "contact_name": "Michel Simon",
+      "position": "Directeur",
+      "email": "michel.simon@yahoo.fr",
+      "phone": null,
+      "website": "https://www.resto-simon.fr",
+      "address": "4 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "40000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:18.415677",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_8",
+      "company_name": "Restaurant L\u00e9a Robert",
+      "contact_name": "L\u00e9a Robert",
+      "position": "Directeur",
+      "email": null,
+      "phone": null,
+      "website": "https://www.resto-robert.fr",
+      "address": "132 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "31000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:18.415694",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_9",
+      "company_name": "Restaurant Paul Moreau",
+      "contact_name": "Paul Moreau",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": "0620503898",
+      "website": "https://www.resto-moreau.fr",
+      "address": "58 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "90000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:18.415719",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_10",
+      "company_name": "Restaurant Paul Thomas",
+      "contact_name": "Paul Thomas",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "28 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "91000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:18.415739",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_11",
+      "company_name": "Restaurant Julie Robert",
+      "contact_name": "Julie Robert",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "125 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "15000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:18.415757",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_12",
+      "company_name": "Restaurant L\u00e9a Martin",
+      "contact_name": "L\u00e9a Martin",
+      "position": "G\u00e9rant",
+      "email": "l\u00e9a.martin@outlook.fr",
+      "phone": "0688712593",
+      "website": "https://www.resto-martin.fr",
+      "address": "68 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "27000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:18.415784",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_13",
+      "company_name": "Restaurant Michel Martin",
+      "contact_name": "Michel Martin",
+      "position": "Associ\u00e9",
+      "email": "michel.martin@yahoo.fr",
+      "phone": "0115583190",
+      "website": "https://www.resto-martin.fr",
+      "address": "104 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "36000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:18.415831",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_14",
+      "company_name": "Restaurant Paul Bernard",
+      "contact_name": "Paul Bernard",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "132 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "72000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:18.415857",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_15",
+      "company_name": "Restaurant Nathalie Martin",
+      "contact_name": "Nathalie Martin",
+      "position": "Responsable",
+      "email": null,
+      "phone": "0676435122",
+      "website": "https://www.resto-martin.fr",
+      "address": "135 rue de la Paix",
+      "city": "Lyon",
+      "postal_code": "37000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:18.415886",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_16",
+      "company_name": "Restaurant Michel Laurent",
+      "contact_name": "Michel Laurent",
+      "position": "G\u00e9rant",
+      "email": "michel.laurent@yahoo.fr",
+      "phone": "0648808185",
+      "website": null,
+      "address": "57 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "39000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:18.415915",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_17",
+      "company_name": "Restaurant Nathalie Bernard",
+      "contact_name": "Nathalie Bernard",
+      "position": "Fondateur",
+      "email": "nathalie.bernard@outlook.fr",
+      "phone": "0193081937",
+      "website": "https://www.resto-bernard.fr",
+      "address": "57 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "70000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:18.415943",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_18",
+      "company_name": "Restaurant Nathalie Robert",
+      "contact_name": "Nathalie Robert",
+      "position": "Responsable",
+      "email": "nathalie.robert@yahoo.fr",
+      "phone": "0673770791",
+      "website": "https://www.resto-robert.fr",
+      "address": "118 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "10000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:18.415971",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_19",
+      "company_name": "Restaurant L\u00e9a Thomas",
+      "contact_name": "L\u00e9a Thomas",
+      "position": "Directeur",
+      "email": "l\u00e9a.thomas@gmail.com",
+      "phone": "0627490030",
+      "website": "https://www.resto-thomas.fr",
+      "address": "34 rue de la Paix",
+      "city": "Lyon",
+      "postal_code": "30000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:18.416013",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_20",
+      "company_name": "Restaurant Nicolas Michel",
+      "contact_name": "Nicolas Michel",
+      "position": "Associ\u00e9",
+      "email": "nicolas.michel@resto.fr",
+      "phone": "0190262032",
+      "website": "https://www.resto-michel.fr",
+      "address": "111 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "80000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:18.416052",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_21",
+      "company_name": "Restaurant Sophie Richard",
+      "contact_name": "Sophie Richard",
+      "position": "Associ\u00e9",
+      "email": "sophie.richard@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-richard.fr",
+      "address": "18 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "48000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:18.416102",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_22",
+      "company_name": "Restaurant Pierre Laurent",
+      "contact_name": "Pierre Laurent",
+      "position": "G\u00e9rant",
+      "email": "contact@resto.fr",
+      "phone": "0689965472",
+      "website": null,
+      "address": "120 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "39000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:18.416125",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_23",
+      "company_name": "Restaurant Julie Durand",
+      "contact_name": "Julie Durand",
+      "position": "Fondateur",
+      "email": "julie.durand@orange.fr",
+      "phone": "0639051634",
+      "website": "https://www.resto-durand.fr",
+      "address": "51 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "90000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:18.416153",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_24",
+      "company_name": "Restaurant David Martin",
+      "contact_name": "David Martin",
+      "position": "Directeur",
+      "email": "david.martin@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-martin.fr",
+      "address": "22 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "33000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:18.416186",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_25",
+      "company_name": "Restaurant David Bernard",
+      "contact_name": "David Bernard",
+      "position": "Fondateur",
+      "email": "david.bernard@gmail.com",
+      "phone": "0667565770",
+      "website": null,
+      "address": "105 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "86000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:18.416217",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_26",
+      "company_name": "Restaurant Nicolas Michel",
+      "contact_name": "Nicolas Michel",
+      "position": "Directeur",
+      "email": "nicolas.michel@yahoo.fr",
+      "phone": null,
+      "website": null,
+      "address": "15 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "93000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:18.416249",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_27",
+      "company_name": "Restaurant Julie Durand",
+      "contact_name": "Julie Durand",
+      "position": "Associ\u00e9",
+      "email": null,
+      "phone": null,
+      "website": null,
+      "address": "138 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "88000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:18.416271",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_28",
+      "company_name": "Restaurant Jean Robert",
+      "contact_name": "Jean Robert",
+      "position": "G\u00e9rant",
+      "email": "jean.robert@yahoo.fr",
+      "phone": "0666470799",
+      "website": null,
+      "address": "89 rue de la Paix",
+      "city": "Lyon",
+      "postal_code": "56000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:18.416299",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_29",
+      "company_name": "Restaurant Marie Bernard",
+      "contact_name": "Marie Bernard",
+      "position": "Directeur",
+      "email": "marie.bernard@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "15 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "15000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:18.416321",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_30",
+      "company_name": "Restaurant Nicolas Robert",
+      "contact_name": "Nicolas Robert",
+      "position": "G\u00e9rant",
+      "email": "nicolas.robert@orange.fr",
+      "phone": null,
+      "website": null,
+      "address": "104 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "27000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:18.416346",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_31",
+      "company_name": "Restaurant David Leroy",
+      "contact_name": "David Leroy",
+      "position": "Responsable",
+      "email": "david.leroy@gmail.com",
+      "phone": "0613300834",
+      "website": null,
+      "address": "76 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "77000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:18.416384",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_32",
+      "company_name": "Restaurant \u00c9milie Richard",
+      "contact_name": "\u00c9milie Richard",
+      "position": "G\u00e9rant",
+      "email": "\u00e9milie.richard@outlook.fr",
+      "phone": null,
+      "website": "https://www.resto-richard.fr",
+      "address": "25 rue de la R\u00e9publique",
+      "city": "Lyon",
+      "postal_code": "66000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:18.416419",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_33",
+      "company_name": "Restaurant Paul Bernard",
+      "contact_name": "Paul Bernard",
+      "position": "Associ\u00e9",
+      "email": null,
+      "phone": null,
+      "website": "https://www.resto-bernard.fr",
+      "address": "69 rue de Marseille",
+      "city": "Lyon",
+      "postal_code": "62000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:18.416449",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_34",
+      "company_name": "Restaurant Sophie Dubois",
+      "contact_name": "Sophie Dubois",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "15 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "19000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:18.416484",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_35",
+      "company_name": "Restaurant Pierre Leroy",
+      "contact_name": "Pierre Leroy",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "74 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "73000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:18.416509",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604738_36",
+      "company_name": "Restaurant Marie Moreau",
+      "contact_name": "Marie Moreau",
+      "position": "Directeur",
+      "email": "marie.moreau@resto.fr",
+      "phone": "0629154205",
+      "website": "https://www.resto-moreau.fr",
+      "address": "80 rue de Paris",
+      "city": "Lyon",
+      "postal_code": "77000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:18.416536",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Lyon, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    }
+  ],
+  "count": 37,
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "time_taken": 0.0019466876983642578,
+  "api_used": false,
+  "status": "COMPLETED"
+}

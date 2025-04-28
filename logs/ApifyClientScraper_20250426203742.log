@@ -1,0 +1,86 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-26T20:37:42.503487
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "avocat",
+  "params": {
+    "locationQuery": "Paris, France",
+    "maxCrawledPlacesPerSearch": 1,
+    "language": "fr"
+  },
+  "campaign_id": "TEST_avocat_1745699848"
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "apify_1745699862_0",
+      "company_name": "Julien Riant Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 7 66 99 18 23",
+      "website": "https://riant-avocat.fr/",
+      "address": "14 Rue Fagon, 75013 Paris, France",
+      "city": "Paris",
+      "postal_code": "75013",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 22,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-26T20:37:42.503160",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Julien%20Riant%20Avocat&query_place_id=ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "count": 1,
+  "niche": "avocat",
+  "campaign_id": "TEST_avocat_1745699848",
+  "time_taken": 12.909939050674438,
+  "api_used": true,
+  "status": "COMPLETED"
+}

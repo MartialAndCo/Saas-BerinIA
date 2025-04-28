@@ -1,0 +1,22 @@
+{
+  "by_niche": {},
+  "by_temperature": {
+    "hot": {
+      "email": 0.6,
+      "sms": 0.4
+    },
+    "warm": {
+      "email": 0.7,
+      "sms": 0.3
+    },
+    "cold": {
+      "email": 0.8,
+      "sms": 0.2
+    }
+  },
+  "global_preference": {
+    "email": 0.7,
+    "sms": 0.3
+  },
+  "last_updated": "2025-04-27T00:10:19.304318"
+}

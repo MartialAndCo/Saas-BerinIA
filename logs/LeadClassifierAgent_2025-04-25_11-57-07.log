@@ -1,0 +1,5 @@
+=== INPUT ===
+{'test': True}
+
+=== OUTPUT ===
+{'error': 'Aucun lead à classifier', 'classified_leads': []}

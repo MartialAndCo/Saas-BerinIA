@@ -1,0 +1,320 @@
+{
+  "leads": [
+    {
+      "id": "apify_1745604761_0",
+      "company_name": "La Table des Troys",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://www.latabledestroys.com/",
+      "address": "2 Av. de Paris, 94300 Vincennes, France",
+      "city": "Vincennes",
+      "postal_code": "94300",
+      "country": "France",
+      "rating": 4.3,
+      "reviews_count": 1626,
+      "category": [
+        "Restaurant",
+        "Restaurant de grillades"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "11:45 to 23:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "11:45 to 23:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "11:45 to 22:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:45 to 22:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "11:45 to 22:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "11:45 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "11:45 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:41.768462",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJA4HeSKNy5kcRMuMj-CDC3S4",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Table%20des%20Troys&query_place_id=ChIJA4HeSKNy5kcRMuMj-CDC3S4",
+        "description": "Cuisine traditionnelle avec sp\u00e9cialit\u00e9 de r\u00f4tisserie et glaces maison dans un vaste restaurant au d\u00e9cor sobre.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745604761_1",
+      "company_name": "Chez Comus",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "http://www.chezcomus.fr/",
+      "address": "2 Av. de Paris, 94300 Vincennes, France",
+      "city": "Vincennes",
+      "postal_code": "94300",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 795,
+      "category": [
+        "Restaurant fran\u00e7ais"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 14:00, 19:00 to 22:15"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 14:30, 19:00 to 22:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "12:00 to 14:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 14:00, 19:00 to 22:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 14:00, 19:00 to 22:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 14:00, 19:00 to 22:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:41.768526",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJsbyPgDVz5kcRcvbJC1PwOEQ",
+        "url": "https://www.google.com/maps/search/?api=1&query=Chez%20Comus&query_place_id=ChIJsbyPgDVz5kcRcvbJC1PwOEQ",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745604761_2",
+      "company_name": "Ristorante Del Pozzo",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://ristorantedelpozzo.eatbu.com/?lang=fr",
+      "address": "2 Av. de Paris, 94300 Vincennes, France",
+      "city": "Vincennes",
+      "postal_code": "94300",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 618,
+      "category": [
+        "Restaurant italien"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 14:30, 19:00 to 22:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 14:30, 19:00 to 22:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "12:00 to 14:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 14:30, 19:00 to 22:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 14:30, 19:00 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 14:30, 19:00 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:41.768569",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJA4HeSKNy5kcRxsIpe9s7MDc",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ristorante%20Del%20Pozzo&query_place_id=ChIJA4HeSKNy5kcRxsIpe9s7MDc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745604761_3",
+      "company_name": "Les officiers",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "http://www.lesofficiers.fr/",
+      "address": "3 Av. de Nogent, 94300 Vincennes, France",
+      "city": "Vincennes",
+      "postal_code": "94300",
+      "country": "France",
+      "rating": 4.2,
+      "reviews_count": 1797,
+      "category": [
+        "Bistro",
+        "Caf\u00e9",
+        "Restaurant fran\u00e7ais",
+        "Restaurant de hamburgers",
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "07:30 to 01:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "07:30 to 01:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "07:30 to 01:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "07:30 to 01:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "07:30 to 01:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "07:30 to 01:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "07:30 to 01:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:41.768610",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJl1NtsaRy5kcR_7cjCKZbiGg",
+        "url": "https://www.google.com/maps/search/?api=1&query=Les%20officiers&query_place_id=ChIJl1NtsaRy5kcR_7cjCKZbiGg",
+        "description": "Brunches, cocktails, tapas et menu bistrotier classique dans un caf\u00e9-brasserie d\u00e9tendu avec terrasse.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745604761_4",
+      "company_name": "Tamarin",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://acrobat.adobe.com/id/urn:aaid:sc:eu:f70b4b34-e7cc-481c-8e94-c244effe3678",
+      "address": "14 Rue Raymond du Temple, 94300 Vincennes, France",
+      "city": "Vincennes",
+      "postal_code": "94300",
+      "country": "France",
+      "rating": 4.3,
+      "reviews_count": 1310,
+      "category": [
+        "Restaurant tha\u00ef"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 14:45, 18:50 to 22:45"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 14:45, 18:50 to 22:45"
+        },
+        {
+          "day": "dimanche",
+          "hours": "12:00 to 14:45, 19:00 to 22:45"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 14:45, 19:00 to 22:45"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 14:45, 19:00 to 22:45"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 14:45, 19:00 to 22:45"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:41.768652",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJAdO3Q6Ny5kcRF9GC51QIhmQ",
+        "url": "https://www.google.com/maps/search/?api=1&query=Tamarin&query_place_id=ChIJAdO3Q6Ny5kcRF9GC51QIhmQ",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "count": 5,
+  "niche": "restaurant",
+  "campaign_id": "test_campaign_live",
+  "time_taken": 13.880052328109741,
+  "api_used": true,
+  "status": "COMPLETED"
+}

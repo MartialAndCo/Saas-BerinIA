@@ -1,0 +1,44 @@
+{
+  "email": {
+    "pattern_weight": 0.4,
+    "domain_weight": 0.3,
+    "length_weight": 0.2,
+    "special_chars_weight": 0.1,
+    "domain_scores": {
+      "gmail.com": 0.7,
+      "yahoo.com": 0.6,
+      "hotmail.com": 0.6,
+      "outlook.com": 0.6,
+      "aol.com": 0.5,
+      "professional_domains": 0.9,
+      "other": 0.4
+    }
+  },
+  "phone": {
+    "pattern_weight": 0.5,
+    "length_weight": 0.3,
+    "prefix_weight": 0.2,
+    "country_codes": {
+      "france": ["33", "+33"],
+      "belgium": ["32", "+32"],
+      "switzerland": ["41", "+41"]
+    }
+  },
+  "profile": {
+    "completeness_weight": 0.4,
+    "relevance_weight": 0.6,
+    "required_fields": ["name", "email", "phone", "company"],
+    "optional_fields": ["position", "industry", "website", "address"]
+  },
+  "global_weights": {
+    "email_weight": 0.3,
+    "phone_weight": 0.3,
+    "profile_weight": 0.4
+  },
+  "temperature_thresholds": {
+    "cold": 0.4,
+    "warm": 0.7,
+    "hot": 0.85
+  },
+  "last_updated": "2025-04-25T20:40:00Z"
+}

@@ -1,0 +1,86 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-25T21:01:57.526802
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "restaurant",
+  "params": {
+    "locationQuery": "Paris, France",
+    "maxCrawledPlacesPerSearch": 1,
+    "language": "fr"
+  },
+  "campaign_id": "TEST_restaurant_1745614901"
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "apify_1745614917_0",
+      "company_name": "La Maison du Boulevard",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://www.instagram.com/lamaisonduboulevard_paris/",
+      "address": "40 Bd de l'H\u00f4pital, 75005 Paris, France",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 1617,
+      "category": [
+        "Restaurant fran\u00e7ais"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T21:01:57.526630",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJFZAIBJVx5kcRVzImVeaKQQU",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Maison%20du%20Boulevard&query_place_id=ChIJFZAIBJVx5kcRVzImVeaKQQU",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "count": 1,
+  "niche": "restaurant",
+  "campaign_id": "TEST_restaurant_1745614901",
+  "time_taken": 15.376351594924927,
+  "api_used": true,
+  "status": "COMPLETED"
+}

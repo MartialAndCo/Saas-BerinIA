@@ -1,0 +1,1243 @@
+=== ApolloScraper LOG ===
+Timestamp: 2025-04-27T12:03:37.208289
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+  "filters": {},
+  "campaign_id": null
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "apollo_1745755417_0",
+      "first_name": "Michel",
+      "last_name": "Lefebvre",
+      "full_name": "Michel Lefebvre",
+      "job_title": "Owner",
+      "seniority": "Owner",
+      "email": "michel.lefebvre@cabinet-lefebvre.switzerland",
+      "email_status": "verified",
+      "phone": "+41738448539",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Lefebvre & Associ\u00e9s",
+        "website": "https://www.cabinet-lefebvre.switzerland",
+        "industry": "Legal Services",
+        "size": 44,
+        "founded": 1995,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-lefebvre-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Geneva",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/michel-lefebvre-26089",
+        "twitter_url": "https://twitter.com/michellefebvre",
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 86,
+        "intent_score": 75,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.206806"
+    },
+    {
+      "id": "apollo_1745755417_1",
+      "first_name": "Thomas",
+      "last_name": "Dubois",
+      "full_name": "Thomas Dubois",
+      "job_title": "Attorney",
+      "seniority": "Executive",
+      "email": "thomas.dubois@cabinet-dubois.fr",
+      "email_status": "unverified",
+      "phone": "+33682536805",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Dubois & Associ\u00e9s",
+        "website": "https://www.cabinet-dubois.fr",
+        "industry": "Legal Services",
+        "size": 34,
+        "founded": 2020,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-dubois-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Rennes",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/thomas-dubois-61448",
+        "twitter_url": "https://twitter.com/thomasdubois",
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 76,
+        "intent_score": 74,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.206858"
+    },
+    {
+      "id": "apollo_1745755417_2",
+      "first_name": "Sophie",
+      "last_name": "Laurent",
+      "full_name": "Sophie Laurent",
+      "job_title": "Partner",
+      "seniority": "Senior",
+      "email": "sophie.laurent@cabinet-laurent.belgium",
+      "email_status": "verified",
+      "phone": "+32495803364",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Laurent & Associ\u00e9s",
+        "website": "https://www.cabinet-laurent.belgium",
+        "industry": "Legal Services",
+        "size": 31,
+        "founded": 1984,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-laurent-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Li\u00e8ge",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/sophie-laurent-22055",
+        "twitter_url": "https://twitter.com/sophielaurent",
+        "facebook_url": "https://facebook.com/sophie.laurent"
+      },
+      "buying_signals": "high",
+      "last_contacted": "2025-03-25T12:03:37.206904",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 93,
+        "intent_score": 37,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.206919"
+    },
+    {
+      "id": "apollo_1745755417_3",
+      "first_name": "Thomas",
+      "last_name": "Dubois",
+      "full_name": "Thomas Dubois",
+      "job_title": "Lawyer",
+      "seniority": "Senior",
+      "email": "thomas.dubois@cabinet-dubois.switzerland",
+      "email_status": "verified",
+      "phone": "+41767527842",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Dubois & Associ\u00e9s",
+        "website": "https://www.cabinet-dubois.switzerland",
+        "industry": "Legal Services",
+        "size": 10,
+        "founded": 1994,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-dubois-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Basel",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/thomas-dubois-19257",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/thomas.dubois"
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 69,
+        "intent_score": 59,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.206960"
+    },
+    {
+      "id": "apollo_1745755417_4",
+      "first_name": "Pierre",
+      "last_name": "Michel",
+      "full_name": "Pierre Michel",
+      "job_title": "Managing Partner",
+      "seniority": "Owner",
+      "email": "pierre.michel@cabinet-michel.fr",
+      "email_status": "verified",
+      "phone": "+33711868537",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Michel & Associ\u00e9s",
+        "website": "https://www.cabinet-michel.fr",
+        "industry": "Legal Services",
+        "size": 3,
+        "founded": 2002,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-michel-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Marseille",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/pierre-michel-16051",
+        "twitter_url": "https://twitter.com/pierremichel",
+        "facebook_url": "https://facebook.com/pierre.michel"
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 77,
+        "intent_score": 67,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207002"
+    },
+    {
+      "id": "apollo_1745755417_5",
+      "first_name": "C\u00e9line",
+      "last_name": "Martin",
+      "full_name": "C\u00e9line Martin",
+      "job_title": "Lawyer",
+      "seniority": "Owner",
+      "email": "c\u00e9line.martin@cabinet-martin.switzerland",
+      "email_status": "verified",
+      "phone": "+41757310750",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Martin & Associ\u00e9s",
+        "website": "https://www.cabinet-martin.switzerland",
+        "industry": "Legal Services",
+        "size": 33,
+        "founded": 2016,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-martin-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Basel",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/c\u00e9line-martin-45782",
+        "twitter_url": "https://twitter.com/c\u00e9linemartin",
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 72,
+        "intent_score": 80,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207048"
+    },
+    {
+      "id": "apollo_1745755417_6",
+      "first_name": "Pierre",
+      "last_name": "Laurent",
+      "full_name": "Pierre Laurent",
+      "job_title": "Lawyer",
+      "seniority": "Senior",
+      "email": "pierre.laurent@cabinet-laurent.belgium",
+      "email_status": "verified",
+      "phone": "+32423748547",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Laurent & Associ\u00e9s",
+        "website": "https://www.cabinet-laurent.belgium",
+        "industry": "Legal Services",
+        "size": 44,
+        "founded": 1993,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-laurent-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Brussels",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/pierre-laurent-38072",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": "2025-02-07T12:03:37.207080",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 52,
+        "intent_score": 62,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207093"
+    },
+    {
+      "id": "apollo_1745755417_7",
+      "first_name": "\u00c9milie",
+      "last_name": "Lefebvre",
+      "full_name": "\u00c9milie Lefebvre",
+      "job_title": "Partner",
+      "seniority": "Executive",
+      "email": "\u00e9milie.lefebvre@cabinet-lefebvre.switzerland",
+      "email_status": "verified",
+      "phone": "+41787407466",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Lefebvre & Associ\u00e9s",
+        "website": "https://www.cabinet-lefebvre.switzerland",
+        "industry": "Legal Services",
+        "size": 36,
+        "founded": 1995,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-lefebvre-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Basel",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/\u00e9milie-lefebvre-94702",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 93,
+        "intent_score": 46,
+        "funding_round": "Series A",
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207138"
+    },
+    {
+      "id": "apollo_1745755417_8",
+      "first_name": "C\u00e9line",
+      "last_name": "Bernard",
+      "full_name": "C\u00e9line Bernard",
+      "job_title": "Partner",
+      "seniority": "Executive",
+      "email": "c\u00e9line.bernard@cabinet-bernard.belgium",
+      "email_status": "verified",
+      "phone": "+32435183910",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Bernard & Associ\u00e9s",
+        "website": "https://www.cabinet-bernard.belgium",
+        "industry": "Legal Services",
+        "size": 26,
+        "founded": 2013,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-bernard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Brussels",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/c\u00e9line-bernard-65035",
+        "twitter_url": "https://twitter.com/c\u00e9linebernard",
+        "facebook_url": "https://facebook.com/c\u00e9line.bernard"
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 55,
+        "intent_score": 68,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207178"
+    },
+    {
+      "id": "apollo_1745755417_9",
+      "first_name": "Thomas",
+      "last_name": "Moreau",
+      "full_name": "Thomas Moreau",
+      "job_title": "Partner",
+      "seniority": "Owner",
+      "email": "thomas.moreau@cabinet-moreau.belgium",
+      "email_status": "verified",
+      "phone": "+32499023306",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Moreau & Associ\u00e9s",
+        "website": "https://www.cabinet-moreau.belgium",
+        "industry": "Legal Services",
+        "size": 21,
+        "founded": 1992,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-moreau-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Ghent",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/thomas-moreau-23920",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": "2025-03-08T12:03:37.207217",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 52,
+        "intent_score": 41,
+        "funding_round": "Series A",
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207233"
+    },
+    {
+      "id": "apollo_1745755417_10",
+      "first_name": "Marie",
+      "last_name": "Durand",
+      "full_name": "Marie Durand",
+      "job_title": "Lawyer",
+      "seniority": "Senior",
+      "email": "marie.durand@cabinet-durand.switzerland",
+      "email_status": "verified",
+      "phone": "+41772032590",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Durand & Associ\u00e9s",
+        "website": "https://www.cabinet-durand.switzerland",
+        "industry": "Legal Services",
+        "size": 24,
+        "founded": 2003,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-durand-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Bern",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/marie-durand-44450",
+        "twitter_url": "https://twitter.com/mariedurand",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 84,
+        "intent_score": 32,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207295"
+    },
+    {
+      "id": "apollo_1745755417_11",
+      "first_name": "Sophie",
+      "last_name": "Robert",
+      "full_name": "Sophie Robert",
+      "job_title": "Lawyer",
+      "seniority": "Executive",
+      "email": "sophie.robert@cabinet-robert.switzerland",
+      "email_status": "unverified",
+      "phone": "+41773595624",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Robert & Associ\u00e9s",
+        "website": "https://www.cabinet-robert.switzerland",
+        "industry": "Legal Services",
+        "size": 29,
+        "founded": 2002,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-robert-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Bern",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/sophie-robert-27406",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 74,
+        "intent_score": 37,
+        "funding_round": "Seed",
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207354"
+    },
+    {
+      "id": "apollo_1745755417_12",
+      "first_name": "Nathalie",
+      "last_name": "Leroy",
+      "full_name": "Nathalie Leroy",
+      "job_title": "Managing Partner",
+      "seniority": "Senior",
+      "email": "nathalie.leroy@cabinet-leroy.belgium",
+      "email_status": "verified",
+      "phone": "+32488292848",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Leroy & Associ\u00e9s",
+        "website": "https://www.cabinet-leroy.belgium",
+        "industry": "Legal Services",
+        "size": 50,
+        "founded": 2015,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-leroy-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Charleroi",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nathalie-leroy-21163",
+        "twitter_url": "https://twitter.com/nathalieleroy",
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 60,
+        "intent_score": 38,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207418"
+    },
+    {
+      "id": "apollo_1745755417_13",
+      "first_name": "Thomas",
+      "last_name": "Michel",
+      "full_name": "Thomas Michel",
+      "job_title": "Partner",
+      "seniority": "Owner",
+      "email": "thomas.michel@cabinet-michel.fr",
+      "email_status": "verified",
+      "phone": "+33600251730",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Michel & Associ\u00e9s",
+        "website": "https://www.cabinet-michel.fr",
+        "industry": "Legal Services",
+        "size": 44,
+        "founded": 1994,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-michel-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Rennes",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/thomas-michel-31293",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 65,
+        "intent_score": 33,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207461"
+    },
+    {
+      "id": "apollo_1745755417_14",
+      "first_name": "L\u00e9a",
+      "last_name": "Dubois",
+      "full_name": "L\u00e9a Dubois",
+      "job_title": "Partner",
+      "seniority": "Owner",
+      "email": "l\u00e9a.dubois@cabinet-dubois.belgium",
+      "email_status": "verified",
+      "phone": "+32439939928",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Dubois & Associ\u00e9s",
+        "website": "https://www.cabinet-dubois.belgium",
+        "industry": "Legal Services",
+        "size": 13,
+        "founded": 1990,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-dubois-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Antwerp",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/l\u00e9a-dubois-73085",
+        "twitter_url": "https://twitter.com/l\u00e9adubois",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-02-05T12:03:37.207489",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 64,
+        "intent_score": 59,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207502"
+    },
+    {
+      "id": "apollo_1745755417_15",
+      "first_name": "Sophie",
+      "last_name": "Richard",
+      "full_name": "Sophie Richard",
+      "job_title": "Attorney",
+      "seniority": "Senior",
+      "email": "sophie.richard@cabinet-richard.belgium",
+      "email_status": "verified",
+      "phone": "+32414181438",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Richard & Associ\u00e9s",
+        "website": "https://www.cabinet-richard.belgium",
+        "industry": "Legal Services",
+        "size": 9,
+        "founded": 2005,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-richard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Li\u00e8ge",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/sophie-richard-88063",
+        "twitter_url": "https://twitter.com/sophierichard",
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 69,
+        "intent_score": 30,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207558"
+    },
+    {
+      "id": "apollo_1745755417_16",
+      "first_name": "Jean",
+      "last_name": "Michel",
+      "full_name": "Jean Michel",
+      "job_title": "Partner",
+      "seniority": "Owner",
+      "email": "jean.michel@cabinet-michel.fr",
+      "email_status": "verified",
+      "phone": "+33647209054",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Michel & Associ\u00e9s",
+        "website": "https://www.cabinet-michel.fr",
+        "industry": "Legal Services",
+        "size": 45,
+        "founded": 1982,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-michel-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Nantes",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/jean-michel-64052",
+        "twitter_url": "https://twitter.com/jeanmichel",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-03-27T12:03:37.207598",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 61,
+        "intent_score": 50,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207613"
+    },
+    {
+      "id": "apollo_1745755417_17",
+      "first_name": "Pierre",
+      "last_name": "Petit",
+      "full_name": "Pierre Petit",
+      "job_title": "Lawyer",
+      "seniority": "Senior",
+      "email": "pierre.petit@cabinet-petit.fr",
+      "email_status": "unverified",
+      "phone": "+33776141738",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Petit & Associ\u00e9s",
+        "website": "https://www.cabinet-petit.fr",
+        "industry": "Legal Services",
+        "size": 46,
+        "founded": 2013,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-petit-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Nantes",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/pierre-petit-59000",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/pierre.petit"
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-01-14T12:03:37.207650",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 88,
+        "intent_score": 38,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207668"
+    },
+    {
+      "id": "apollo_1745755417_18",
+      "first_name": "Nathalie",
+      "last_name": "Simon",
+      "full_name": "Nathalie Simon",
+      "job_title": "Owner",
+      "seniority": "Senior",
+      "email": "nathalie.simon@cabinet-simon.belgium",
+      "email_status": "verified",
+      "phone": "+32430662556",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Simon & Associ\u00e9s",
+        "website": "https://www.cabinet-simon.belgium",
+        "industry": "Legal Services",
+        "size": 13,
+        "founded": 1986,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-simon-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Antwerp",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nathalie-simon-25788",
+        "twitter_url": "https://twitter.com/nathaliesimon",
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 60,
+        "intent_score": 66,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207732"
+    },
+    {
+      "id": "apollo_1745755417_19",
+      "first_name": "\u00c9milie",
+      "last_name": "Robert",
+      "full_name": "\u00c9milie Robert",
+      "job_title": "Lawyer",
+      "seniority": "Owner",
+      "email": "\u00e9milie.robert@cabinet-robert.belgium",
+      "email_status": "unverified",
+      "phone": "+32428871109",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Robert & Associ\u00e9s",
+        "website": "https://www.cabinet-robert.belgium",
+        "industry": "Legal Services",
+        "size": 42,
+        "founded": 2002,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-robert-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Antwerp",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/\u00e9milie-robert-86497",
+        "twitter_url": "https://twitter.com/\u00e9milierobert",
+        "facebook_url": "https://facebook.com/\u00e9milie.robert"
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 55,
+        "intent_score": 43,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207788"
+    },
+    {
+      "id": "apollo_1745755417_20",
+      "first_name": "C\u00e9line",
+      "last_name": "Dubois",
+      "full_name": "C\u00e9line Dubois",
+      "job_title": "Owner",
+      "seniority": "Owner",
+      "email": "c\u00e9line.dubois@cabinet-dubois.switzerland",
+      "email_status": "verified",
+      "phone": "+41707273471",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Dubois & Associ\u00e9s",
+        "website": "https://www.cabinet-dubois.switzerland",
+        "industry": "Legal Services",
+        "size": 38,
+        "founded": 2006,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-dubois-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Zurich",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/c\u00e9line-dubois-95265",
+        "twitter_url": "https://twitter.com/c\u00e9linedubois",
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 80,
+        "intent_score": 72,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207830"
+    },
+    {
+      "id": "apollo_1745755417_21",
+      "first_name": "Paul",
+      "last_name": "Simon",
+      "full_name": "Paul Simon",
+      "job_title": "Partner",
+      "seniority": "Senior",
+      "email": "paul.simon@cabinet-simon.switzerland",
+      "email_status": "verified",
+      "phone": "+41738424214",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Simon & Associ\u00e9s",
+        "website": "https://www.cabinet-simon.switzerland",
+        "industry": "Legal Services",
+        "size": 13,
+        "founded": 1999,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-simon-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Geneva",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/paul-simon-18126",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 84,
+        "intent_score": 49,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207871"
+    },
+    {
+      "id": "apollo_1745755417_22",
+      "first_name": "\u00c9milie",
+      "last_name": "Michel",
+      "full_name": "\u00c9milie Michel",
+      "job_title": "Partner",
+      "seniority": "Senior",
+      "email": "\u00e9milie.michel@cabinet-michel.belgium",
+      "email_status": "unverified",
+      "phone": "+32437923130",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Michel & Associ\u00e9s",
+        "website": "https://www.cabinet-michel.belgium",
+        "industry": "Legal Services",
+        "size": 4,
+        "founded": 2013,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-michel-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Charleroi",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/\u00e9milie-michel-72375",
+        "twitter_url": "https://twitter.com/\u00e9miliemichel",
+        "facebook_url": "https://facebook.com/\u00e9milie.michel"
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-01-05T12:03:37.207936",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 84,
+        "intent_score": 75,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.207950"
+    },
+    {
+      "id": "apollo_1745755417_23",
+      "first_name": "Thomas",
+      "last_name": "Moreau",
+      "full_name": "Thomas Moreau",
+      "job_title": "Lawyer",
+      "seniority": "Owner",
+      "email": "thomas.moreau@cabinet-moreau.switzerland",
+      "email_status": "verified",
+      "phone": "+41769310517",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Moreau & Associ\u00e9s",
+        "website": "https://www.cabinet-moreau.switzerland",
+        "industry": "Legal Services",
+        "size": 6,
+        "founded": 1996,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-moreau-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Zurich",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/thomas-moreau-90869",
+        "twitter_url": "https://twitter.com/thomasmoreau",
+        "facebook_url": "https://facebook.com/thomas.moreau"
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 72,
+        "intent_score": 42,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.208019"
+    },
+    {
+      "id": "apollo_1745755417_24",
+      "first_name": "C\u00e9line",
+      "last_name": "Richard",
+      "full_name": "C\u00e9line Richard",
+      "job_title": "Managing Partner",
+      "seniority": "Owner",
+      "email": "c\u00e9line.richard@cabinet-richard.switzerland",
+      "email_status": "verified",
+      "phone": "+41763166698",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Richard & Associ\u00e9s",
+        "website": "https://www.cabinet-richard.switzerland",
+        "industry": "Legal Services",
+        "size": 7,
+        "founded": 2009,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-richard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Geneva",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/c\u00e9line-richard-99354",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 51,
+        "intent_score": 30,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.208078"
+    },
+    {
+      "id": "apollo_1745755417_25",
+      "first_name": "Thomas",
+      "last_name": "Laurent",
+      "full_name": "Thomas Laurent",
+      "job_title": "Attorney",
+      "seniority": "Owner",
+      "email": "thomas.laurent@cabinet-laurent.belgium",
+      "email_status": "verified",
+      "phone": "+32491067636",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Laurent & Associ\u00e9s",
+        "website": "https://www.cabinet-laurent.belgium",
+        "industry": "Legal Services",
+        "size": 16,
+        "founded": 1991,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-laurent-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Antwerp",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/thomas-laurent-63374",
+        "twitter_url": "https://twitter.com/thomaslaurent",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 84,
+        "intent_score": 33,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.208125"
+    },
+    {
+      "id": "apollo_1745755417_26",
+      "first_name": "Jean",
+      "last_name": "Moreau",
+      "full_name": "Jean Moreau",
+      "job_title": "Attorney",
+      "seniority": "Senior",
+      "email": "jean.moreau@cabinet-moreau.fr",
+      "email_status": "verified",
+      "phone": "+33629061481",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Moreau & Associ\u00e9s",
+        "website": "https://www.cabinet-moreau.fr",
+        "industry": "Legal Services",
+        "size": 5,
+        "founded": 2014,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-moreau-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Montpellier",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/jean-moreau-84550",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/jean.moreau"
+      },
+      "buying_signals": "high",
+      "last_contacted": "2025-01-22T12:03:37.208155",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 81,
+        "intent_score": 90,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.208166"
+    },
+    {
+      "id": "apollo_1745755417_27",
+      "first_name": "\u00c9milie",
+      "last_name": "Simon",
+      "full_name": "\u00c9milie Simon",
+      "job_title": "Lawyer",
+      "seniority": "Senior",
+      "email": "\u00e9milie.simon@cabinet-simon.switzerland",
+      "email_status": "verified",
+      "phone": "+41799160983",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Simon & Associ\u00e9s",
+        "website": "https://www.cabinet-simon.switzerland",
+        "industry": "Legal Services",
+        "size": 19,
+        "founded": 2010,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-simon-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Geneva",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/\u00e9milie-simon-39760",
+        "twitter_url": "https://twitter.com/\u00e9miliesimon",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 63,
+        "intent_score": 34,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.208209"
+    },
+    {
+      "id": "apollo_1745755417_28",
+      "first_name": "Michel",
+      "last_name": "Durand",
+      "full_name": "Michel Durand",
+      "job_title": "Partner",
+      "seniority": "Owner",
+      "email": "michel.durand@cabinet-durand.switzerland",
+      "email_status": "verified",
+      "phone": "+41774367078",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Durand & Associ\u00e9s",
+        "website": "https://www.cabinet-durand.switzerland",
+        "industry": "Legal Services",
+        "size": 29,
+        "founded": 1989,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-durand-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Bern",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/michel-durand-58106",
+        "twitter_url": "https://twitter.com/micheldurand",
+        "facebook_url": "https://facebook.com/michel.durand"
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 68,
+        "intent_score": 88,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T12:03:37.208272"
+    }
+  ],
+  "count": 29,
+  "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+  "campaign_id": null,
+  "time_taken": 1.139350881063188,
+  "source": "apollo",
+  "filters_used": {
+    "industry": "Legal Services",
+    "employee_size": {
+      "min": 1,
+      "max": 50
+    },
+    "country": "France",
+    "job_titles": [
+      "Partner",
+      "Owner",
+      "Managing Partner",
+      "Attorney",
+      "Lawyer"
+    ],
+    "seniority": [
+      "Owner",
+      "Executive",
+      "Senior"
+    ],
+    "keywords": [
+      "Avocats",
+      "sp\u00e9cialis\u00e9s",
+      "en",
+      "droit",
+      "des",
+      "affaires"
+    ],
+    "signal_scores": {
+      "buying_intent": "high"
+    },
+    "recently_funded": false,
+    "technologies": []
+  },
+  "status": "COMPLETED"
+}

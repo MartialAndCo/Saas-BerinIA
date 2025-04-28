@@ -1,0 +1,37 @@
+2025-04-25 21:06:38,738 - utils.config - INFO - Chargement des variables d'environnement depuis config/.env
+2025-04-25 21:06:38,740 - utils.config - WARNING - OPENAI_API_KEY manquante, les fonctionnalités LLM seront en mode simulation
+2025-04-25 21:06:38,740 - utils.config - WARNING - JWT_SECRET manquante, l'authentification API sera désactivée
+2025-04-25 21:06:38,740 - utils.config - WARNING - Paramètres manquants: OPENAI_API_KEY, JWT_SECRET. Copiez config/.env.example vers config/.env et configurez ces paramètres.
+2025-04-25 21:06:38,897 - system_test - INFO - ✅ Modules importés avec succès
+2025-04-25 21:06:38,899 - system_test - INFO - === Démarrage du test système complet ===
+2025-04-25 21:06:38,899 - system_test - INFO - Configuration: niche=avocat, location=Paris, France, max_leads=1
+2025-04-25 21:06:38,899 - system_test - INFO - 🚀 Démarrage du test complet avec niche: avocat
+2025-04-25 21:06:38,899 - system_test - INFO - Mode de test: agents individuels séquentiels
+2025-04-25 21:06:38,899 - system_test - INFO - 📡 Phase 1: Scraping des leads...
+2025-04-25 21:06:39,137 - agents.scraper.apify_client_scraper - INFO - Initialisation du client Apify avec API key: apif...
+2025-04-25 21:06:39,639 - agents.scraper.apify_client_scraper - INFO - Utilisation de l'API Apify réelle pour la niche: avocat
+2025-04-25 21:06:39,639 - agents.scraper.apify_client_scraper - INFO - Paramètres Apify préparés: {'searchStringsArray': ['avocat'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 1, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-25 21:06:39,639 - agents.scraper.apify_client_scraper - INFO - Appel de l'API Apify avec les paramètres: {'searchStringsArray': ['avocat'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 1, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-25 21:06:40,245 - httpx - INFO - HTTP Request: POST https://api.apify.com/v2/acts/2Mdma1N6Fd0y3QEjR/runs "HTTP/1.1 201 Created"
+2025-04-25 21:06:41,375 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/actor-runs/G581vqx9tg983BxJe?waitForFinish=999999 "HTTP/1.1 200 OK"
+2025-04-25 21:06:52,022 - agents.scraper.apify_client_scraper - INFO - Acteur Apify exécuté avec succès. Dataset ID: yc7a0YlqGAOtQDIYE
+2025-04-25 21:06:52,156 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/datasets/yc7a0YlqGAOtQDIYE/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2025-04-25 21:06:52,158 - agents.scraper.apify_client_scraper - INFO - Récupération de 1 résultats depuis Apify
+2025-04-25 21:06:52,159 - agents.scraper.apify_client_scraper - INFO - Conversion de 1 résultats Apify en leads
+2025-04-25 21:06:52,159 - agents.scraper.apify_client_scraper - INFO - Contenu complet du résultat Apify pour Kamel DEROUICHE - Avocat pénaliste Paris: {"rank": 1, "title": "Kamel DEROUICHE - Avocat pénaliste Paris", "price": null, "categoryName": "Avocat pénaliste", "address": "11 Rue Soufflot, 75005 Paris, France", "neighborhood": null, "street": "11 Rue Soufflot", "city": "Paris", "postalCode": "75005", "state": null, "countryCode": "FR", "website": "https://derouiche-avocat.com/", "phone": "+33 6 34 12 21 57", "phoneUnformatted": "+33634122157", "claimThisBusiness": false, "location": {"lat": 48.8468676, "lng": 2.3423555}, "totalScore": 4.9, "permanentlyClosed": false, "temporarilyClosed": false, "placeId": "ChIJKTWlGyhx5kcRfGEZeDAUJOw", "categories": ["Avocat pénaliste"], "fid": "0x47e671281ba53529:0xec2414307819617c", "cid": "17015747490518491516", "reviewsCount": 56, "imagesCount": 8, "imageCategories": [], "scrapedAt": "2025-04-25T21:06:45.600Z", "googleFoodUrl": null, "hotelAds": [], "openingHours": [{"day": "vendredi", "hours": "Ouvert 24h/24"}, {"day": "samedi", "hours": "Ouvert 24h/24"}, {"day": "dimanche", "hours": "Ouvert 24h/24"}, {"day": "lundi", "hours": "Ouvert 24h/24"}, {"day": "mardi", "hours": "Ouvert 24h/24"}, {"day": "mercredi", "hours": "Ouvert 24h/24"}, {"day": "jeudi", "hours": "Ouvert 24h/24"}], "additionalOpeningHours": {"Service en ligne": [{"day": "vendredi", "hours": "Ouvert 24h/24"}, {"day": "samedi", "hours": "Ouvert 24h/24"}, {"day": "dimanche", "hours": "Ouvert 24h/24"}, {"day": "lundi", "hours": "Ouvert 24h/24"}, {"day": "mardi", "hours": "Ouvert 24h/24"}, {"day": "mercredi", "hours": "Ouvert 24h/24"}, {"day": "jeudi", "hours": "Ouvert 24h/24"}]}, "peopleAlsoSearch": [], "placesTags": [], "reviewsTags": [], "additionalInfo": {"Services disponibles": [{"Rendez-vous en ligne": true}, {"Services sur place": true}, null], "Accessibilité": [{"Boucle magnétique": false}, {"Places assises accessibles en fauteuil roulant": false}, {"Toilettes accessibles en fauteuil roulant": false}], "Services": [{"Toilettes": true}], "Clientèle": [{"Safe place pour les transgenres": true}], "Planning": [{"Rendez-vous obligatoire": true}, {"Rendez-vous recommandés": true}], "Parking": [{"Parking payant dans la rue": true}]}, "gasPrices": [], "url": "https://www.google.com/maps/search/?api=1&query=Kamel%20DEROUICHE%20-%20Avocat%20p%C3%A9naliste%20Paris&query_place_id=ChIJKTWlGyhx5kcRfGEZeDAUJOw", "searchPageUrl": "https://www.google.com/maps/search/avocat/@48.84192065135221,2.3469127500000004,16z?hl=fr", "searchString": "avocat", "language": "fr", "isAdvertisement": false, "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMf4PK1gAi0D38KvUYd39pOMwk-0o5mEbWasECH=w408-h409-k-no", "kgmid": "/g/11lp075gkx"}
+2025-04-25 21:06:52,160 - agents.scraper.apify_client_scraper - INFO - Conversion terminée, 1 leads extraits
+2025-04-25 21:06:52,162 - agents - INFO - Agent ApifyClientScraper: execute - COMPLETED
+2025-04-25 21:06:52,162 - system_test - INFO - ✅ Scraping réussi: 1 leads extraits
+2025-04-25 21:06:52,162 - system_test - INFO - 🧹 Phase 2: Nettoyage des leads...
+2025-04-25 21:06:52,164 - agents - INFO - Agent CleanerAgent: execute - UNKNOWN
+2025-04-25 21:06:52,165 - system_test - INFO - ✅ Nettoyage réussi: 1 leads nettoyés
+2025-04-25 21:06:52,165 - system_test - INFO - 🏷️ Phase 3: Classification des leads...
+2025-04-25 21:06:52,167 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-25 21:06:52,168 - agents - INFO - Agent LeadClassifierAgent: execute - COMPLETED
+2025-04-25 21:06:52,169 - system_test - INFO - ✅ Classification réussie: 1 leads classifiés
+2025-04-25 21:06:52,169 - system_test - INFO - 📤 Phase 4: Export CRM...
+2025-04-25 21:06:52,169 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-25 21:06:52,171 - agents - INFO - Agent CRMExporterAgent: execute - UNKNOWN
+2025-04-25 21:06:52,171 - system_test - INFO - ✅ Export réussi: 0 leads à exporter maintenant, 0 différés
+2025-04-25 21:06:52,177 - system_test - INFO - 📊 Rapport final généré: system_test_report_TEST_avocat_1745615198.json
+2025-04-25 21:06:52,177 - system_test - INFO - ⏱️ Temps total d'exécution: 13.27 secondes

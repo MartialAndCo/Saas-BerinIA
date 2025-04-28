@@ -1,0 +1,5 @@
+=== INPUT ===
+{'error': '\n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n'}
+
+=== OUTPUT ===
+{'campaign_id': None, 'niche': 'Notaires', 'start_time': '2025-04-25T11:59:32.124737', 'phases': {'scraping': {'status': 'COMPLETED', 'metrics': {'leads_scraped': 25, 'time_taken': 2.6539616396037315}}, 'cleaning': {'status': 'COMPLETED', 'metrics': {'leads_cleaned': 25, 'leads_rejected': 0}}, 'classification': {'status': 'FAILED', 'metrics': {'leads_classified': 0, 'hot_leads': 0, 'warm_leads': 0, 'cold_leads': 0}}}, 'status': 'FAILED', 'error': 'Échec de la classification: aucun lead classifié'}

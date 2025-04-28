@@ -1,0 +1,5 @@
+2025-04-25 20:25:31,234 - utils.config - INFO - Chargement des variables d'environnement depuis config/.env
+2025-04-25 20:25:31,237 - utils.config - WARNING - OPENAI_API_KEY manquante, les fonctionnalités LLM seront en mode simulation
+2025-04-25 20:25:31,237 - utils.config - WARNING - JWT_SECRET manquante, l'authentification API sera désactivée
+2025-04-25 20:25:31,237 - utils.config - WARNING - Paramètres manquants: OPENAI_API_KEY, JWT_SECRET. Copiez config/.env.example vers config/.env et configurez ces paramètres.
+2025-04-25 20:25:31,448 - system_test - ERROR - ❌ Erreur lors de l'importation des modules: cannot import name 'EmailSender' from 'agents.messenger.email_sender' (/root/infra-ia/agents/messenger/email_sender.py)

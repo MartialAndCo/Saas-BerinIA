@@ -1,0 +1,1 @@
+{{company}}: {{message_body}} Répondez STOP pour vous désinscrire.

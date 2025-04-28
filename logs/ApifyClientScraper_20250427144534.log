@@ -1,0 +1,20 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-27T14:45:34.427267
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+  "params": {},
+  "campaign_id": null
+}
+
+Output: {
+  "leads": [],
+  "count": 0,
+  "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+  "campaign_id": null,
+  "time_taken": 0.47884130477905273,
+  "api_used": true,
+  "status": "COMPLETED"
+}

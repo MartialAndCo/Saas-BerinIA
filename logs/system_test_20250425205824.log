@@ -1,0 +1,36 @@
+2025-04-25 20:58:24,627 - utils.config - INFO - Chargement des variables d'environnement depuis config/.env
+2025-04-25 20:58:24,630 - utils.config - WARNING - OPENAI_API_KEY manquante, les fonctionnalités LLM seront en mode simulation
+2025-04-25 20:58:24,631 - utils.config - WARNING - JWT_SECRET manquante, l'authentification API sera désactivée
+2025-04-25 20:58:24,631 - utils.config - WARNING - Paramètres manquants: OPENAI_API_KEY, JWT_SECRET. Copiez config/.env.example vers config/.env et configurez ces paramètres.
+2025-04-25 20:58:24,807 - system_test - INFO - ✅ Modules importés avec succès
+2025-04-25 20:58:24,809 - system_test - INFO - === Démarrage du test système complet ===
+2025-04-25 20:58:24,809 - system_test - INFO - Configuration: niche=restaurant, location=Paris, France, max_leads=3
+2025-04-25 20:58:24,809 - system_test - INFO - 🚀 Démarrage du test complet avec niche: restaurant
+2025-04-25 20:58:24,809 - system_test - INFO - Mode de test: agents individuels séquentiels
+2025-04-25 20:58:24,809 - system_test - INFO - 📡 Phase 1: Scraping des leads...
+2025-04-25 20:58:25,059 - agents.scraper.apify_client_scraper - INFO - Initialisation du client Apify avec API key: apif...
+2025-04-25 20:58:25,560 - agents.scraper.apify_client_scraper - INFO - Utilisation de l'API Apify réelle pour la niche: restaurant
+2025-04-25 20:58:25,560 - agents.scraper.apify_client_scraper - INFO - Paramètres Apify préparés: {'searchStringsArray': ['restaurant'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 3, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-25 20:58:25,560 - agents.scraper.apify_client_scraper - INFO - Appel de l'API Apify avec les paramètres: {'searchStringsArray': ['restaurant'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 3, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-25 20:58:26,198 - httpx - INFO - HTTP Request: POST https://api.apify.com/v2/acts/2Mdma1N6Fd0y3QEjR/runs "HTTP/1.1 201 Created"
+2025-04-25 20:58:27,347 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/actor-runs/aKqadlIatqhRxnO1s?waitForFinish=999999 "HTTP/1.1 200 OK"
+2025-04-25 20:58:39,541 - agents.scraper.apify_client_scraper - INFO - Acteur Apify exécuté avec succès. Dataset ID: ZabixL9HKIeZE8hAG
+2025-04-25 20:58:39,681 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/datasets/ZabixL9HKIeZE8hAG/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2025-04-25 20:58:39,689 - agents.scraper.apify_client_scraper - INFO - Récupération de 3 résultats depuis Apify
+2025-04-25 20:58:39,689 - agents.scraper.apify_client_scraper - INFO - Conversion de 3 résultats Apify en leads
+2025-04-25 20:58:39,689 - agents.scraper.apify_client_scraper - INFO - Conversion terminée, 3 leads extraits
+2025-04-25 20:58:39,690 - agents - INFO - Agent ApifyClientScraper: execute - COMPLETED
+2025-04-25 20:58:39,690 - system_test - INFO - ✅ Scraping réussi: 3 leads extraits
+2025-04-25 20:58:39,690 - system_test - INFO - 🧹 Phase 2: Nettoyage des leads...
+2025-04-25 20:58:39,693 - agents - INFO - Agent CleanerAgent: execute - UNKNOWN
+2025-04-25 20:58:39,693 - system_test - INFO - ✅ Nettoyage réussi: 3 leads nettoyés
+2025-04-25 20:58:39,693 - system_test - INFO - 🏷️ Phase 3: Classification des leads...
+2025-04-25 20:58:39,695 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-25 20:58:39,697 - agents - INFO - Agent LeadClassifierAgent: execute - COMPLETED
+2025-04-25 20:58:39,697 - system_test - INFO - ✅ Classification réussie: 3 leads classifiés
+2025-04-25 20:58:39,698 - system_test - INFO - 📤 Phase 4: Export CRM...
+2025-04-25 20:58:39,698 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-25 20:58:39,699 - agents - INFO - Agent CRMExporterAgent: execute - UNKNOWN
+2025-04-25 20:58:39,700 - system_test - INFO - ✅ Export réussi: 0 leads à exporter maintenant, 0 différés
+2025-04-25 20:58:39,705 - system_test - INFO - 📊 Rapport final généré: system_test_report_TEST_restaurant_1745614704.json
+2025-04-25 20:58:39,706 - system_test - INFO - ⏱️ Temps total d'exécution: 14.89 secondes

@@ -1,0 +1,785 @@
+=== ApifyScraper LOG ===
+Timestamp: 2025-04-25T18:01:25.054350
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "params": {
+    "language": "fr",
+    "locationQuery": "Paris, FR",
+    "maxCrawledPlacesPerSearch": 10,
+    "searchStringsArray": [
+      "restaurant"
+    ],
+    "skipClosedPlaces": false
+  }
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "lead_1745604085_0",
+      "company_name": "Restaurant David Richard",
+      "contact_name": "David Richard",
+      "position": "Associ\u00e9",
+      "email": null,
+      "phone": "0644364694",
+      "website": "https://www.resto-richard.fr",
+      "address": "23 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "67000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:01:25.052634",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_1",
+      "company_name": "Restaurant C\u00e9line Thomas",
+      "contact_name": "C\u00e9line Thomas",
+      "position": "Directeur",
+      "email": "c\u00e9line.thomas@yahoo.fr",
+      "phone": "0612467954",
+      "website": null,
+      "address": "124 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "47000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.052749",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_2",
+      "company_name": "Restaurant Sophie Michel",
+      "contact_name": "Sophie Michel",
+      "position": "Responsable",
+      "email": "sophie.michel@resto.fr",
+      "phone": "0141509977",
+      "website": "https://www.resto-michel.fr",
+      "address": "131 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "14000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:01:25.052829",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_3",
+      "company_name": "Restaurant C\u00e9line Lefebvre",
+      "contact_name": "C\u00e9line Lefebvre",
+      "position": "Associ\u00e9",
+      "email": "contact@resto.fr",
+      "phone": "0647084888",
+      "website": null,
+      "address": "86 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "84000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:01:25.052906",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_4",
+      "company_name": "Restaurant Michel Michel",
+      "contact_name": "Michel Michel",
+      "position": "Associ\u00e9",
+      "email": null,
+      "phone": null,
+      "website": "https://www.resto-michel.fr",
+      "address": "31 rue de Marseille",
+      "city": "Grenoble",
+      "postal_code": "12000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.053008",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_5",
+      "company_name": "Restaurant Paul Martin",
+      "contact_name": "Paul Martin",
+      "position": "Responsable",
+      "email": "paul.martin@resto.fr",
+      "phone": "0660940629",
+      "website": null,
+      "address": "103 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "66000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:01:25.053066",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_6",
+      "company_name": "Restaurant L\u00e9a Lefebvre",
+      "contact_name": "L\u00e9a Lefebvre",
+      "position": "Fondateur",
+      "email": null,
+      "phone": "0616303728",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "44 rue de Marseille",
+      "city": "Grenoble",
+      "postal_code": "26000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:01:25.053123",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_7",
+      "company_name": "Restaurant Marie Dubois",
+      "contact_name": "Marie Dubois",
+      "position": "Associ\u00e9",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-dubois.fr",
+      "address": "9 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "93000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:01:25.053213",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_8",
+      "company_name": "Restaurant Pierre Lefebvre",
+      "contact_name": "Pierre Lefebvre",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0180160588",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "10 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "57000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:01:25.053296",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_9",
+      "company_name": "Restaurant L\u00e9a Martin",
+      "contact_name": "L\u00e9a Martin",
+      "position": "Associ\u00e9",
+      "email": null,
+      "phone": null,
+      "website": null,
+      "address": "30 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "70000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.053398",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_10",
+      "company_name": "Restaurant David Leroy",
+      "contact_name": "David Leroy",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0181166716",
+      "website": null,
+      "address": "90 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "53000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.053451",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_11",
+      "company_name": "Restaurant David Lefebvre",
+      "contact_name": "David Lefebvre",
+      "position": "G\u00e9rant",
+      "email": "david.lefebvre@resto.fr",
+      "phone": "0644896355",
+      "website": null,
+      "address": "20 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "14000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:01:25.053506",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_12",
+      "company_name": "Restaurant Nathalie Simon",
+      "contact_name": "Nathalie Simon",
+      "position": "Associ\u00e9",
+      "email": "nathalie.simon@resto.fr",
+      "phone": "0631613206",
+      "website": null,
+      "address": "87 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "80000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:01:25.053548",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_13",
+      "company_name": "Restaurant Paul Richard",
+      "contact_name": "Paul Richard",
+      "position": "Associ\u00e9",
+      "email": "paul.richard@gmail.com",
+      "phone": "0130881368",
+      "website": null,
+      "address": "140 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "23000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:01:25.053589",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_14",
+      "company_name": "Restaurant C\u00e9line Robert",
+      "contact_name": "C\u00e9line Robert",
+      "position": "Responsable",
+      "email": "c\u00e9line.robert@resto.fr",
+      "phone": "0647462710",
+      "website": "https://www.resto-robert.fr",
+      "address": "27 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "38000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:01:25.053647",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_15",
+      "company_name": "Restaurant Michel Martin",
+      "contact_name": "Michel Martin",
+      "position": "Associ\u00e9",
+      "email": null,
+      "phone": "0640641041",
+      "website": "https://www.resto-martin.fr",
+      "address": "56 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "51000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:01:25.053695",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_16",
+      "company_name": "Restaurant David Durand",
+      "contact_name": "David Durand",
+      "position": "Responsable",
+      "email": null,
+      "phone": null,
+      "website": "https://www.resto-durand.fr",
+      "address": "8 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "51000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.053740",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_17",
+      "company_name": "Restaurant David Moreau",
+      "contact_name": "David Moreau",
+      "position": "G\u00e9rant",
+      "email": "david.moreau@resto.fr",
+      "phone": "0646220582",
+      "website": null,
+      "address": "43 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "64000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:01:25.053767",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_18",
+      "company_name": "Restaurant Jean Durand",
+      "contact_name": "Jean Durand",
+      "position": "Fondateur",
+      "email": "jean.durand@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "84 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "12000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:01:25.053793",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_19",
+      "company_name": "Restaurant Michel Robert",
+      "contact_name": "Michel Robert",
+      "position": "Responsable",
+      "email": "michel.robert@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "35 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "33000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:01:25.053810",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_20",
+      "company_name": "Restaurant Nicolas Simon",
+      "contact_name": "Nicolas Simon",
+      "position": "G\u00e9rant",
+      "email": "contact@resto.fr",
+      "phone": "0128608050",
+      "website": null,
+      "address": "104 rue de Marseille",
+      "city": "Grenoble",
+      "postal_code": "43000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:01:25.053832",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_21",
+      "company_name": "Restaurant L\u00e9a Bernard",
+      "contact_name": "L\u00e9a Bernard",
+      "position": "Responsable",
+      "email": null,
+      "phone": null,
+      "website": null,
+      "address": "70 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "47000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:01:25.053861",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_22",
+      "company_name": "Restaurant David Leroy",
+      "contact_name": "David Leroy",
+      "position": "G\u00e9rant",
+      "email": "david.leroy@yahoo.fr",
+      "phone": "0643804882",
+      "website": "https://www.resto-leroy.fr",
+      "address": "27 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "83000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:01:25.053890",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_23",
+      "company_name": "Restaurant David Moreau",
+      "contact_name": "David Moreau",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-moreau.fr",
+      "address": "60 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "94000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:01:25.053913",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_24",
+      "company_name": "Restaurant Thomas Richard",
+      "contact_name": "Thomas Richard",
+      "position": "G\u00e9rant",
+      "email": "contact@resto.fr",
+      "phone": "0612448022",
+      "website": null,
+      "address": "87 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "14000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.053958",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_25",
+      "company_name": "Restaurant Nathalie Laurent",
+      "contact_name": "Nathalie Laurent",
+      "position": "Directeur",
+      "email": "nathalie.laurent@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "20 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "82000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:01:25.053984",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_26",
+      "company_name": "Restaurant Pierre Richard",
+      "contact_name": "Pierre Richard",
+      "position": "G\u00e9rant",
+      "email": "pierre.richard@orange.fr",
+      "phone": "0137363574",
+      "website": "https://www.resto-richard.fr",
+      "address": "80 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "69000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:01:25.054007",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_27",
+      "company_name": "Restaurant Nathalie Richard",
+      "contact_name": "Nathalie Richard",
+      "position": "G\u00e9rant",
+      "email": "nathalie.richard@resto.fr",
+      "phone": "0612748722",
+      "website": "https://www.resto-richard.fr",
+      "address": "56 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "64000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:01:25.054029",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_28",
+      "company_name": "Restaurant Julie Richard",
+      "contact_name": "Julie Richard",
+      "position": "G\u00e9rant",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-richard.fr",
+      "address": "90 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "79000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:01:25.054046",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_29",
+      "company_name": "Restaurant Nathalie Bernard",
+      "contact_name": "Nathalie Bernard",
+      "position": "G\u00e9rant",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "28 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "63000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:01:25.054065",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_30",
+      "company_name": "Restaurant C\u00e9line Moreau",
+      "contact_name": "C\u00e9line Moreau",
+      "position": "Directeur",
+      "email": "c\u00e9line.moreau@orange.fr",
+      "phone": "0610370842",
+      "website": null,
+      "address": "103 rue de Marseille",
+      "city": "Grenoble",
+      "postal_code": "93000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:01:25.054089",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_31",
+      "company_name": "Restaurant \u00c9milie Thomas",
+      "contact_name": "\u00c9milie Thomas",
+      "position": "Responsable",
+      "email": "\u00e9milie.thomas@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-thomas.fr",
+      "address": "35 rue de la Paix",
+      "city": "Grenoble",
+      "postal_code": "42000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:01:25.054108",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_32",
+      "company_name": "Restaurant Pierre Michel",
+      "contact_name": "Pierre Michel",
+      "position": "G\u00e9rant",
+      "email": "pierre.michel@resto.fr",
+      "phone": "0687162737",
+      "website": "https://www.resto-michel.fr",
+      "address": "43 rue de Marseille",
+      "city": "Grenoble",
+      "postal_code": "18000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.054141",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_33",
+      "company_name": "Restaurant Nathalie Dubois",
+      "contact_name": "Nathalie Dubois",
+      "position": "G\u00e9rant",
+      "email": "nathalie.dubois@yahoo.fr",
+      "phone": "0145302732",
+      "website": "https://www.resto-dubois.fr",
+      "address": "140 rue de Marseille",
+      "city": "Grenoble",
+      "postal_code": "38000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.054165",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_34",
+      "company_name": "Restaurant \u00c9milie Michel",
+      "contact_name": "\u00c9milie Michel",
+      "position": "Directeur",
+      "email": "\u00e9milie.michel@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-michel.fr",
+      "address": "57 rue de Marseille",
+      "city": "Grenoble",
+      "postal_code": "73000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:01:25.054183",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_35",
+      "company_name": "Restaurant Sophie Durand",
+      "contact_name": "Sophie Durand",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-durand.fr",
+      "address": "77 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "19000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:01:25.054206",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_36",
+      "company_name": "Restaurant Thomas Dubois",
+      "contact_name": "Thomas Dubois",
+      "position": "G\u00e9rant",
+      "email": "thomas.dubois@resto.fr",
+      "phone": "0650404389",
+      "website": "https://www.resto-dubois.fr",
+      "address": "95 rue de Marseille",
+      "city": "Grenoble",
+      "postal_code": "73000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:01:25.054226",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_37",
+      "company_name": "Restaurant Jean Moreau",
+      "contact_name": "Jean Moreau",
+      "position": "G\u00e9rant",
+      "email": "jean.moreau@yahoo.fr",
+      "phone": null,
+      "website": null,
+      "address": "96 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "82000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:01:25.054245",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_38",
+      "company_name": "Restaurant Jean Laurent",
+      "contact_name": "Jean Laurent",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-laurent.fr",
+      "address": "143 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "52000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.054261",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_39",
+      "company_name": "Restaurant Sophie Bernard",
+      "contact_name": "Sophie Bernard",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-bernard.fr",
+      "address": "48 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "59000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:01:25.054290",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_40",
+      "company_name": "Restaurant Nicolas Bernard",
+      "contact_name": "Nicolas Bernard",
+      "position": "Responsable",
+      "email": "nicolas.bernard@resto.fr",
+      "phone": "0158423113",
+      "website": null,
+      "address": "113 rue de Paris",
+      "city": "Grenoble",
+      "postal_code": "72000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:01:25.054311",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604085_41",
+      "company_name": "Restaurant \u00c9milie Richard",
+      "contact_name": "\u00c9milie Richard",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0150213891",
+      "website": "https://www.resto-richard.fr",
+      "address": "146 rue de la R\u00e9publique",
+      "city": "Grenoble",
+      "postal_code": "88000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:01:25.054332",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Grenoble, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    }
+  ],
+  "count": 42,
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "time_taken": 1.075085232453821,
+  "api_used": false,
+  "status": "COMPLETED"
+}

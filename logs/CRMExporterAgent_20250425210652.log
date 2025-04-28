@@ -1,0 +1,160 @@
+=== CRMExporterAgent LOG ===
+Timestamp: 2025-04-25T21:06:52.170199
+Operation: execute
+Status: UNKNOWN
+
+Input: {
+  "classified_leads": [
+    {
+      "id": "apify_1745615212_0",
+      "company_name": "Kamel DEROUICHE - Avocat p\u00e9naliste Paris",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": "https://derouiche-avocat.com/",
+      "address": "11 Rue Soufflot, 75005 Paris, France",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 56,
+      "category": [
+        "Avocat p\u00e9naliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ouvert 24h/24"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T21:06:52.160517",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kamel%20DEROUICHE%20-%20Avocat%20p%C3%A9naliste%20Paris&query_place_id=ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T21:06:52.163228"
+      },
+      "industry": "Avocat p\u00e9naliste",
+      "company_size": "small",
+      "location": "Paris, France",
+      "heuristic_score": 0.7400000000000001,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.9,
+        "company_size_score": 0.7,
+        "location_score": 0.9
+      },
+      "email_score": 0.0,
+      "phone_score": 0.0,
+      "profile_score": 0.66,
+      "global_score": 0.42266666666666675,
+      "temperature": "cold",
+      "score_details": {
+        "email": 0.0,
+        "phone": 0.0,
+        "profile": 0.66,
+        "heuristic": 0.7400000000000001
+      }
+    }
+  ],
+  "campaign_id": "TEST_avocat_1745615198",
+  "daily_limit": 5
+}
+
+Output: {
+  "metrics": {
+    "conversion_rate": 0.15,
+    "cost_per_lead": 26.5,
+    "roi": 1.75,
+    "lead_rate": 0.42,
+    "qualification_rate": 0.28
+  },
+  "traffic_sources": {
+    "Email": 35,
+    "Social": 40,
+    "Search": 25
+  },
+  "time_series": {
+    "dates": [
+      "2025-01-15",
+      "2025-02-15",
+      "2025-03-15",
+      "2025-04-15"
+    ],
+    "leads": [
+      30,
+      45,
+      38,
+      42
+    ],
+    "conversions": [
+      5,
+      8,
+      6,
+      7
+    ]
+  },
+  "insights": [
+    {
+      "description": "La campagne montre une forte croissance des leads sur les canaux sociaux.",
+      "impact": "Positif",
+      "confidence": 0.85
+    },
+    {
+      "description": "Le co\u00fbt par lead est 15% plus \u00e9lev\u00e9 que la moyenne du secteur.",
+      "impact": "N\u00e9gatif",
+      "confidence": 0.92
+    },
+    {
+      "description": "Le message de d\u00e9monstration a le taux de r\u00e9ponse le plus \u00e9lev\u00e9.",
+      "impact": "Positif",
+      "confidence": 0.78
+    }
+  ],
+  "interpretation": "La campagne performe relativement bien avec un ROI positif, mais il y a des possibilit\u00e9s d'optimisation des co\u00fbts. Les canaux sociaux sont particuli\u00e8rement efficaces.",
+  "recommendations": [
+    "Augmenter le budget allou\u00e9 aux canaux sociaux de 20%",
+    "Revoir la strat\u00e9gie email pour am\u00e9liorer le taux de conversion",
+    "Utiliser davantage le message 'demo_offer' qui montre les meilleurs r\u00e9sultats"
+  ]
+}

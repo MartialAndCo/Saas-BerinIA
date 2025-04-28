@@ -1,0 +1,185 @@
+=== LeadClassifierAgent LOG ===
+Timestamp: 2025-04-26T20:37:42.510317
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "leads": [
+    {
+      "id": "apify_1745699862_0",
+      "company_name": "Julien Riant Avocat",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "+33766991823",
+      "website": "https://riant-avocat.fr/",
+      "address": "14 Rue Fagon, 75013 Paris, France",
+      "city": "Paris",
+      "postal_code": "75013",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 22,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-26T20:37:42.503160",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Julien%20Riant%20Avocat&query_place_id=ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-26T20:37:42.505973"
+      },
+      "industry": "Avocat",
+      "company_size": "small",
+      "location": "Paris, France"
+    }
+  ],
+  "campaign_id": "TEST_avocat_1745699848"
+}
+
+Output: {
+  "operation": "classify",
+  "campaign_id": "TEST_avocat_1745699848",
+  "timestamp": "2025-04-26T20:37:42.507866",
+  "status": "COMPLETED",
+  "classified_leads": [
+    {
+      "id": "apify_1745699862_0",
+      "company_name": "Julien Riant Avocat",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "+33766991823",
+      "website": "https://riant-avocat.fr/",
+      "address": "14 Rue Fagon, 75013 Paris, France",
+      "city": "Paris",
+      "postal_code": "75013",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 22,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-26T20:37:42.503160",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Julien%20Riant%20Avocat&query_place_id=ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-26T20:37:42.505973"
+      },
+      "industry": "Avocat",
+      "company_size": "small",
+      "location": "Paris, France",
+      "heuristic_score": 0.7400000000000001,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.9,
+        "company_size_score": 0.7,
+        "location_score": 0.9
+      },
+      "email_score": 0.0,
+      "phone_score": 1.0,
+      "profile_score": 0.73,
+      "global_score": 0.6413333333333333,
+      "score_details": {
+        "email": 0.0,
+        "phone": 1.0,
+        "profile": 0.73,
+        "heuristic": 0.7400000000000001
+      }
+    }
+  ],
+  "metrics": {
+    "total_leads": 1,
+    "avg_global_score": 0.6413333333333333,
+    "valid_contacts": 1
+  }
+}

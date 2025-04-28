@@ -1,0 +1,29 @@
+{
+  "global": {
+    "sent": 0,
+    "delivered": 0,
+    "opened": 0,
+    "clicked": 0,
+    "replied": 0,
+    "response_rate": 0.0,
+    "last_updated": "2025-04-27T00:10:19.303825"
+  },
+  "by_niche": {},
+  "by_template": {},
+  "by_channel": {
+    "email": {
+      "sent": 0,
+      "delivered": 0,
+      "opened": 0,
+      "clicked": 0,
+      "replied": 0,
+      "response_rate": 0.0
+    },
+    "sms": {
+      "sent": 0,
+      "delivered": 0,
+      "replied": 0,
+      "response_rate": 0.0
+    }
+  }
+}

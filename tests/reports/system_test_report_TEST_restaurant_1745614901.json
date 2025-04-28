@@ -1,0 +1,341 @@
+{
+  "campaign_id": "TEST_restaurant_1745614901",
+  "niche": "restaurant",
+  "phases": {
+    "scraping": {
+      "leads": [
+        {
+          "id": "apify_1745614917_0",
+          "company_name": "La Maison du Boulevard",
+          "contact_name": null,
+          "position": null,
+          "email": null,
+          "phone": null,
+          "website": "https://www.instagram.com/lamaisonduboulevard_paris/",
+          "address": "40 Bd de l'H\u00f4pital, 75005 Paris, France",
+          "city": "Paris",
+          "postal_code": "75005",
+          "country": "France",
+          "rating": 4.8,
+          "reviews_count": 1617,
+          "category": [
+            "Restaurant fran\u00e7ais"
+          ],
+          "opening_hours": [
+            {
+              "day": "vendredi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "samedi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "dimanche",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "lundi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "mardi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "mercredi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "jeudi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            }
+          ],
+          "source": "Google Maps",
+          "scrape_date": "2025-04-25T21:01:57.526630",
+          "niche": "restaurant",
+          "raw_data": {
+            "place_id": "ChIJFZAIBJVx5kcRVzImVeaKQQU",
+            "url": "https://www.google.com/maps/search/?api=1&query=La%20Maison%20du%20Boulevard&query_place_id=ChIJFZAIBJVx5kcRVzImVeaKQQU",
+            "description": "",
+            "verified": false,
+            "location": {
+              "lat": null,
+              "lng": null
+            }
+          }
+        }
+      ],
+      "count": 1,
+      "niche": "restaurant",
+      "campaign_id": "TEST_restaurant_1745614901",
+      "time_taken": 15.376351594924927,
+      "api_used": true,
+      "status": "COMPLETED"
+    },
+    "cleaning": {
+      "clean_data": [
+        {
+          "id": "apify_1745614917_0",
+          "company_name": "La Maison du Boulevard",
+          "contact_name": null,
+          "position": "Owner",
+          "email": "",
+          "phone": "",
+          "website": "https://www.instagram.com/lamaisonduboulevard_paris/",
+          "address": "40 Bd de l'H\u00f4pital, 75005 Paris, France",
+          "city": "Paris",
+          "postal_code": "75005",
+          "country": "France",
+          "rating": 4.8,
+          "reviews_count": 1617,
+          "category": [
+            "Restaurant fran\u00e7ais"
+          ],
+          "opening_hours": [
+            {
+              "day": "vendredi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "samedi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "dimanche",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "lundi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "mardi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "mercredi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "jeudi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            }
+          ],
+          "source": "Google Maps",
+          "scrape_date": "2025-04-25T21:01:57.526630",
+          "niche": "restaurant",
+          "raw_data": {
+            "place_id": "ChIJFZAIBJVx5kcRVzImVeaKQQU",
+            "url": "https://www.google.com/maps/search/?api=1&query=La%20Maison%20du%20Boulevard&query_place_id=ChIJFZAIBJVx5kcRVzImVeaKQQU",
+            "description": "",
+            "verified": false,
+            "location": {
+              "lat": null,
+              "lng": null
+            }
+          },
+          "validation": {
+            "valid": false,
+            "errors": [
+              "Email invalide: Email vide",
+              "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+            ],
+            "level": "standard",
+            "cleaned_at": "2025-04-25T21:01:57.528020"
+          },
+          "industry": "Restaurant fran\u00e7ais",
+          "company_size": "small",
+          "location": "Paris, France"
+        }
+      ],
+      "validation_stats": {
+        "total": 1,
+        "valid": 0,
+        "invalid": 1,
+        "anomalies_count": 0
+      },
+      "anomaly_analysis": {
+        "summary": "Aucune anomalie d\u00e9tect\u00e9e",
+        "new_patterns": []
+      },
+      "validation_level": "standard"
+    },
+    "classification": {
+      "operation": "classify",
+      "campaign_id": "TEST_restaurant_1745614901",
+      "timestamp": "2025-04-25T21:01:57.529158",
+      "status": "COMPLETED",
+      "classified_leads": [
+        {
+          "id": "apify_1745614917_0",
+          "company_name": "La Maison du Boulevard",
+          "contact_name": null,
+          "position": "Owner",
+          "email": "",
+          "phone": "",
+          "website": "https://www.instagram.com/lamaisonduboulevard_paris/",
+          "address": "40 Bd de l'H\u00f4pital, 75005 Paris, France",
+          "city": "Paris",
+          "postal_code": "75005",
+          "country": "France",
+          "rating": 4.8,
+          "reviews_count": 1617,
+          "category": [
+            "Restaurant fran\u00e7ais"
+          ],
+          "opening_hours": [
+            {
+              "day": "vendredi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "samedi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "dimanche",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "lundi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "mardi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "mercredi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            },
+            {
+              "day": "jeudi",
+              "hours": "11:00 to 14:30, 18:00 to 22:30"
+            }
+          ],
+          "source": "Google Maps",
+          "scrape_date": "2025-04-25T21:01:57.526630",
+          "niche": "restaurant",
+          "raw_data": {
+            "place_id": "ChIJFZAIBJVx5kcRVzImVeaKQQU",
+            "url": "https://www.google.com/maps/search/?api=1&query=La%20Maison%20du%20Boulevard&query_place_id=ChIJFZAIBJVx5kcRVzImVeaKQQU",
+            "description": "",
+            "verified": false,
+            "location": {
+              "lat": null,
+              "lng": null
+            }
+          },
+          "validation": {
+            "valid": false,
+            "errors": [
+              "Email invalide: Email vide",
+              "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+            ],
+            "level": "standard",
+            "cleaned_at": "2025-04-25T21:01:57.528020"
+          },
+          "industry": "Restaurant fran\u00e7ais",
+          "company_size": "small",
+          "location": "Paris, France",
+          "heuristic_score": 0.7400000000000001,
+          "heuristic_details": {
+            "industry_score": 0.5,
+            "position_score": 0.9,
+            "company_size_score": 0.7,
+            "location_score": 0.9
+          },
+          "email_score": 0.0,
+          "phone_score": 0.0,
+          "profile_score": 0.66,
+          "global_score": 0.42266666666666675,
+          "temperature": "cold",
+          "score_details": {
+            "email": 0.0,
+            "phone": 0.0,
+            "profile": 0.66,
+            "heuristic": 0.7400000000000001
+          }
+        }
+      ],
+      "metrics": {
+        "hot_leads_count": 0,
+        "warm_leads_count": 0,
+        "cold_leads_count": 1,
+        "total_leads": 1
+      }
+    },
+    "export": {
+      "metrics": {
+        "conversion_rate": 0.15,
+        "cost_per_lead": 26.5,
+        "roi": 1.75,
+        "lead_rate": 0.42,
+        "qualification_rate": 0.28
+      },
+      "traffic_sources": {
+        "Email": 35,
+        "Social": 40,
+        "Search": 25
+      },
+      "time_series": {
+        "dates": [
+          "2025-01-15",
+          "2025-02-15",
+          "2025-03-15",
+          "2025-04-15"
+        ],
+        "leads": [
+          30,
+          45,
+          38,
+          42
+        ],
+        "conversions": [
+          5,
+          8,
+          6,
+          7
+        ]
+      },
+      "insights": [
+        {
+          "description": "La campagne montre une forte croissance des leads sur les canaux sociaux.",
+          "impact": "Positif",
+          "confidence": 0.85
+        },
+        {
+          "description": "Le co\u00fbt par lead est 15% plus \u00e9lev\u00e9 que la moyenne du secteur.",
+          "impact": "N\u00e9gatif",
+          "confidence": 0.92
+        },
+        {
+          "description": "Le message de d\u00e9monstration a le taux de r\u00e9ponse le plus \u00e9lev\u00e9.",
+          "impact": "Positif",
+          "confidence": 0.78
+        }
+      ],
+      "interpretation": "La campagne performe relativement bien avec un ROI positif, mais il y a des possibilit\u00e9s d'optimisation des co\u00fbts. Les canaux sociaux sont particuli\u00e8rement efficaces.",
+      "recommendations": [
+        "Augmenter le budget allou\u00e9 aux canaux sociaux de 20%",
+        "Revoir la strat\u00e9gie email pour am\u00e9liorer le taux de conversion",
+        "Utiliser davantage le message 'demo_offer' qui montre les meilleurs r\u00e9sultats"
+      ]
+    },
+    "contact": {
+      "status": "SKIPPED",
+      "reason": "Aucun lead \u00e0 contacter ou phase d\u00e9sactiv\u00e9e"
+    }
+  },
+  "stats": {
+    "classification": {
+      "hot_leads": 0,
+      "warm_leads": 0,
+      "cold_leads": 0
+    }
+  },
+  "status": "COMPLETED",
+  "execution_time": 16.179075479507446,
+  "end_time": "2025-04-25T21:01:57.534351"
+}

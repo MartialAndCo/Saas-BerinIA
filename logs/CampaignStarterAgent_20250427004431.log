@@ -1,0 +1,105 @@
+=== CampaignStarterAgent LOG ===
+Timestamp: 2025-04-27T00:44:31.530079
+Operation: execute
+Status: FAILED
+
+Input: {
+  "metrics": {
+    "conversion_rate": 0.15,
+    "cost_per_lead": 26.5,
+    "roi": 1.75,
+    "lead_rate": 0.42,
+    "qualification_rate": 0.28
+  },
+  "traffic_sources": {
+    "Email": 35,
+    "Social": 40,
+    "Search": 25
+  },
+  "time_series": {
+    "dates": [
+      "2025-01-15",
+      "2025-02-15",
+      "2025-03-15",
+      "2025-04-15"
+    ],
+    "leads": [
+      30,
+      45,
+      38,
+      42
+    ],
+    "conversions": [
+      5,
+      8,
+      6,
+      7
+    ]
+  },
+  "insights": [
+    {
+      "description": "La campagne montre une forte croissance des leads sur les canaux sociaux.",
+      "impact": "Positif",
+      "confidence": 0.85
+    },
+    {
+      "description": "Le co\u00fbt par lead est 15% plus \u00e9lev\u00e9 que la moyenne du secteur.",
+      "impact": "N\u00e9gatif",
+      "confidence": 0.92
+    },
+    {
+      "description": "Le message de d\u00e9monstration a le taux de r\u00e9ponse le plus \u00e9lev\u00e9.",
+      "impact": "Positif",
+      "confidence": 0.78
+    }
+  ],
+  "interpretation": "La campagne performe relativement bien avec un ROI positif, mais il y a des possibilit\u00e9s d'optimisation des co\u00fbts. Les canaux sociaux sont particuli\u00e8rement efficaces.",
+  "recommendations": [
+    "Augmenter le budget allou\u00e9 aux canaux sociaux de 20%",
+    "Revoir la strat\u00e9gie email pour am\u00e9liorer le taux de conversion",
+    "Utiliser davantage le message 'demo_offer' qui montre les meilleurs r\u00e9sultats"
+  ]
+}
+
+Output: {
+  "campaign_id": null,
+  "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+  "start_time": "2025-04-27T00:44:09.084658",
+  "phases": {
+    "scraping": {
+      "status": "COMPLETED",
+      "metrics": {
+        "leads_scraped": 78,
+        "time_taken": 21.88628770015887,
+        "sources": {
+          "apify": {
+            "leads_scraped": 50,
+            "time_taken": 20.743366956710815
+          },
+          "apollo": {
+            "leads_scraped": 28,
+            "time_taken": 1.1429207434480548
+          }
+        }
+      }
+    },
+    "cleaning": {
+      "status": "COMPLETED",
+      "metrics": {
+        "leads_cleaned": 78,
+        "leads_rejected": 0
+      }
+    },
+    "classification": {
+      "status": "FAILED",
+      "metrics": {
+        "leads_classified": 0,
+        "hot_leads": 0,
+        "warm_leads": 0,
+        "cold_leads": 0
+      }
+    }
+  },
+  "status": "FAILED",
+  "error": "\u00c9chec de la classification: aucun lead classifi\u00e9"
+}

@@ -1,0 +1,33 @@
+2025-04-27 10:26:48,273 - brain_test - INFO - ✅ Système de logging amélioré chargé
+2025-04-27 10:26:48,299 - utils.config - INFO - Chargement des variables d'environnement depuis config/.env
+2025-04-27 10:26:48,303 - utils.config - WARNING - OPENAI_API_KEY manquante, les fonctionnalités LLM seront en mode simulation
+2025-04-27 10:26:48,304 - utils.config - WARNING - JWT_SECRET manquante, l'authentification API sera désactivée
+2025-04-27 10:26:48,304 - utils.config - WARNING - Paramètres manquants: OPENAI_API_KEY, JWT_SECRET. Copiez config/.env.example vers config/.env et configurez ces paramètres.
+2025-04-27 10:26:49,240 - berinia-db-connector - INFO - ✅ Table 'leads' trouvée dans la base de données Berinia
+2025-04-27 10:26:49,241 - berinia-db-connector - INFO - ✅ Connexion à la DB Berinia réussie avec URL: postgresql://berinia_user:***@localhost/berinia
+2025-04-27 10:26:49,241 - root - INFO - ✅ Module d'intégration Berinia disponible.
+2025-04-27 10:26:49,243 - brain_test - INFO - ✅ Agents importés avec succès
+2025-04-27 10:26:49,246 - berinia-db-connector - INFO - ✅ Connexion à la DB Berinia réussie
+2025-04-27 10:26:49,247 - brain_test - INFO - ✅ Intégration Berinia testée - Disponible: True
+2025-04-27 10:26:49,251 - brain_test - INFO - 🚀 Démarrage du DecisionBrainAgent...
+2025-04-27 10:26:49,252 - DecisionBrainAgent - INFO - 🚀 DecisionBrainAgent démarré
+2025-04-27 10:26:49,252 - brain_test - INFO - 🧠 DecisionBrainAgent initialisé
+2025-04-27 10:26:49,252 - brain_test - INFO - ⏳ Exécution de l'agent cerveau en cours...
+2025-04-27 10:26:49,253 - DecisionBrainAgent - INFO - 📥 Données d'entrée: {"operation": "evaluate_global_strategy", "context": {"test_mode": false, "simulate_data": true, "verbose": true, "integration_tests": true, "berinia_available": true}}
+2025-04-27 10:26:49,253 - DecisionBrainAgent - INFO - ⚙️ Exécution du DecisionBrainAgent démarrée
+2025-04-27 10:26:49,253 - DecisionBrainAgent - INFO - [BRAIN] 🧠 ========== DÉCISION STRATÉGIQUE ==========
+2025-04-27 10:26:49,254 - DecisionBrainAgent - INFO - [BRAIN] 🔄 Début du processus de raisonnement stratégique global
+2025-04-27 10:26:49,254 - DecisionBrainAgent - INFO - [BRAIN] 📋 Opération demandée: evaluate_global_strategy
+2025-04-27 10:26:49,254 - DecisionBrainAgent - INFO - [BRAIN] 🔍 Récupération des données de campagnes passées et actives...
+2025-04-27 10:26:49,254 - DecisionBrainAgent - INFO - [BRAIN] 📊 Campagnes passées: 0 | Campagnes actives: 0
+2025-04-27 10:26:49,255 - DecisionBrainAgent - INFO - [BRAIN] 🧮 Interrogation de la mémoire vectorielle pour niches inexploitées...
+2025-04-27 10:26:49,255 - DecisionBrainAgent - INFO - [BRAIN] 💡 Découverte de 0 opportunités inexploitées
+2025-04-27 10:26:49,255 - DecisionBrainAgent - INFO - [BRAIN] ⚙️ Construction du prompt de décision stratégique...
+2025-04-27 10:26:49,256 - DecisionBrainAgent - INFO - [BRAIN] 💭 Réflexion stratégique en cours (GPT-4.1)...
+2025-04-27 10:26:49,256 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-27 10:26:49,256 - DecisionBrainAgent - INFO - [BRAIN] ⏱️ Décision prise en 0.00 secondes
+2025-04-27 10:26:49,256 - brain_test - ERROR - ❌ Erreur lors de l'exécution du DecisionBrainAgent: 'str' object has no attribute 'get'
+2025-04-27 10:26:49,257 - brain_test - ERROR - ⏱️ Temps écoulé avant erreur: 0.00 secondes
+2025-04-27 10:26:49,258 - DecisionBrainAgent - ERROR - ❌ ERREUR: AttributeError: 'str' object has no attribute 'get'
+2025-04-27 10:26:49,259 - DecisionBrainAgent - ERROR - Contexte de l'erreur: {"execution_time": 0.004247188568115234}
+2025-04-27 10:26:49,259 - DecisionBrainAgent - WARNING - ⚠️ DecisionBrainAgent terminé avec statut 'error' en 7.24 ms

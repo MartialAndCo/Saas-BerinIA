@@ -1,0 +1,57 @@
+=== CRMExporterAgent LOG ===
+Timestamp: 2025-04-27T10:10:48.301869
+Operation: execute
+Status: UNKNOWN
+
+Input: {
+  "classified_leads": [
+    {
+      "id": "test_lead_1",
+      "company_name": "Entreprise Test 1",
+      "email": "contact@test1.com",
+      "phone": "+33123456789",
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.75,
+        "priorite": "\u00e9lev\u00e9e"
+      }
+    },
+    {
+      "id": "test_lead_2",
+      "company_name": "Entreprise Test 2",
+      "email": "",
+      "phone": "+33987654321",
+      "classification": {
+        "qualite_lead": "COLD",
+        "score": 0.35,
+        "priorite": "basse"
+      }
+    },
+    {
+      "id": "test_lead_3",
+      "company_name": "Entreprise Test 3",
+      "email": "info@test3.fr",
+      "phone": "+33555555555",
+      "classification": {
+        "qualite_lead": "HOT",
+        "score": 0.9,
+        "priorite": "tr\u00e8s \u00e9lev\u00e9e"
+      }
+    }
+  ],
+  "pending_leads_count": 5,
+  "daily_limit": 20,
+  "exported_today": 10,
+  "campaign_id": 123
+}
+
+Output: {
+  "error": "Erreur GPT-4.1: the JSON object must be str, bytes or bytearray, not dict",
+  "export_decision": {
+    "leads_to_export_now": [],
+    "leads_to_delay": []
+  },
+  "export_status": "failure",
+  "message": "Aucun ID de lead \u00e0 exporter",
+  "leads_count": 0
+}

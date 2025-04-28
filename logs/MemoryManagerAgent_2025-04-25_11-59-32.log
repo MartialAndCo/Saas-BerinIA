@@ -1,0 +1,5 @@
+=== INPUT ===
+{'test': True, 'operation': 'check'}
+
+=== OUTPUT ===
+{'operation': 'check', 'status': 'COMPLETED', 'timestamp': 1745582372.1144817, 'memory_status': {}, 'details': 'Vérification de mémoire effectuée'}

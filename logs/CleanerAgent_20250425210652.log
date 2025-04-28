@@ -1,0 +1,157 @@
+=== CleanerAgent LOG ===
+Timestamp: 2025-04-25T21:06:52.163278
+Operation: execute
+Status: UNKNOWN
+
+Input: {
+  "data": [
+    {
+      "id": "apify_1745615212_0",
+      "company_name": "Kamel DEROUICHE - Avocat p\u00e9naliste Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://derouiche-avocat.com/",
+      "address": "11 Rue Soufflot, 75005 Paris, France",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 56,
+      "category": [
+        "Avocat p\u00e9naliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ouvert 24h/24"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T21:06:52.160517",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kamel%20DEROUICHE%20-%20Avocat%20p%C3%A9naliste%20Paris&query_place_id=ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "campaign_id": "TEST_avocat_1745615198"
+}
+
+Output: {
+  "clean_data": [
+    {
+      "id": "apify_1745615212_0",
+      "company_name": "Kamel DEROUICHE - Avocat p\u00e9naliste Paris",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "https://derouiche-avocat.com/",
+      "address": "11 Rue Soufflot, 75005 Paris, France",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 56,
+      "category": [
+        "Avocat p\u00e9naliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ouvert 24h/24"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T21:06:52.160517",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kamel%20DEROUICHE%20-%20Avocat%20p%C3%A9naliste%20Paris&query_place_id=ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T21:06:52.163228"
+      }
+    }
+  ],
+  "validation_stats": {
+    "total": 1,
+    "valid": 0,
+    "invalid": 1,
+    "anomalies_count": 0
+  },
+  "anomaly_analysis": {
+    "summary": "Aucune anomalie d\u00e9tect\u00e9e",
+    "new_patterns": []
+  },
+  "validation_level": "standard"
+}

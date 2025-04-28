@@ -1,0 +1,780 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-25T19:55:15.770170
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "test_restaurant",
+  "campaign_id": "verify_migration_test",
+  "params": {
+    "locationQuery": "Paris, FR",
+    "maxCrawledPlacesPerSearch": 3
+  }
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "lead_1745610915_0",
+      "company_name": "Restaurant Thomas Durand",
+      "contact_name": "Thomas Durand",
+      "position": "G\u00e9rant",
+      "email": "thomas.durand@gmail.com",
+      "phone": "0155588801",
+      "website": null,
+      "address": "2 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "65000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.768783",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_1",
+      "company_name": "Restaurant C\u00e9line Petit",
+      "contact_name": "C\u00e9line Petit",
+      "position": "Responsable",
+      "email": "c\u00e9line.petit@resto.fr",
+      "phone": "0159470786",
+      "website": "https://www.resto-petit.fr",
+      "address": "136 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "39000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T19:55:15.768886",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_2",
+      "company_name": "Restaurant Michel Leroy",
+      "contact_name": "Michel Leroy",
+      "position": "Directeur",
+      "email": "michel.leroy@resto.fr",
+      "phone": "0673055011",
+      "website": "https://www.resto-leroy.fr",
+      "address": "110 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "42000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.768934",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_3",
+      "company_name": "Restaurant Nathalie Michel",
+      "contact_name": "Nathalie Michel",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0666489479",
+      "website": "https://www.resto-michel.fr",
+      "address": "125 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "63000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:55:15.768982",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_4",
+      "company_name": "Restaurant Sophie Robert",
+      "contact_name": "Sophie Robert",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": "0699635536",
+      "website": "https://www.resto-robert.fr",
+      "address": "128 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "83000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.769029",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_5",
+      "company_name": "Restaurant Nicolas Michel",
+      "contact_name": "Nicolas Michel",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-michel.fr",
+      "address": "10 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "81000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.769093",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_6",
+      "company_name": "Restaurant L\u00e9a Simon",
+      "contact_name": "L\u00e9a Simon",
+      "position": "Directeur",
+      "email": "l\u00e9a.simon@resto.fr",
+      "phone": "0183058243",
+      "website": null,
+      "address": "30 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "15000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.769139",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_7",
+      "company_name": "Restaurant Thomas Lefebvre",
+      "contact_name": "Thomas Lefebvre",
+      "position": "Fondateur",
+      "email": "thomas.lefebvre@resto.fr",
+      "phone": "0194307490",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "147 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "22000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:55:15.769200",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_8",
+      "company_name": "Restaurant Michel Thomas",
+      "contact_name": "Michel Thomas",
+      "position": "Responsable",
+      "email": "michel.thomas@outlook.fr",
+      "phone": "0659667902",
+      "website": null,
+      "address": "30 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "42000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769249",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_9",
+      "company_name": "Restaurant Thomas Lefebvre",
+      "contact_name": "Thomas Lefebvre",
+      "position": "Associ\u00e9",
+      "email": "thomas.lefebvre@orange.fr",
+      "phone": "0132458322",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "103 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "94000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769276",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_10",
+      "company_name": "Restaurant Sophie Dubois",
+      "contact_name": "Sophie Dubois",
+      "position": "G\u00e9rant",
+      "email": "sophie.dubois@orange.fr",
+      "phone": "0151173200",
+      "website": null,
+      "address": "93 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "38000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:55:15.769298",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_11",
+      "company_name": "Restaurant C\u00e9line Dubois",
+      "contact_name": "C\u00e9line Dubois",
+      "position": "Associ\u00e9",
+      "email": "c\u00e9line.dubois@outlook.fr",
+      "phone": "0145300910",
+      "website": null,
+      "address": "70 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "92000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T19:55:15.769320",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_12",
+      "company_name": "Restaurant Paul Petit",
+      "contact_name": "Paul Petit",
+      "position": "Directeur",
+      "email": null,
+      "phone": "0611719942",
+      "website": "https://www.resto-petit.fr",
+      "address": "75 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "19000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769340",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_13",
+      "company_name": "Restaurant Jean Thomas",
+      "contact_name": "Jean Thomas",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0141740303",
+      "website": null,
+      "address": "104 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "51000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T19:55:15.769360",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_14",
+      "company_name": "Restaurant Paul Moreau",
+      "contact_name": "Paul Moreau",
+      "position": "Responsable",
+      "email": "paul.moreau@gmail.com",
+      "phone": "0635668477",
+      "website": null,
+      "address": "129 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "43000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:55:15.769390",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_15",
+      "company_name": "Restaurant Nicolas Thomas",
+      "contact_name": "Nicolas Thomas",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": "0188043089",
+      "website": null,
+      "address": "19 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "13000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T19:55:15.769426",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_16",
+      "company_name": "Restaurant Sophie Leroy",
+      "contact_name": "Sophie Leroy",
+      "position": "Responsable",
+      "email": "sophie.leroy@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-leroy.fr",
+      "address": "32 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "25000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.769444",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_17",
+      "company_name": "Restaurant Thomas Dubois",
+      "contact_name": "Thomas Dubois",
+      "position": "Responsable",
+      "email": null,
+      "phone": "0114752260",
+      "website": null,
+      "address": "40 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "45000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T19:55:15.769462",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_18",
+      "company_name": "Restaurant Nicolas Dubois",
+      "contact_name": "Nicolas Dubois",
+      "position": "Fondateur",
+      "email": "nicolas.dubois@resto.fr",
+      "phone": "0613430586",
+      "website": null,
+      "address": "150 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "94000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.769482",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_19",
+      "company_name": "Restaurant Thomas Petit",
+      "contact_name": "Thomas Petit",
+      "position": "G\u00e9rant",
+      "email": "thomas.petit@resto.fr",
+      "phone": "0199153582",
+      "website": "https://www.resto-petit.fr",
+      "address": "107 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "16000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.769501",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_20",
+      "company_name": "Restaurant C\u00e9line Lefebvre",
+      "contact_name": "C\u00e9line Lefebvre",
+      "position": "Responsable",
+      "email": null,
+      "phone": "0114129081",
+      "website": null,
+      "address": "5 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "50000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:55:15.769519",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_21",
+      "company_name": "Restaurant Marie Richard",
+      "contact_name": "Marie Richard",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-richard.fr",
+      "address": "33 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "69000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.769542",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_22",
+      "company_name": "Restaurant Jean Leroy",
+      "contact_name": "Jean Leroy",
+      "position": "Directeur",
+      "email": "jean.leroy@yahoo.fr",
+      "phone": "0692568116",
+      "website": null,
+      "address": "125 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "51000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.769563",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_23",
+      "company_name": "Restaurant Nicolas Moreau",
+      "contact_name": "Nicolas Moreau",
+      "position": "Responsable",
+      "email": null,
+      "phone": "0635647255",
+      "website": "https://www.resto-moreau.fr",
+      "address": "35 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "40000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T19:55:15.769582",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_24",
+      "company_name": "Restaurant Nicolas Bernard",
+      "contact_name": "Nicolas Bernard",
+      "position": "Directeur",
+      "email": "nicolas.bernard@yahoo.fr",
+      "phone": "0177845488",
+      "website": "https://www.resto-bernard.fr",
+      "address": "106 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "24000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769603",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_25",
+      "company_name": "Restaurant C\u00e9line Petit",
+      "contact_name": "C\u00e9line Petit",
+      "position": "Responsable",
+      "email": "c\u00e9line.petit@gmail.com",
+      "phone": "0681845736",
+      "website": null,
+      "address": "52 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "45000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T19:55:15.769625",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_26",
+      "company_name": "Restaurant Marie Petit",
+      "contact_name": "Marie Petit",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": "0651144712",
+      "website": "https://www.resto-petit.fr",
+      "address": "17 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "35000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769676",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_27",
+      "company_name": "Restaurant Michel Lefebvre",
+      "contact_name": "Michel Lefebvre",
+      "position": "G\u00e9rant",
+      "email": "michel.lefebvre@resto.fr",
+      "phone": "0196717174",
+      "website": null,
+      "address": "85 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "13000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T19:55:15.769734",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_28",
+      "company_name": "Restaurant Jean Bernard",
+      "contact_name": "Jean Bernard",
+      "position": "Responsable",
+      "email": "jean.bernard@resto.fr",
+      "phone": "0118388551",
+      "website": null,
+      "address": "148 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "15000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769855",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_29",
+      "company_name": "Restaurant Marie Durand",
+      "contact_name": "Marie Durand",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-durand.fr",
+      "address": "67 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "22000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T19:55:15.769880",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_30",
+      "company_name": "Restaurant Michel Dubois",
+      "contact_name": "Michel Dubois",
+      "position": "Associ\u00e9",
+      "email": "michel.dubois@orange.fr",
+      "phone": "0197406001",
+      "website": "https://www.resto-dubois.fr",
+      "address": "27 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "37000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769903",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_31",
+      "company_name": "Restaurant Marie Durand",
+      "contact_name": "Marie Durand",
+      "position": "Directeur",
+      "email": "marie.durand@resto.fr",
+      "phone": "0110458371",
+      "website": null,
+      "address": "20 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "34000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769924",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_32",
+      "company_name": "Restaurant Paul Martin",
+      "contact_name": "Paul Martin",
+      "position": "Associ\u00e9",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-martin.fr",
+      "address": "82 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "72000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769941",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_33",
+      "company_name": "Restaurant Sophie Lefebvre",
+      "contact_name": "Sophie Lefebvre",
+      "position": "Fondateur",
+      "email": null,
+      "phone": "0149307145",
+      "website": null,
+      "address": "12 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "59000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.769960",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_34",
+      "company_name": "Restaurant Julie Simon",
+      "contact_name": "Julie Simon",
+      "position": "Responsable",
+      "email": "julie.simon@resto.fr",
+      "phone": "0610205993",
+      "website": null,
+      "address": "11 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "63000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:55:15.769981",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_35",
+      "company_name": "Restaurant Julie Martin",
+      "contact_name": "Julie Martin",
+      "position": "Responsable",
+      "email": "julie.martin@yahoo.fr",
+      "phone": "0698714909",
+      "website": null,
+      "address": "139 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "18000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.770007",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_36",
+      "company_name": "Restaurant Pierre Petit",
+      "contact_name": "Pierre Petit",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": "0633151134",
+      "website": null,
+      "address": "130 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "18000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T19:55:15.770028",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_37",
+      "company_name": "Restaurant Sophie Petit",
+      "contact_name": "Sophie Petit",
+      "position": "Responsable",
+      "email": "sophie.petit@outlook.fr",
+      "phone": "0139583563",
+      "website": "https://www.resto-petit.fr",
+      "address": "6 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "81000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:55:15.770063",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_38",
+      "company_name": "Restaurant Sophie Bernard",
+      "contact_name": "Sophie Bernard",
+      "position": "G\u00e9rant",
+      "email": "sophie.bernard@yahoo.fr",
+      "phone": "0622793627",
+      "website": "https://www.resto-bernard.fr",
+      "address": "30 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "62000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T19:55:15.770085",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_39",
+      "company_name": "Restaurant C\u00e9line Moreau",
+      "contact_name": "C\u00e9line Moreau",
+      "position": "G\u00e9rant",
+      "email": null,
+      "phone": "0170268746",
+      "website": "https://www.resto-moreau.fr",
+      "address": "117 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "76000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T19:55:15.770108",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_40",
+      "company_name": "Restaurant Nicolas Moreau",
+      "contact_name": "Nicolas Moreau",
+      "position": "Directeur",
+      "email": "nicolas.moreau@yahoo.fr",
+      "phone": null,
+      "website": "https://www.resto-moreau.fr",
+      "address": "14 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "85000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T19:55:15.770126",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745610915_41",
+      "company_name": "Restaurant David Lefebvre",
+      "contact_name": "David Lefebvre",
+      "position": "Associ\u00e9",
+      "email": "david.lefebvre@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "113 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "14000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T19:55:15.770154",
+      "raw_data": {
+        "description": "Entreprise de test_restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    }
+  ],
+  "count": 42,
+  "niche": "test_restaurant",
+  "campaign_id": "verify_migration_test",
+  "time_taken": 0.0018012523651123047,
+  "api_used": false,
+  "status": "COMPLETED"
+}

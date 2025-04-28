@@ -1,0 +1,156 @@
+=== CleanerAgent LOG ===
+Timestamp: 2025-04-26T20:37:42.506008
+Operation: execute
+Status: UNKNOWN
+
+Input: {
+  "data": [
+    {
+      "id": "apify_1745699862_0",
+      "company_name": "Julien Riant Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 7 66 99 18 23",
+      "website": "https://riant-avocat.fr/",
+      "address": "14 Rue Fagon, 75013 Paris, France",
+      "city": "Paris",
+      "postal_code": "75013",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 22,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-26T20:37:42.503160",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Julien%20Riant%20Avocat&query_place_id=ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "campaign_id": "TEST_avocat_1745699848"
+}
+
+Output: {
+  "clean_data": [
+    {
+      "id": "apify_1745699862_0",
+      "company_name": "Julien Riant Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33766991823",
+      "website": "https://riant-avocat.fr/",
+      "address": "14 Rue Fagon, 75013 Paris, France",
+      "city": "Paris",
+      "postal_code": "75013",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 22,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-26T20:37:42.503160",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Julien%20Riant%20Avocat&query_place_id=ChIJF47FmHFx5kcRmZLSKnzlqcA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-26T20:37:42.505973"
+      }
+    }
+  ],
+  "validation_stats": {
+    "total": 1,
+    "valid": 1,
+    "invalid": 0,
+    "anomalies_count": 0
+  },
+  "anomaly_analysis": {
+    "summary": "Aucune anomalie d\u00e9tect\u00e9e",
+    "new_patterns": []
+  },
+  "validation_level": "standard"
+}

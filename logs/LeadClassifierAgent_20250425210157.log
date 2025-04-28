@@ -1,0 +1,189 @@
+=== LeadClassifierAgent LOG ===
+Timestamp: 2025-04-25T21:01:57.530195
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "leads": [
+    {
+      "id": "apify_1745614917_0",
+      "company_name": "La Maison du Boulevard",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": "https://www.instagram.com/lamaisonduboulevard_paris/",
+      "address": "40 Bd de l'H\u00f4pital, 75005 Paris, France",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 1617,
+      "category": [
+        "Restaurant fran\u00e7ais"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T21:01:57.526630",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJFZAIBJVx5kcRVzImVeaKQQU",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Maison%20du%20Boulevard&query_place_id=ChIJFZAIBJVx5kcRVzImVeaKQQU",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T21:01:57.528020"
+      },
+      "industry": "Restaurant fran\u00e7ais",
+      "company_size": "small",
+      "location": "Paris, France"
+    }
+  ],
+  "campaign_id": "TEST_restaurant_1745614901"
+}
+
+Output: {
+  "operation": "classify",
+  "campaign_id": "TEST_restaurant_1745614901",
+  "timestamp": "2025-04-25T21:01:57.529158",
+  "status": "COMPLETED",
+  "classified_leads": [
+    {
+      "id": "apify_1745614917_0",
+      "company_name": "La Maison du Boulevard",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": "https://www.instagram.com/lamaisonduboulevard_paris/",
+      "address": "40 Bd de l'H\u00f4pital, 75005 Paris, France",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 1617,
+      "category": [
+        "Restaurant fran\u00e7ais"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "11:00 to 14:30, 18:00 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T21:01:57.526630",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJFZAIBJVx5kcRVzImVeaKQQU",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Maison%20du%20Boulevard&query_place_id=ChIJFZAIBJVx5kcRVzImVeaKQQU",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T21:01:57.528020"
+      },
+      "industry": "Restaurant fran\u00e7ais",
+      "company_size": "small",
+      "location": "Paris, France",
+      "heuristic_score": 0.7400000000000001,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.9,
+        "company_size_score": 0.7,
+        "location_score": 0.9
+      },
+      "email_score": 0.0,
+      "phone_score": 0.0,
+      "profile_score": 0.66,
+      "global_score": 0.42266666666666675,
+      "temperature": "cold",
+      "score_details": {
+        "email": 0.0,
+        "phone": 0.0,
+        "profile": 0.66,
+        "heuristic": 0.7400000000000001
+      }
+    }
+  ],
+  "metrics": {
+    "hot_leads_count": 0,
+    "warm_leads_count": 0,
+    "cold_leads_count": 1,
+    "total_leads": 1
+  }
+}

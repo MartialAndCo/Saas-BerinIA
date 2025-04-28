@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-04-25T17:12:17.533817",
+  "agent": "AnalyticsAgent",
+  "operation": "predict_performance",
+  "input": {
+    "operation": "predict_performance",
+    "campaign_id": "CAMP123",
+    "output_format": "json",
+    "verbose": true
+  },
+  "output": {
+    "operation": "predict_performance",
+    "campaign_id": "CAMP123",
+    "niche": null,
+    "time_period": "all",
+    "status": "COMPLETED",
+    "timestamp": "2025-04-25T17:12:17.533322",
+    "prediction": {
+      "performance_levers": [
+        {
+          "name": "Ciblage social",
+          "impact_score": 0.45,
+          "description": "Le ciblage des publicit\u00e9s sociales a un impact majeur sur les performances"
+        },
+        {
+          "name": "Message de d\u00e9monstration",
+          "impact_score": 0.32,
+          "description": "L'offre de d\u00e9monstration influence fortement le taux de conversion"
+        },
+        {
+          "name": "Fr\u00e9quence d'email",
+          "impact_score": 0.18,
+          "description": "La cadence des emails impacte l'engagement"
+        }
+      ],
+      "channel_analysis": {
+        "email": {
+          "performance_score": 0.65,
+          "cost_efficiency": 0.58,
+          "observations": "Performance moyenne mais co\u00fbt par lead \u00e9lev\u00e9"
+        },
+        "social": {
+          "performance_score": 0.82,
+          "cost_efficiency": 0.75,
+          "observations": "Meilleure performance globale et bon rapport co\u00fbt/efficacit\u00e9"
+        },
+        "search": {
+          "performance_score": 0.7,
+          "cost_efficiency": 0.62,
+          "observations": "Bonne performance mais relativement co\u00fbteux"
+        }
+      },
+      "message_analysis": {
+        "value_proposition": {
+          "response_rate": 0.16,
+          "effectiveness": 0.58,
+          "strengths": "Bonne pr\u00e9sentation de la valeur mais pourrait \u00eatre optimis\u00e9e"
+        },
+        "case_study": {
+          "response_rate": 0.18,
+          "effectiveness": 0.65,
+          "strengths": "Preuve sociale forte, cr\u00e9dibilit\u00e9 \u00e9lev\u00e9e"
+        },
+        "demo_offer": {
+          "response_rate": 0.2,
+          "effectiveness": 0.72,
+          "strengths": "Appel \u00e0 l'action clair et proposition de valeur tangible"
+        }
+      },
+      "recommendations": [
+        "Concentrer 60% du budget sur les canaux sociaux",
+        "Renforcer le message de d\u00e9monstration sur tous les canaux",
+        "R\u00e9duire la fr\u00e9quence des emails mais augmenter leur personnalisation",
+        "Segmenter davantage l'audience sur les canaux de recherche"
+      ]
+    },
+    "projected_metrics": {},
+    "confidence_score": 0,
+    "factors": [],
+    "report_path": "logs/analytics_reports/performance_prediction_CAMP123_20250425171217.json"
+  },
+  "status": "COMPLETED"
+}

@@ -1,0 +1,26 @@
+=== ApifyScraper LOG ===
+Timestamp: 2025-04-25T19:48:34.559984
+Operation: execute
+Status: FAILED
+
+Input: {
+  "niche": "restaurant",
+  "campaign_id": "real_test_comparison",
+  "params": {
+    "language": "fr",
+    "locationQuery": "Paris, FR",
+    "maxCrawledPlacesPerSearch": 5,
+    "searchStringsArray": [
+      "restaurant"
+    ],
+    "skipClosedPlaces": false
+  }
+}
+
+Output: {
+  "error": "\u00c9chec de l'appel \u00e0 l'API Apify",
+  "leads": [],
+  "niche": "restaurant",
+  "campaign_id": "real_test_comparison",
+  "status": "FAILED"
+}

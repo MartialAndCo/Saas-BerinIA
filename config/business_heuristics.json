@@ -1,0 +1,34 @@
+{
+  "industry_priority": {
+    "healthcare": 0.9,
+    "technology": 0.85,
+    "finance": 0.8,
+    "retail": 0.75,
+    "manufacturing": 0.7,
+    "restaurant": 0.8,
+    "default": 0.5
+  },
+  "position_priority": {
+    "C-level": 0.95,
+    "Director": 0.85,
+    "Manager": 0.75,
+    "Specialist": 0.6,
+    "Owner": 0.9,
+    "default": 0.5
+  },
+  "company_size_priority": {
+    "enterprise": 0.9,
+    "mid-market": 0.8,
+    "small": 0.7,
+    "startup": 0.6,
+    "default": 0.5
+  },
+  "location_priority": {
+    "Paris": 0.9,
+    "Lyon": 0.85,
+    "Marseille": 0.8,
+    "Bordeaux": 0.75,
+    "default": 0.6
+  },
+  "last_updated": "2025-04-25T20:40:00Z"
+}

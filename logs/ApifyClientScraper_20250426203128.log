@@ -1,0 +1,86 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-26T20:31:28.974446
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "avocat",
+  "params": {
+    "locationQuery": "Paris, France",
+    "maxCrawledPlacesPerSearch": 1,
+    "language": "fr"
+  },
+  "campaign_id": "TEST_avocat_1745699475"
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "apify_1745699488_0",
+      "company_name": "Ma\u00eetre Catherine Lam-Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 42 60 33 88",
+      "website": "https://maprocedure.fr/",
+      "address": "26 Rue des Petits Champs, 75002 Paris, France",
+      "city": "Paris",
+      "postal_code": "75002",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 133,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces"
+      ],
+      "opening_hours": [
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 19:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-26T20:31:28.974238",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJm_800Dpu5kcRBsM1iQLd6oc",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Catherine%20Lam-Avocat&query_place_id=ChIJm_800Dpu5kcRBsM1iQLd6oc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "count": 1,
+  "niche": "avocat",
+  "campaign_id": "TEST_avocat_1745699475",
+  "time_taken": 12.276194095611572,
+  "api_used": true,
+  "status": "COMPLETED"
+}

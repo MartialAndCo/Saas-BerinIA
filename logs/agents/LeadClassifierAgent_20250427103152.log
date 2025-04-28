@@ -1,0 +1,5 @@
+2025-04-27 10:31:52,375 - INFO - 🚀 LeadClassifierAgent démarré
+2025-04-27 10:31:52,375 - INFO - 📥 Données d'entrée: {"cleaned_leads": [], "campaign_id": "test_campaign_123"}
+2025-04-27 10:31:52,375 - INFO - 📤 Résultat: {"operation": "classify", "campaign_id": "test_campaign_123", "timestamp": "2025-04-27T10:31:52.375294", "status": "COMPLETED", "classified_leads": [], "metrics": {"total_leads": 0, "avg_global_score": 0, "valid_contacts": 0}, "message": "Aucun lead fourni pour la classification. Prêt pour la prochaine série de leads."}
+2025-04-27 10:31:52,375 - INFO - ⏱️ Temps d'exécution: 0.80 ms
+2025-04-27 10:31:52,376 - INFO - ✅ LeadClassifierAgent terminé avec succès en 1.00 ms

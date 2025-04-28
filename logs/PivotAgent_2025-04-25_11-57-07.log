@@ -1,0 +1,5 @@
+=== INPUT ===
+{'test': True}
+
+=== OUTPUT ===
+{'error': "Aucun résultat d'analyse fourni", 'decision': 'ERROR'}

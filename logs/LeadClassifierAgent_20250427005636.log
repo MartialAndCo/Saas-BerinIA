@@ -1,0 +1,4636 @@
+=== LeadClassifierAgent LOG ===
+Timestamp: 2025-04-27T00:56:36.665837
+Operation: execute
+Status: FAILED
+
+Input: {
+  "clean_leads": [
+    {
+      "id": "apify_1745715395_0",
+      "company_name": "Baptiste ROBELIN - Avocat en droit commercial, droit des contrats et droit immobilier",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33666156307",
+      "website": "https://novlaw.fr/baptiste-robelin/",
+      "address": "53 Bd de Magenta, 75010 Paris, France",
+      "city": "Paris",
+      "postal_code": "75010",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 49,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat d'affaires",
+        "Avocat",
+        "Services juridiques"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.524192",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJsZ9yX-5v5kcRu53G0LFrzS0",
+        "url": "https://www.google.com/maps/search/?api=1&query=Baptiste%20ROBELIN%20-%20Avocat%20en%20droit%20commercial%2C%20droit%20des%20contrats%20et%20droit%20immobilier&query_place_id=ChIJsZ9yX-5v5kcRu53G0LFrzS0",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.632715"
+      }
+    },
+    {
+      "id": "apify_1745715395_1",
+      "company_name": "MHK Avocats",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33187666960",
+      "website": "http://mhk-avocats.com/",
+      "address": "9 Rue Christiani, 75018 Paris, France",
+      "city": "Paris",
+      "postal_code": "75018",
+      "country": "France",
+      "rating": 4.5,
+      "reviews_count": 643,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "10:00 to 18:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "10:00 to 18:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "10:00 to 18:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "vendredi",
+          "hours": "10:00 to 18:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.524498",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJtZHU-rFv5kcRYmdGYaNnw-I",
+        "url": "https://www.google.com/maps/search/?api=1&query=MHK%20Avocats&query_place_id=ChIJtZHU-rFv5kcRYmdGYaNnw-I",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.632802"
+      }
+    },
+    {
+      "id": "apify_1745715395_2",
+      "company_name": "Cabinet d'avocats NovLaw - Droit des affaires - Droit commercial - Droit immobilier - Droit Public - Droit social",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33144014636",
+      "website": "https://novlaw.fr/",
+      "address": "53 Bd de Magenta, 75010 Paris, France",
+      "city": "Paris",
+      "postal_code": "75010",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 73,
+      "category": [
+        "Avocat",
+        "Avocat en droit administratif",
+        "Avocat d'affaires",
+        "Avocat en droit de l'immigration",
+        "Avocat en droit des assurances",
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat sp\u00e9cialis\u00e9 en droit social"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.524764",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJnz2lUwxv5kcR51wqxYbDrQc",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cabinet%20d'avocats%20NovLaw%20-%20Droit%20des%20affaires%20-%20Droit%20commercial%20-%20Droit%20immobilier%20-%20Droit%20Public%20-%20Droit%20social&query_place_id=ChIJnz2lUwxv5kcR51wqxYbDrQc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.632861"
+      }
+    },
+    {
+      "id": "apify_1745715395_3",
+      "company_name": "Made Avocats",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33145003956",
+      "website": null,
+      "address": "5 Vla de Guelma, 75018 Paris, France",
+      "city": "Paris",
+      "postal_code": "75018",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 60,
+      "category": [
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.524925",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJDXh0j_hv5kcRq6OGuv-6eFg",
+        "url": "https://www.google.com/maps/search/?api=1&query=Made%20Avocats&query_place_id=ChIJDXh0j_hv5kcRq6OGuv-6eFg",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.632918"
+      }
+    },
+    {
+      "id": "apify_1745715395_4",
+      "company_name": "PRIMO Avocats | Avocats droit des affaires et droit du travail \u00e0 Paris",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33189165474",
+      "website": "http://www.primo-avocats.fr/",
+      "address": "99 Rue de Courcelles, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 36,
+      "category": [
+        "Avocat d'affaires"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.525087",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJjS7tXARv5kcRaaMlC3I0IQg",
+        "url": "https://www.google.com/maps/search/?api=1&query=PRIMO%20Avocats%20%7C%20Avocats%20droit%20des%20affaires%20et%20droit%20du%20travail%20%C3%A0%20Paris&query_place_id=ChIJjS7tXARv5kcRaaMlC3I0IQg",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.632972"
+      }
+    },
+    {
+      "id": "apify_1745715395_5",
+      "company_name": "Greenwich Avocats Droit Social, Droit du travail",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33187443590",
+      "website": "https://greenwichsocial.fr/?utm_source=GoogleMyBusiness&utm_medium=link&utm_campaign=Site",
+      "address": "132 Rue La Fayette, 75010 Paris, France",
+      "city": "Paris",
+      "postal_code": "75010",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 6,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit social",
+        "Si\u00e8ge social",
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.525273",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJA2LicBNv5kcRwGBom9wflfI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Greenwich%20Avocats%20Droit%20Social%2C%20Droit%20du%20travail&query_place_id=ChIJA2LicBNv5kcRwGBom9wflfI",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633154"
+      }
+    },
+    {
+      "id": "apify_1745715395_6",
+      "company_name": "Ma\u00eetre Amadou NDIAYE SAS SOCI\u00c9T\u00c9 D\u2019AVOCAT",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33185530948",
+      "website": "https://www.avocat-ndiaye.fr/",
+      "address": "105 Rue des Moines, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 70,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "10:00 to 14:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.525562",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ2ehkB9Vv5kcRGP_TlQP1ayo",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Amadou%20NDIAYE%20SAS%20SOCI%C3%89T%C3%89%20D%E2%80%99AVOCAT&query_place_id=ChIJ2ehkB9Vv5kcRGP_TlQP1ayo",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633213"
+      }
+    },
+    {
+      "id": "apify_1745715395_7",
+      "company_name": "FAZOLO Avocats",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33183640912",
+      "website": "https://fazolo-avocats.com/",
+      "address": "17 Rue Cadet, 75009 Paris, France",
+      "city": "Paris",
+      "postal_code": "75009",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 70,
+      "category": [
+        "Avocat en droit de l'immigration",
+        "Service d'immigration et de naturalisation"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.525847",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ_wBPB8hv5kcRvWE1k5R09Og",
+        "url": "https://www.google.com/maps/search/?api=1&query=FAZOLO%20Avocats&query_place_id=ChIJ_wBPB8hv5kcRvWE1k5R09Og",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633268"
+      }
+    },
+    {
+      "id": "apify_1745715395_8",
+      "company_name": "Avocat Droit des affaires et Commerce \u00e0 Paris, Ma\u00eetre Jabouley Marie-Pierre | Conseil juridique | Vente et achat de fonds de commerceI Cession entreprise I Cr\u00e9ation Soci\u00e9t\u00e9 I Contrats",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33153300848",
+      "website": "https://www.avocat-jabouley.fr/",
+      "address": "17 - 21 Rue Duret BAT D, 75116 Paris, France",
+      "city": "Paris",
+      "postal_code": "75116",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 74,
+      "category": [
+        "Avocat",
+        "Conseil",
+        "Services juridiques"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 12:00, 13:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 12:00, 13:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 12:00, 13:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 12:00, 13:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 12:00, 13:00 to 18:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.526067",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJoTzavfNv5kcRSoENjJ5XLmc",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20Droit%20des%20affaires%20et%20Commerce%20%C3%A0%20Paris%2C%20Ma%C3%AEtre%20Jabouley%20Marie-Pierre%20%7C%20Conseil%20juridique%20%7C%20Vente%20et%20achat%20de%20fonds%20de%20commerceI%20Cession%20entreprise%20I%20Cr%C3%A9ation%20Soci%C3%A9t%C3%A9%20I%20Contrats&query_place_id=ChIJoTzavfNv5kcRSoENjJ5XLmc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633319"
+      }
+    },
+    {
+      "id": "apify_1745715395_9",
+      "company_name": "Kohen Avocats, cabinet d'avocats en droit immobilier et droit des affaires \u00e0 Paris",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33646605822",
+      "website": "https://kohenavocats.fr/",
+      "address": "155 Bd Malesherbes, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 79,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 20:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.526223",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJvRSMfNJv5kcRoBAxgaYQ91c",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kohen%20Avocats%2C%20cabinet%20d'avocats%20en%20droit%20immobilier%20et%20droit%20des%20affaires%20%C3%A0%20Paris&query_place_id=ChIJvRSMfNJv5kcRoBAxgaYQ91c",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633373"
+      }
+    },
+    {
+      "id": "apify_1745715395_10",
+      "company_name": "Me Paul Emile Boutmy - Avocat en droit des affaires \u00e0 Paris",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33663687199",
+      "website": "https://www.avocat-boutmy.com/",
+      "address": "4 Rue Saint-Nicolas, 75012 Paris, France",
+      "city": "Paris",
+      "postal_code": "75012",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 28,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.526388",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJAQDU0D5u5kcR5aqzlt9JtME",
+        "url": "https://www.google.com/maps/search/?api=1&query=Me%20Paul%20Emile%20Boutmy%20-%20Avocat%20en%20droit%20des%20affaires%20%C3%A0%20Paris&query_place_id=ChIJAQDU0D5u5kcR5aqzlt9JtME",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633427"
+      }
+    },
+    {
+      "id": "apify_1745715395_11",
+      "company_name": "LLA Avocats - Avocat Droit des Affaires Paris",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33186958398",
+      "website": "https://www.lla-avocats.fr/cabinet/marc-ladreit-de-lacharriere/",
+      "address": "30 Rue de Miromesnil, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 97,
+      "category": [
+        "Avocat d'affaires",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 21:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 20:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.526620",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ__8bgpZv5kcRRZyE0zkLJT0",
+        "url": "https://www.google.com/maps/search/?api=1&query=LLA%20Avocats%20-%20Avocat%20Droit%20des%20Affaires%20Paris&query_place_id=ChIJ__8bgpZv5kcRRZyE0zkLJT0",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633485"
+      }
+    },
+    {
+      "id": "apify_1745715395_12",
+      "company_name": "BRANJONNEAU Christel - Avocat en droit des affaires PARIS - Sp\u00e9cialiste en droit des Soci\u00e9t\u00e9s",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33140281196",
+      "website": "http://www.branjonneau-avocat.com/",
+      "address": "27 Rue du Pont Neuf, 75001 Paris, France",
+      "city": "Paris",
+      "postal_code": "75001",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 13,
+      "category": [
+        "Avocat",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la faillite",
+        "Services aux entreprises",
+        "Conseil",
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.526778",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJXdCsEB9v5kcROWXQM08sY2o",
+        "url": "https://www.google.com/maps/search/?api=1&query=BRANJONNEAU%20Christel%20-%20Avocat%20en%20droit%20des%20affaires%20PARIS%20-%20Sp%C3%A9cialiste%20en%20droit%20des%20Soci%C3%A9t%C3%A9s&query_place_id=ChIJXdCsEB9v5kcROWXQM08sY2o",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633558"
+      }
+    },
+    {
+      "id": "apify_1745715395_13",
+      "company_name": "Nadia Tigzim : Avocat droit des affaires, droit commercial, baux commerciaux",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33146367933",
+      "website": "https://avocat-tigzim.fr/",
+      "address": "222 Bd Saint-Germain, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 63,
+      "category": [
+        "Avocat",
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.526908",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJy5bD3DVu5kcRfMUkZc-LUc0",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nadia%20Tigzim%20%3A%20Avocat%20droit%20des%20affaires%2C%20droit%20commercial%2C%20baux%20commerciaux&query_place_id=ChIJy5bD3DVu5kcRfMUkZc-LUc0",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633662"
+      }
+    },
+    {
+      "id": "apify_1745715395_14",
+      "company_name": "Emmanuel Boukris Avocat \u2013 Droit Immobilier, Droit des Affaires, Droit du Dommage Corporel",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33155438856",
+      "website": "http://www.emmanuelboukris.com/",
+      "address": "31 Bd Malesherbes, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 84,
+      "category": [
+        "Avocat",
+        "Avocat.e en droit civil",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 17:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.527068",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJpwW8OLZv5kcRIFYcMd8ZSLI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Emmanuel%20Boukris%20Avocat%20%E2%80%93%20Droit%20Immobilier%2C%20Droit%20des%20Affaires%2C%20Droit%20du%20Dommage%20Corporel&query_place_id=ChIJpwW8OLZv5kcRIFYcMd8ZSLI",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633729"
+      }
+    },
+    {
+      "id": "apify_1745715395_15",
+      "company_name": "Avocat droit des affaires Paris \u2014 Chama Benseghir",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33698062592",
+      "website": "https://benseghir-juris.com/",
+      "address": "115 Rue de la Pompe, 75116 Paris, France",
+      "city": "Paris",
+      "postal_code": "75116",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 77,
+      "category": [
+        "Avocat",
+        "Avocat plaidant"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 20:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "08:30 to 20:30"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.527372",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJVTUgSLtv5kcRQ289i9My8Q4",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20droit%20des%20affaires%20Paris%20%E2%80%94%20Chama%20Benseghir&query_place_id=ChIJVTUgSLtv5kcRQ289i9My8Q4",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633776"
+      }
+    },
+    {
+      "id": "apify_1745715395_16",
+      "company_name": "Antoine Gouin | Avocat au Barreau de Paris | Droit fiscal | Droit patrimonial | Droit des affaires",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33189164090",
+      "website": "https://alphard.law/",
+      "address": "13 Rue Royale, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 102,
+      "category": [
+        "Avocat fiscaliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.527624",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJOcY63Zhv5kcRnNwDJAKucPk",
+        "url": "https://www.google.com/maps/search/?api=1&query=Antoine%20Gouin%20%7C%20Avocat%20au%20Barreau%20de%20Paris%20%7C%20Droit%20fiscal%20%7C%20Droit%20patrimonial%20%7C%20Droit%20des%20affaires&query_place_id=ChIJOcY63Zhv5kcRnNwDJAKucPk",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633831"
+      }
+    },
+    {
+      "id": "apify_1745715395_17",
+      "company_name": "Drouot Avocats SAS",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33144827382",
+      "website": "http://www.drouot-avocats.fr/",
+      "address": "8 Rue Drouot, 75009 Paris, France",
+      "city": "Paris",
+      "postal_code": "75009",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 86,
+      "category": [
+        "Avocat",
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail",
+        "Avocat en droit de l'environnement",
+        "Avocat en succession",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Cabinet d'avocats",
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat plaidant"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.527791",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJKd_Hyz5u5kcR30oxEOWzF-g",
+        "url": "https://www.google.com/maps/search/?api=1&query=Drouot%20Avocats%20SAS&query_place_id=ChIJKd_Hyz5u5kcR30oxEOWzF-g",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633895"
+      }
+    },
+    {
+      "id": "apify_1745715395_18",
+      "company_name": "Laurence Mayer",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33188243713",
+      "website": "https://www.avocat-paris-lmayer.com/",
+      "address": "28 Rue Racine, 75006 Paris, France",
+      "city": "Paris",
+      "postal_code": "75006",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 144,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.527933",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJLcJUdeJv5kcRXFnT9gHU_3w",
+        "url": "https://www.google.com/maps/search/?api=1&query=Laurence%20Mayer&query_place_id=ChIJLcJUdeJv5kcRXFnT9gHU_3w",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633949"
+      }
+    },
+    {
+      "id": "apify_1745715395_19",
+      "company_name": "JEM-AVOCAT",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33184802399",
+      "website": "https://jem-avocat.fr/",
+      "address": "99 Rue de Prony, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 43,
+      "category": [
+        "Avocat d'affaires"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 17:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.528075",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJteaq8B5u5kcRJcV_F7Bsqgk",
+        "url": "https://www.google.com/maps/search/?api=1&query=JEM-AVOCAT&query_place_id=ChIJteaq8B5u5kcRJcV_F7Bsqgk",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.633994"
+      }
+    },
+    {
+      "id": "apify_1745715395_20",
+      "company_name": "Ma\u00eetre Val\u00e9rie Piau",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33148889000",
+      "website": "http://www.cabinet-piau.fr/",
+      "address": "159 Rue de Rome, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 107,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.528198",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJXd26ILBv5kcROlfojiPb4uk",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Val%C3%A9rie%20Piau&query_place_id=ChIJXd26ILBv5kcROlfojiPb4uk",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634041"
+      }
+    },
+    {
+      "id": "apify_1745715395_21",
+      "company_name": "Elisabeth Aydin Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33140200237",
+      "website": "https://www.avocat-elisabeth-aydin.fr/",
+      "address": "3 Rue Guillaumot, 75012 Paris, France",
+      "city": "Paris",
+      "postal_code": "75012",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 301,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat en droit administratif",
+        "Avocat.e en droit civil",
+        "Avocat p\u00e9naliste",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Avocat en droit de l'immigration",
+        "Avocat sp\u00e9cialis\u00e9 en dommages corporels",
+        "Avocat sp\u00e9cialis\u00e9 en droit social"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 19:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.528384",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJac-uIAVy5kcRG8aRcFgktxM",
+        "url": "https://www.google.com/maps/search/?api=1&query=Elisabeth%20Aydin%20Avocat&query_place_id=ChIJac-uIAVy5kcRG8aRcFgktxM",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634089"
+      }
+    },
+    {
+      "id": "apify_1745715395_22",
+      "company_name": "Caroline MREJEN-BERREBY : Avocat en droit commercial",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33184800782",
+      "website": "http://www.martinmrejen-avocats.fr/",
+      "address": "14 Rue Margueritte, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 33,
+      "category": [
+        "Avocat d'affaires"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.528583",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJVVWFeDRu5kcRU2IQR2Okm6I",
+        "url": "https://www.google.com/maps/search/?api=1&query=Caroline%20MREJEN-BERREBY%20%3A%20Avocat%20en%20droit%20commercial&query_place_id=ChIJVVWFeDRu5kcRU2IQR2Okm6I",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634138"
+      }
+    },
+    {
+      "id": "apify_1745715395_23",
+      "company_name": "Julie Soudaz - Avocat droit des Affaires",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33631688291",
+      "website": "https://avocat-soudaz.com/",
+      "address": "10 bis Av. de la Grande Arm\u00e9e, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 22,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 21:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.528739",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJf1W_BCBl5kcRdspwPNwM3CY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Julie%20Soudaz%20-%20Avocat%20droit%20des%20Affaires&query_place_id=ChIJf1W_BCBl5kcRdspwPNwM3CY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634199"
+      }
+    },
+    {
+      "id": "apify_1745715395_24",
+      "company_name": "Ma\u00eetre Cohen Gis\u00e8le - Avocat et m\u00e9diateur- droit immobilier, droit et contentieux des affaires",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33156790070",
+      "website": "http://www.giselecohen.com/",
+      "address": "88 Av. Niel, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 64,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 14:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.528871",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJJRI-Y5Zv5kcR_GhbK_rJP00",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Cohen%20Gis%C3%A8le%20-%20Avocat%20et%20m%C3%A9diateur-%20droit%20immobilier%2C%20droit%20et%20contentieux%20des%20affaires&query_place_id=ChIJJRI-Y5Zv5kcR_GhbK_rJP00",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634249"
+      }
+    },
+    {
+      "id": "apify_1745715395_25",
+      "company_name": "Ma\u00eetre Sa\u00efd AKIFI - Avocat sp\u00e9cialiste en droit du travail",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33756905753",
+      "website": "http://saidakifi-avocat.fr/",
+      "address": "26 Rue des Petits Champs, 75002 Paris, France",
+      "city": "Paris",
+      "postal_code": "75002",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 51,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail",
+        "Avocat sp\u00e9cialis\u00e9 en droit social"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 17:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.529029",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJhUk0GkZv5kcRKArQTuUcUKE",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Sa%C3%AFd%20AKIFI%20-%20Avocat%20sp%C3%A9cialiste%20en%20droit%20du%20travail&query_place_id=ChIJhUk0GkZv5kcRKArQTuUcUKE",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634305"
+      }
+    },
+    {
+      "id": "apify_1745715395_26",
+      "company_name": "Avocat droit des affaires Paris | Cabinet BENSEGHIR",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33650877645",
+      "website": "https://www.cabinet-benseghir.com/",
+      "address": "4 Rue Brunel, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 28,
+      "category": [
+        "Avocat",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la faillite",
+        "Avocat d'affaires",
+        "Avocat sp\u00e9cialis\u00e9 dans le domaine du transfert des propri\u00e9t\u00e9s",
+        "Avocat p\u00e9naliste",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Avocat fiscaliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "10:00 to 16:30"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.529182",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJv4KV8ohv5kcRluvYfSqhv_s",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20droit%20des%20affaires%20Paris%20%7C%20Cabinet%20BENSEGHIR&query_place_id=ChIJv4KV8ohv5kcRluvYfSqhv_s",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634481"
+      }
+    },
+    {
+      "id": "apify_1745715395_27",
+      "company_name": "Ma\u00eetre DOUCE - Avocat droit immobilier-Droit de la copropri\u00e9t\u00e9",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33650753090",
+      "website": "http://www.elman-douce-avocat-immobilier-paris.fr/",
+      "address": "7 bis Rue Eug\u00e8ne Carri\u00e8re, 75018 Paris, France",
+      "city": "Paris",
+      "postal_code": "75018",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 15,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 12:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.529382",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ9WcbClFu5kcRV8kD0BloPpg",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20DOUCE%20-%20Avocat%20droit%20immobilier-Droit%20de%20la%20copropri%C3%A9t%C3%A9&query_place_id=ChIJ9WcbClFu5kcRV8kD0BloPpg",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634521"
+      }
+    },
+    {
+      "id": "apify_1745715395_28",
+      "company_name": "Cabinet YAVOCATS Carole YOUNES, Avocate \u00e0 la Cour, Cession de fonds de commerce/baux commerciaux",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33144829812",
+      "website": "http://www.yavocats.fr/",
+      "address": "6 b Rue Pache, 75011, 75011 Paris, France",
+      "city": "Paris",
+      "postal_code": "75011",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 5,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat en droit m\u00e9dical"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.529768",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJXQH-_CFu5kcRi9UgyaKKjyc",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cabinet%20YAVOCATS%20Carole%20YOUNES%2C%20Avocate%20%C3%A0%20la%20Cour%2C%20Cession%20de%20fonds%20de%20commerce%2Fbaux%20commerciaux&query_place_id=ChIJXQH-_CFu5kcRi9UgyaKKjyc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634553"
+      }
+    },
+    {
+      "id": "apify_1745715395_29",
+      "company_name": "Devoret Avocats",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33188614224",
+      "website": "https://devoret.fr/",
+      "address": "11 Rue Auguste Laurent, 75011 Paris, France",
+      "city": "Paris",
+      "postal_code": "75011",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 7,
+      "category": [
+        "Avocat d'affaires",
+        "Avocat",
+        "Avocat fiscaliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 20:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.530020",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJQwYV5yFt5kcRjChJvosXYdI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Devoret%20Avocats&query_place_id=ChIJQwYV5yFt5kcRjChJvosXYdI",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634602"
+      }
+    },
+    {
+      "id": "apify_1745715395_30",
+      "company_name": "Avocat droit des \u00e9trangers - Reynolds Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33682658873",
+      "website": "https://www.reynolds-avocat.fr/",
+      "address": "20 Rue du Vertbois, 75003 Paris, France",
+      "city": "Paris",
+      "postal_code": "75003",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 112,
+      "category": [
+        "Avocat en droit de l'immigration",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 12:30, 14:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 12:30, 14:00 to 18:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 12:30, 14:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 12:30, 14:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 12:30, 14:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.537236",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJnYLNNi9u5kcR7tP4ETo2MyY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20droit%20des%20%C3%A9trangers%20-%20Reynolds%20Avocat&query_place_id=ChIJnYLNNi9u5kcR7tP4ETo2MyY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634633"
+      }
+    },
+    {
+      "id": "apify_1745715395_31",
+      "company_name": "Shebavok, Avocats \u00e0 la Cour",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33143874480",
+      "website": "https://www.shebavok.com/",
+      "address": "52B Bd Richard-Lenoir, 75011 Paris, France",
+      "city": "Paris",
+      "postal_code": "75011",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 59,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 12:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.537911",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJf2UsnDJu5kcRFxpQk-BeApU",
+        "url": "https://www.google.com/maps/search/?api=1&query=Shebavok%2C%20Avocats%20%C3%A0%20la%20Cour&query_place_id=ChIJf2UsnDJu5kcRFxpQk-BeApU",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634667"
+      }
+    },
+    {
+      "id": "apify_1745715395_32",
+      "company_name": "YM AVOCATS - Immobilier commercial - baux commerciaux Paris",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33611954297",
+      "website": "http://www.ymavocat.fr/",
+      "address": "14 Rue des immeubles Industriels, 75011 Paris, France",
+      "city": "Paris",
+      "postal_code": "75011",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 136,
+      "category": [
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.550204",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ_4TF1Shv5kcRSfPRU-PFMzo",
+        "url": "https://www.google.com/maps/search/?api=1&query=YM%20AVOCATS%20-%20Immobilier%20commercial%20-%20baux%20commerciaux%20Paris&query_place_id=ChIJ_4TF1Shv5kcRSfPRU-PFMzo",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634703"
+      }
+    },
+    {
+      "id": "apify_1745715395_33",
+      "company_name": "ADER JOLIBOIS : cabinet d'avocats en droit des affaires, droit social, droit fiscal et droit du dommage corporel",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33145441033",
+      "website": "http://www.aderjolibois.com/",
+      "address": "6 Pl. Saint-Sulpice, 75006 Paris, France",
+      "city": "Paris",
+      "postal_code": "75006",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 4,
+      "category": [
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.551077",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJj3m3OdRx5kcRIRoqPJE5OUM",
+        "url": "https://www.google.com/maps/search/?api=1&query=ADER%20JOLIBOIS%20%3A%20cabinet%20d'avocats%20en%20droit%20des%20affaires%2C%20droit%20social%2C%20droit%20fiscal%20et%20droit%20du%20dommage%20corporel&query_place_id=ChIJj3m3OdRx5kcRIRoqPJE5OUM",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634738"
+      }
+    },
+    {
+      "id": "apify_1745715395_34",
+      "company_name": "Cabinet Fellous Avocats - Droit des affaires - Droit du Sport",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33184807531",
+      "website": "https://www.legalacte.fr/",
+      "address": "174 Bd Saint-Germain, 75006 Paris, France",
+      "city": "Paris",
+      "postal_code": "75006",
+      "country": "France",
+      "rating": 4.5,
+      "reviews_count": 23,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.551413",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJmTT6CtZx5kcRG4pBbI-gkjw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cabinet%20Fellous%20Avocats%20-%20Droit%20des%20affaires%20-%20Droit%20du%20Sport&query_place_id=ChIJmTT6CtZx5kcRG4pBbI-gkjw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634770"
+      }
+    },
+    {
+      "id": "apify_1745715395_35",
+      "company_name": "Assistance Juridique",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33756844555",
+      "website": "https://assistancejuridiqueparis.fr/?utm_source=gmb",
+      "address": "122 Rue Amelot, 75011 Paris, France",
+      "city": "Paris",
+      "postal_code": "75011",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 20,
+      "category": [
+        "Conseiller en gestion des affaires"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "vendredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ouvert 24h/24"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.551710",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJlxrM_rUySiARh518Unm5chg",
+        "url": "https://www.google.com/maps/search/?api=1&query=Assistance%20Juridique&query_place_id=ChIJlxrM_rUySiARh518Unm5chg",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634804"
+      }
+    },
+    {
+      "id": "apify_1745715395_36",
+      "company_name": "Meet Harvey- La Formation Commerciale des Avocats",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "https://meetharvey.co/",
+      "address": "16 Rue Saint-Maur, 75011 Paris, France",
+      "city": "Paris",
+      "postal_code": "75011",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 32,
+      "category": [
+        "Centre de formation \u00e0 distance"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 20:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.551971",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJsUMhG6Ft5kcRi0c0rbghqAk",
+        "url": "https://www.google.com/maps/search/?api=1&query=Meet%20Harvey-%20La%20Formation%20Commerciale%20des%20Avocats&query_place_id=ChIJsUMhG6Ft5kcRi0c0rbghqAk",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide",
+          "Aucun canal de contact valide (email ET t\u00e9l\u00e9phone manquants ou invalides)"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634831"
+      }
+    },
+    {
+      "id": "apify_1745715395_37",
+      "company_name": "Avocat Paris I Imane HAFIDI - Cr\u00e9ation de soci\u00e9t\u00e9s, Lev\u00e9es de fonds, Vente de soci\u00e9t\u00e9s",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33756856202",
+      "website": "http://www.hafidi-avocat.com/",
+      "address": "68 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 24,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "vendredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ouvert 24h/24"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.552528",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJU5b3duBv5kcRHZhVRHKreEo",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20Paris%20I%20Imane%20HAFIDI%20-%20Cr%C3%A9ation%20de%20soci%C3%A9t%C3%A9s%2C%20Lev%C3%A9es%20de%20fonds%2C%20Vente%20de%20soci%C3%A9t%C3%A9s&query_place_id=ChIJU5b3duBv5kcRHZhVRHKreEo",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634870"
+      }
+    },
+    {
+      "id": "apify_1745715395_38",
+      "company_name": "Spark Avocats | Droit des Affaires, Droit du travail, Restructuring",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33183799700",
+      "website": "http://www.spark-avocats.com/",
+      "address": "35 Bd Malesherbes, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 23,
+      "category": [
+        "Cabinet d'avocats",
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail",
+        "Avocat sp\u00e9cialis\u00e9 en droit social"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.552763",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJH10sC8tv5kcRGNqDa6UFQpE",
+        "url": "https://www.google.com/maps/search/?api=1&query=Spark%20Avocats%20%7C%20Droit%20des%20Affaires%2C%20Droit%20du%20travail%2C%20Restructuring&query_place_id=ChIJH10sC8tv5kcRGNqDa6UFQpE",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634904"
+      }
+    },
+    {
+      "id": "apify_1745715395_39",
+      "company_name": "Ma\u00eetre Badr MAHBOULI",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33186958136",
+      "website": "http://www.cbm-avocat.com/",
+      "address": "39 Rue de Ch\u00e2teaudun, 75009 Paris, France",
+      "city": "Paris",
+      "postal_code": "75009",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 89,
+      "category": [
+        "Avocat",
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 13:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.552957",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJY9_finNu5kcRSeKJ4OHOYPA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Badr%20MAHBOULI&query_place_id=ChIJY9_finNu5kcRSeKJ4OHOYPA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634935"
+      }
+    },
+    {
+      "id": "apify_1745715395_40",
+      "company_name": "Call A Lawyer | Trouver le bon avocat imm\u00e9diatement",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33176440306",
+      "website": "https://callalawyer.fr/",
+      "address": "38 Rue de Li\u00e8ge, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.4,
+      "reviews_count": 39,
+      "category": [
+        "Avocat",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la faillite",
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Services aux entreprises",
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat sp\u00e9cialis\u00e9 en droit social",
+        "Avocat fiscaliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.553301",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJY0CBotx75kcRpuRC8pKdcfY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Call%20A%20Lawyer%20%7C%20Trouver%20le%20bon%20avocat%20imm%C3%A9diatement&query_place_id=ChIJY0CBotx75kcRpuRC8pKdcfY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.634973"
+      }
+    },
+    {
+      "id": "apify_1745715395_41",
+      "company_name": "Cabinet Barbey | Avocat en droit des produits de sant\u00e9",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33183623699",
+      "website": "http://cabinetbarbey.com/",
+      "address": "29 Pl. de la Madeleine, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 6,
+      "category": [
+        "Avocat d'affaires",
+        "Cabinet d'avocats",
+        "Avocat",
+        "Services juridiques"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.553554",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJv9WKcO1v5kcR1LSQC9OOBW8",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cabinet%20Barbey%20%7C%20Avocat%20en%20droit%20des%20produits%20de%20sant%C3%A9&query_place_id=ChIJv9WKcO1v5kcR1LSQC9OOBW8",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.635016"
+      }
+    },
+    {
+      "id": "apify_1745715395_42",
+      "company_name": "COLMAN Avocats | Commercial, Affaires & Immobilier.",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33181703456",
+      "website": "https://www.colman-avocats.fr/",
+      "address": "La Boutique Bleue, 89 Bd Malesherbes, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 8,
+      "category": [
+        "Cabinet d'avocats",
+        "Avocat d'affaires",
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat plaidant"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.553860",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJteaq8B5u5kcRzPRnteBL4fc",
+        "url": "https://www.google.com/maps/search/?api=1&query=COLMAN%20Avocats%20%7C%20Commercial%2C%20Affaires%20%26%20Immobilier.&query_place_id=ChIJteaq8B5u5kcRzPRnteBL4fc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.635054"
+      }
+    },
+    {
+      "id": "apify_1745715395_43",
+      "company_name": "Fouad Barbouch Avocat en Droit des Affaires, Fonds de Commerce et Baux Commerciaux - Mandataire en Transactions Immobili\u00e8res",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33145030576",
+      "website": "https://barbouch.fr/",
+      "address": "10 Rue Saint-Marc, 75002 Paris, France",
+      "city": "Paris",
+      "postal_code": "75002",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 11,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 18:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.554065",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJV0C1PP5t5kcRL9uA-VsjV-o",
+        "url": "https://www.google.com/maps/search/?api=1&query=Fouad%20Barbouch%20Avocat%20en%20Droit%20des%20Affaires%2C%20Fonds%20de%20Commerce%20et%20Baux%20Commerciaux%20-%20Mandataire%20en%20Transactions%20Immobili%C3%A8res&query_place_id=ChIJV0C1PP5t5kcRL9uA-VsjV-o",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.635081"
+      }
+    },
+    {
+      "id": "apify_1745715395_44",
+      "company_name": "Jenny Lamy",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33617022739",
+      "website": "https://www.avocat-lamy.com/",
+      "address": "2 Rue de Constantinople 5 \u00e8me \u00e9tage, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4,
+      "reviews_count": 20,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.554220",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJoxzjgzNu5kcR4I5BwjSseVI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jenny%20Lamy&query_place_id=ChIJoxzjgzNu5kcR4I5BwjSseVI",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.635114"
+      }
+    },
+    {
+      "id": "apify_1745715395_45",
+      "company_name": "Avocat Sp\u00e9cialiste | Vente et achat fonds de Commerce | Bail commercial | Me G\u00e9rard Doukhan | Cr\u00e9ation et Cession entreprise",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33142655064",
+      "website": "https://gerard-doukhan-avocat.fr/",
+      "address": "36 - 38 Rue des Mathurins, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 21,
+      "category": [
+        "Avocat plaidant"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.554459",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJZ4wb8jRu5kcR12zpU1uMYYg",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20Sp%C3%A9cialiste%20%7C%20Vente%20et%20achat%20fonds%20de%20Commerce%20%7C%20Bail%20commercial%20%7C%20Me%20G%C3%A9rard%20Doukhan%20%7C%20Cr%C3%A9ation%20et%20Cession%20entreprise&query_place_id=ChIJZ4wb8jRu5kcR12zpU1uMYYg",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.635144"
+      }
+    },
+    {
+      "id": "apify_1745715395_46",
+      "company_name": "Ngawa, Avocat Licenciement Abusif \u00e0 Paris",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33668570102",
+      "website": "https://www.ngawa-avocat-paris.fr/",
+      "address": "50 Rue de Miromesnil, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 55,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.554720",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJqUPO9h5u5kcRJsaSgXW_8AM",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ngawa%2C%20Avocat%20Licenciement%20Abusif%20%C3%A0%20Paris&query_place_id=ChIJqUPO9h5u5kcRJsaSgXW_8AM",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.635172"
+      }
+    },
+    {
+      "id": "apify_1745715395_47",
+      "company_name": "Avocat Paris | Kahena Meghenini Said | Droit des affaires & Droit de la famille",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33768949691",
+      "website": "https://www.meghenini-avocat.fr/",
+      "address": "17 Rue Cadet, 75009 Paris, France",
+      "city": "Paris",
+      "postal_code": "75009",
+      "country": "France",
+      "rating": 4.4,
+      "reviews_count": 9,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 12:00"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.554956",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJi3aQoGpx5kcR9zOttM_0mFY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20Paris%20%7C%20Kahena%20Meghenini%20Said%20%7C%20Droit%20des%20affaires%20%26%20Droit%20de%20la%20famille&query_place_id=ChIJi3aQoGpx5kcR9zOttM_0mFY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.635205"
+      }
+    },
+    {
+      "id": "apify_1745715395_48",
+      "company_name": "Cl\u00e9ment BASTIDE | Avocat en Copropri\u00e9t\u00e9 et Immobilier",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33633583800",
+      "website": "http://www.bastide-avocat.fr/",
+      "address": "10 Rue de la P\u00e9pini\u00e8re, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 18,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat",
+        "Copropri\u00e9t\u00e9"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.607029",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ6_wT7-9v5kcR_i7Bg4oJRT4",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cl%C3%A9ment%20BASTIDE%20%7C%20Avocat%20en%20Copropri%C3%A9t%C3%A9%20et%20Immobilier&query_place_id=ChIJ6_wT7-9v5kcR_i7Bg4oJRT4",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.635251"
+      }
+    },
+    {
+      "id": "apify_1745715395_49",
+      "company_name": "Cabinet d'avocats AD Legal (concurrence, distribution, contrats commerciaux)",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "+33664623276",
+      "website": "https://www.ad-legal.net/",
+      "address": "63 Bd Malesherbes, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": null,
+      "reviews_count": 0,
+      "category": [
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "apify",
+      "scrape_date": "2025-04-27T00:56:35.607547",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ9Yj8JhZv5kcRBWpYf3DOQsY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cabinet%20d'avocats%20AD%20Legal%20(concurrence%2C%20distribution%2C%20contrats%20commerciaux)&query_place_id=ChIJ9Yj8JhZv5kcRBWpYf3DOQsY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Email vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.635323"
+      }
+    },
+    {
+      "id": "apollo_1745715396_0",
+      "first_name": "Nathalie",
+      "last_name": "Robert",
+      "full_name": "Nathalie Robert",
+      "job_title": "Partner",
+      "seniority": "Owner",
+      "email": "nathalie.robert@cabinet-robert.belgium",
+      "email_status": "unverified",
+      "phone": "+32475978433",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Robert & Associ\u00e9s",
+        "website": "https://www.cabinet-robert.belgium",
+        "industry": "Legal Services",
+        "size": 8,
+        "founded": 1999,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-robert-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Antwerp",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nathalie-robert-23903",
+        "twitter_url": "https://twitter.com/nathalierobert",
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 64,
+        "intent_score": 32,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.622890",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636008"
+      }
+    },
+    {
+      "id": "apollo_1745715396_1",
+      "first_name": "Michel",
+      "last_name": "Richard",
+      "full_name": "Michel Richard",
+      "job_title": "Lawyer",
+      "seniority": "Executive",
+      "email": "michel.richard@cabinet-richard.belgium",
+      "email_status": "verified",
+      "phone": "+32425228414",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Richard & Associ\u00e9s",
+        "website": "https://www.cabinet-richard.belgium",
+        "industry": "Legal Services",
+        "size": 30,
+        "founded": 1999,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-richard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Brussels",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/michel-richard-23050",
+        "twitter_url": "https://twitter.com/michelrichard",
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 51,
+        "intent_score": 52,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.622971",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636039"
+      }
+    },
+    {
+      "id": "apollo_1745715396_2",
+      "first_name": "Jean",
+      "last_name": "Durand",
+      "full_name": "Jean Durand",
+      "job_title": "Attorney",
+      "seniority": "Senior",
+      "email": "jean.durand@cabinet-durand.fr",
+      "email_status": "verified",
+      "phone": "+33745020896",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Durand & Associ\u00e9s",
+        "website": "https://www.cabinet-durand.fr",
+        "industry": "Legal Services",
+        "size": 1,
+        "founded": 1983,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-durand-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Paris",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/jean-durand-46500",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/jean.durand"
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 81,
+        "intent_score": 47,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623043",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636065"
+      }
+    },
+    {
+      "id": "apollo_1745715396_3",
+      "first_name": "Nicolas",
+      "last_name": "Michel",
+      "full_name": "Nicolas Michel",
+      "job_title": "Managing Partner",
+      "seniority": "Executive",
+      "email": "nicolas.michel@cabinet-michel.belgium",
+      "email_status": "verified",
+      "phone": "+32489866725",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Michel & Associ\u00e9s",
+        "website": "https://www.cabinet-michel.belgium",
+        "industry": "Legal Services",
+        "size": 19,
+        "founded": 2003,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-michel-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Ghent",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nicolas-michel-92994",
+        "twitter_url": "https://twitter.com/nicolasmichel",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 50,
+        "intent_score": 75,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623110",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636091"
+      }
+    },
+    {
+      "id": "apollo_1745715396_4",
+      "first_name": "Jean",
+      "last_name": "Richard",
+      "full_name": "Jean Richard",
+      "job_title": "Partner",
+      "seniority": "Owner",
+      "email": "jean.richard@cabinet-richard.fr",
+      "email_status": "verified",
+      "phone": "+33679061472",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Richard & Associ\u00e9s",
+        "website": "https://www.cabinet-richard.fr",
+        "industry": "Legal Services",
+        "size": 4,
+        "founded": 2003,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-richard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Paris",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/jean-richard-68320",
+        "twitter_url": "https://twitter.com/jeanrichard",
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 89,
+        "intent_score": 63,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623174",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636117"
+      }
+    },
+    {
+      "id": "apollo_1745715396_5",
+      "first_name": "Julie",
+      "last_name": "Lefebvre",
+      "full_name": "Julie Lefebvre",
+      "job_title": "Partner",
+      "seniority": "Senior",
+      "email": "julie.lefebvre@cabinet-lefebvre.switzerland",
+      "email_status": "verified",
+      "phone": "+41772587535",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Lefebvre & Associ\u00e9s",
+        "website": "https://www.cabinet-lefebvre.switzerland",
+        "industry": "Legal Services",
+        "size": 38,
+        "founded": 2009,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-lefebvre-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Lausanne",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/julie-lefebvre-99952",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 83,
+        "intent_score": 80,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623242",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636143"
+      }
+    },
+    {
+      "id": "apollo_1745715396_6",
+      "first_name": "\u00c9milie",
+      "last_name": "Richard",
+      "full_name": "\u00c9milie Richard",
+      "job_title": "Attorney",
+      "seniority": "Executive",
+      "email": "\u00e9milie.richard@cabinet-richard.belgium",
+      "email_status": "verified",
+      "phone": "+32402523902",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Richard & Associ\u00e9s",
+        "website": "https://www.cabinet-richard.belgium",
+        "industry": "Legal Services",
+        "size": 43,
+        "founded": 1984,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-richard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Brussels",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/\u00e9milie-richard-84215",
+        "twitter_url": "https://twitter.com/\u00e9milierichard",
+        "facebook_url": "https://facebook.com/\u00e9milie.richard"
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 86,
+        "intent_score": 80,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623307",
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Format invalide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636168"
+      }
+    },
+    {
+      "id": "apollo_1745715396_7",
+      "first_name": "L\u00e9a",
+      "last_name": "Richard",
+      "full_name": "L\u00e9a Richard",
+      "job_title": "Managing Partner",
+      "seniority": "Senior",
+      "email": "l\u00e9a.richard@cabinet-richard.fr",
+      "email_status": "verified",
+      "phone": "+33782551718",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Richard & Associ\u00e9s",
+        "website": "https://www.cabinet-richard.fr",
+        "industry": "Legal Services",
+        "size": 45,
+        "founded": 2014,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-richard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Grenoble",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/l\u00e9a-richard-95687",
+        "twitter_url": "https://twitter.com/l\u00e9arichard",
+        "facebook_url": "https://facebook.com/l\u00e9a.richard"
+      },
+      "buying_signals": "high",
+      "last_contacted": "2025-03-21T00:56:36.623402",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 60,
+        "intent_score": 30,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623444",
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Format invalide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636194"
+      }
+    },
+    {
+      "id": "apollo_1745715396_8",
+      "first_name": "C\u00e9line",
+      "last_name": "Leroy",
+      "full_name": "C\u00e9line Leroy",
+      "job_title": "Partner",
+      "seniority": "Executive",
+      "email": "c\u00e9line.leroy@cabinet-leroy.fr",
+      "email_status": "verified",
+      "phone": "+33779647688",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Leroy & Associ\u00e9s",
+        "website": "https://www.cabinet-leroy.fr",
+        "industry": "Legal Services",
+        "size": 21,
+        "founded": 1991,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-leroy-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Lille",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/c\u00e9line-leroy-40306",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/c\u00e9line.leroy"
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 67,
+        "intent_score": 73,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623558",
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Format invalide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636212"
+      }
+    },
+    {
+      "id": "apollo_1745715396_9",
+      "first_name": "Jean",
+      "last_name": "Richard",
+      "full_name": "Jean Richard",
+      "job_title": "Managing Partner",
+      "seniority": "Senior",
+      "email": "jean.richard@cabinet-richard.belgium",
+      "email_status": "verified",
+      "phone": "+32471431081",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Richard & Associ\u00e9s",
+        "website": "https://www.cabinet-richard.belgium",
+        "industry": "Legal Services",
+        "size": 36,
+        "founded": 1990,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-richard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Charleroi",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/jean-richard-33957",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/jean.richard"
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 55,
+        "intent_score": 37,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623709",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636239"
+      }
+    },
+    {
+      "id": "apollo_1745715396_10",
+      "first_name": "Marie",
+      "last_name": "Simon",
+      "full_name": "Marie Simon",
+      "job_title": "Lawyer",
+      "seniority": "Owner",
+      "email": "marie.simon@cabinet-simon.belgium",
+      "email_status": "unverified",
+      "phone": "+32427093583",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Simon & Associ\u00e9s",
+        "website": "https://www.cabinet-simon.belgium",
+        "industry": "Legal Services",
+        "size": 48,
+        "founded": 2005,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-simon-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Li\u00e8ge",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/marie-simon-87748",
+        "twitter_url": "https://twitter.com/mariesimon",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 63,
+        "intent_score": 70,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623857",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636270"
+      }
+    },
+    {
+      "id": "apollo_1745715396_11",
+      "first_name": "Pierre",
+      "last_name": "Martin",
+      "full_name": "Pierre Martin",
+      "job_title": "Owner",
+      "seniority": "Owner",
+      "email": "pierre.martin@cabinet-martin.switzerland",
+      "email_status": "verified",
+      "phone": "+41783699677",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Martin & Associ\u00e9s",
+        "website": "https://www.cabinet-martin.switzerland",
+        "industry": "Legal Services",
+        "size": 1,
+        "founded": 2020,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-martin-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Basel",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/pierre-martin-36683",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/pierre.martin"
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-02-22T00:56:36.623953",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 93,
+        "intent_score": 59,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.623990",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636295"
+      }
+    },
+    {
+      "id": "apollo_1745715396_12",
+      "first_name": "L\u00e9a",
+      "last_name": "Laurent",
+      "full_name": "L\u00e9a Laurent",
+      "job_title": "Attorney",
+      "seniority": "Owner",
+      "email": "l\u00e9a.laurent@cabinet-laurent.switzerland",
+      "email_status": "verified",
+      "phone": "+41766383494",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Laurent & Associ\u00e9s",
+        "website": "https://www.cabinet-laurent.switzerland",
+        "industry": "Legal Services",
+        "size": 28,
+        "founded": 2016,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-laurent-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Bern",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/l\u00e9a-laurent-59258",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 72,
+        "intent_score": 62,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.624141",
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Format invalide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636318"
+      }
+    },
+    {
+      "id": "apollo_1745715396_13",
+      "first_name": "David",
+      "last_name": "Durand",
+      "full_name": "David Durand",
+      "job_title": "Partner",
+      "seniority": "Executive",
+      "email": "david.durand@cabinet-durand.fr",
+      "email_status": "verified",
+      "phone": "+33702818986",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Durand & Associ\u00e9s",
+        "website": "https://www.cabinet-durand.fr",
+        "industry": "Legal Services",
+        "size": 3,
+        "founded": 2020,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-durand-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Grenoble",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/david-durand-94584",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 79,
+        "intent_score": 82,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.624307",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636347"
+      }
+    },
+    {
+      "id": "apollo_1745715396_14",
+      "first_name": "Nathalie",
+      "last_name": "Dubois",
+      "full_name": "Nathalie Dubois",
+      "job_title": "Partner",
+      "seniority": "Executive",
+      "email": "nathalie.dubois@cabinet-dubois.belgium",
+      "email_status": "verified",
+      "phone": "+32423940382",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Dubois & Associ\u00e9s",
+        "website": "https://www.cabinet-dubois.belgium",
+        "industry": "Legal Services",
+        "size": 44,
+        "founded": 2001,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-dubois-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Brussels",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nathalie-dubois-34973",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 73,
+        "intent_score": 55,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.624459",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636374"
+      }
+    },
+    {
+      "id": "apollo_1745715396_15",
+      "first_name": "Michel",
+      "last_name": "Michel",
+      "full_name": "Michel Michel",
+      "job_title": "Lawyer",
+      "seniority": "Executive",
+      "email": "michel.michel@cabinet-michel.switzerland",
+      "email_status": "verified",
+      "phone": "+41781786206",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Michel & Associ\u00e9s",
+        "website": "https://www.cabinet-michel.switzerland",
+        "industry": "Legal Services",
+        "size": 50,
+        "founded": 2003,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-michel-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Geneva",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/michel-michel-59019",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-03-03T00:56:36.624563",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 87,
+        "intent_score": 82,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.624647",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636403"
+      }
+    },
+    {
+      "id": "apollo_1745715396_16",
+      "first_name": "\u00c9milie",
+      "last_name": "Martin",
+      "full_name": "\u00c9milie Martin",
+      "job_title": "Owner",
+      "seniority": "Senior",
+      "email": "\u00e9milie.martin@cabinet-martin.fr",
+      "email_status": "verified",
+      "phone": "+33733465938",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Martin & Associ\u00e9s",
+        "website": "https://www.cabinet-martin.fr",
+        "industry": "Legal Services",
+        "size": 41,
+        "founded": 2012,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-martin-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Montpellier",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/\u00e9milie-martin-88304",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-03-19T00:56:36.624719",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 67,
+        "intent_score": 69,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.624740",
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Format invalide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636426"
+      }
+    },
+    {
+      "id": "apollo_1745715396_17",
+      "first_name": "Thomas",
+      "last_name": "Laurent",
+      "full_name": "Thomas Laurent",
+      "job_title": "Attorney",
+      "seniority": "Owner",
+      "email": "thomas.laurent@cabinet-laurent.fr",
+      "email_status": "verified",
+      "phone": "+33728062575",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Laurent & Associ\u00e9s",
+        "website": "https://www.cabinet-laurent.fr",
+        "industry": "Legal Services",
+        "size": 49,
+        "founded": 1999,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-laurent-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Lille",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/thomas-laurent-36902",
+        "twitter_url": "https://twitter.com/thomaslaurent",
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 56,
+        "intent_score": 42,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.624832",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636446"
+      }
+    },
+    {
+      "id": "apollo_1745715396_18",
+      "first_name": "Marie",
+      "last_name": "Bernard",
+      "full_name": "Marie Bernard",
+      "job_title": "Partner",
+      "seniority": "Executive",
+      "email": "marie.bernard@cabinet-bernard.fr",
+      "email_status": "verified",
+      "phone": "+33792445300",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Bernard & Associ\u00e9s",
+        "website": "https://www.cabinet-bernard.fr",
+        "industry": "Legal Services",
+        "size": 33,
+        "founded": 2003,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-bernard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Marseille",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/marie-bernard-65819",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/marie.bernard"
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 84,
+        "intent_score": 83,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.624900",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636468"
+      }
+    },
+    {
+      "id": "apollo_1745715396_19",
+      "first_name": "Nicolas",
+      "last_name": "Bernard",
+      "full_name": "Nicolas Bernard",
+      "job_title": "Partner",
+      "seniority": "Senior",
+      "email": "nicolas.bernard@cabinet-bernard.fr",
+      "email_status": "verified",
+      "phone": "+33672463361",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Bernard & Associ\u00e9s",
+        "website": "https://www.cabinet-bernard.fr",
+        "industry": "Legal Services",
+        "size": 43,
+        "founded": 2006,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-bernard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Strasbourg",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nicolas-bernard-62950",
+        "twitter_url": "https://twitter.com/nicolasbernard",
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": "2024-12-29T00:56:36.624951",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 68,
+        "intent_score": 35,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.624969",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636490"
+      }
+    },
+    {
+      "id": "apollo_1745715396_20",
+      "first_name": "Marie",
+      "last_name": "Petit",
+      "full_name": "Marie Petit",
+      "job_title": "Owner",
+      "seniority": "Senior",
+      "email": "marie.petit@cabinet-petit.belgium",
+      "email_status": "verified",
+      "phone": "+32496185930",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Petit & Associ\u00e9s",
+        "website": "https://www.cabinet-petit.belgium",
+        "industry": "Legal Services",
+        "size": 9,
+        "founded": 1998,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-petit-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Li\u00e8ge",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/marie-petit-34003",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/marie.petit"
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 70,
+        "intent_score": 75,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.625094",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636513"
+      }
+    },
+    {
+      "id": "apollo_1745715396_21",
+      "first_name": "\u00c9milie",
+      "last_name": "Petit",
+      "full_name": "\u00c9milie Petit",
+      "job_title": "Managing Partner",
+      "seniority": "Executive",
+      "email": "\u00e9milie.petit@cabinet-petit.switzerland",
+      "email_status": "unverified",
+      "phone": "+41752489409",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Petit & Associ\u00e9s",
+        "website": "https://www.cabinet-petit.switzerland",
+        "industry": "Legal Services",
+        "size": 2,
+        "founded": 2005,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-petit-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Bern",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/\u00e9milie-petit-29382",
+        "twitter_url": "https://twitter.com/\u00e9miliepetit",
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 81,
+        "intent_score": 72,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.625162",
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Format invalide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636535"
+      }
+    },
+    {
+      "id": "apollo_1745715396_22",
+      "first_name": "Marie",
+      "last_name": "Robert",
+      "full_name": "Marie Robert",
+      "job_title": "Lawyer",
+      "seniority": "Senior",
+      "email": "marie.robert@cabinet-robert.switzerland",
+      "email_status": "verified",
+      "phone": "+41747920214",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Robert & Associ\u00e9s",
+        "website": "https://www.cabinet-robert.switzerland",
+        "industry": "Legal Services",
+        "size": 44,
+        "founded": 2008,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-robert-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Basel",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/marie-robert-71674",
+        "twitter_url": "https://twitter.com/marierobert",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 66,
+        "intent_score": 79,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T00:56:36.625229",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T00:56:36.636556"
+      }
+    }
+  ],
+  "campaign_id": null
+}
+
+Output: {
+  "operation": "classify",
+  "campaign_id": null,
+  "timestamp": "2025-04-27T00:56:36.662083",
+  "status": "FAILED",
+  "error": "Erreur lors de l'ex\u00e9cution de l'op\u00e9ration: 'NoneType' object has no attribute 'lower'"
+}

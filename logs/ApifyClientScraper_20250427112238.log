@@ -1,0 +1,3078 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-27T11:22:38.288995
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+  "params": {},
+  "campaign_id": null
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "apify_1745752958_0",
+      "company_name": "Baptiste ROBELIN - Avocat en droit commercial, droit des contrats et droit immobilier",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 66 15 63 07",
+      "website": "https://novlaw.fr/baptiste-robelin/",
+      "address": "53 Bd de Magenta, 75010 Paris, France",
+      "city": "Paris",
+      "postal_code": "75010",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 49,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat d'affaires",
+        "Avocat",
+        "Services juridiques"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.257090",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJsZ9yX-5v5kcRu53G0LFrzS0",
+        "url": "https://www.google.com/maps/search/?api=1&query=Baptiste%20ROBELIN%20-%20Avocat%20en%20droit%20commercial%2C%20droit%20des%20contrats%20et%20droit%20immobilier&query_place_id=ChIJsZ9yX-5v5kcRu53G0LFrzS0",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_1",
+      "company_name": "Cabinet d'avocats NovLaw - Droit des affaires - Droit commercial - Droit immobilier - Droit Public - Droit social",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 44 01 46 36",
+      "website": "https://novlaw.fr/",
+      "address": "53 Bd de Magenta, 75010 Paris, France",
+      "city": "Paris",
+      "postal_code": "75010",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 73,
+      "category": [
+        "Avocat",
+        "Avocat en droit administratif",
+        "Avocat d'affaires",
+        "Avocat en droit de l'immigration",
+        "Avocat en droit des assurances",
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat sp\u00e9cialis\u00e9 en droit social"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.257652",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJnz2lUwxv5kcR51wqxYbDrQc",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cabinet%20d'avocats%20NovLaw%20-%20Droit%20des%20affaires%20-%20Droit%20commercial%20-%20Droit%20immobilier%20-%20Droit%20Public%20-%20Droit%20social&query_place_id=ChIJnz2lUwxv5kcR51wqxYbDrQc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_2",
+      "company_name": "Julie MAIRE - Avocate",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 12 10 57 61",
+      "website": "https://www.juliemaireavocate.fr/",
+      "address": "12 Bd de Strasbourg, 75010 Paris, France",
+      "city": "Paris",
+      "postal_code": "75010",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 214,
+      "category": [
+        "Avocat",
+        "Avocat en droit de l'immigration"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.257937",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJW8mRnRZu5kcREgLYrKM5f6I",
+        "url": "https://www.google.com/maps/search/?api=1&query=Julie%20MAIRE%20-%20Avocate&query_place_id=ChIJW8mRnRZu5kcREgLYrKM5f6I",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_3",
+      "company_name": "Greenwich Avocats Droit Social, Droit du travail",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 87 44 35 90",
+      "website": "https://greenwichsocial.fr/?utm_source=GoogleMyBusiness&utm_medium=link&utm_campaign=Site",
+      "address": "132 Rue La Fayette, 75010 Paris, France",
+      "city": "Paris",
+      "postal_code": "75010",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 6,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit social",
+        "Si\u00e8ge social",
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.258374",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJA2LicBNv5kcRwGBom9wflfI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Greenwich%20Avocats%20Droit%20Social%2C%20Droit%20du%20travail&query_place_id=ChIJA2LicBNv5kcRwGBom9wflfI",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_4",
+      "company_name": "BRANJONNEAU Christel - Avocat en droit des affaires PARIS - Sp\u00e9cialiste en droit des Soci\u00e9t\u00e9s",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 40 28 11 96",
+      "website": "http://www.branjonneau-avocat.com/",
+      "address": "27 Rue du Pont Neuf, 75001 Paris, France",
+      "city": "Paris",
+      "postal_code": "75001",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 13,
+      "category": [
+        "Avocat",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la faillite",
+        "Services aux entreprises",
+        "Conseil",
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.258932",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJXdCsEB9v5kcROWXQM08sY2o",
+        "url": "https://www.google.com/maps/search/?api=1&query=BRANJONNEAU%20Christel%20-%20Avocat%20en%20droit%20des%20affaires%20PARIS%20-%20Sp%C3%A9cialiste%20en%20droit%20des%20Soci%C3%A9t%C3%A9s&query_place_id=ChIJXdCsEB9v5kcROWXQM08sY2o",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_5",
+      "company_name": "LLA Avocats - Avocat Droit des Affaires Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 86 95 83 98",
+      "website": "https://www.lla-avocats.fr/cabinet/marc-ladreit-de-lacharriere/",
+      "address": "30 Rue de Miromesnil, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 97,
+      "category": [
+        "Avocat d'affaires",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 21:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 20:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.259498",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ__8bgpZv5kcRRZyE0zkLJT0",
+        "url": "https://www.google.com/maps/search/?api=1&query=LLA%20Avocats%20-%20Avocat%20Droit%20des%20Affaires%20Paris&query_place_id=ChIJ__8bgpZv5kcRRZyE0zkLJT0",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_6",
+      "company_name": "Me Paul Emile Boutmy - Avocat en droit des affaires \u00e0 Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 63 68 71 99",
+      "website": "https://www.avocat-boutmy.com/",
+      "address": "4 Rue Saint-Nicolas, 75012 Paris, France",
+      "city": "Paris",
+      "postal_code": "75012",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 28,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.259819",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJAQDU0D5u5kcR5aqzlt9JtME",
+        "url": "https://www.google.com/maps/search/?api=1&query=Me%20Paul%20Emile%20Boutmy%20-%20Avocat%20en%20droit%20des%20affaires%20%C3%A0%20Paris&query_place_id=ChIJAQDU0D5u5kcR5aqzlt9JtME",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_7",
+      "company_name": "Avocat Droit des affaires et Commerce \u00e0 Paris, Ma\u00eetre Jabouley Marie-Pierre | Conseil juridique | Vente et achat de fonds de commerceI Cession entreprise I Cr\u00e9ation Soci\u00e9t\u00e9 I Contrats",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 53 30 08 48",
+      "website": "https://www.avocat-jabouley.fr/",
+      "address": "17 - 21 Rue Duret BAT D, 75116 Paris, France",
+      "city": "Paris",
+      "postal_code": "75116",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 74,
+      "category": [
+        "Avocat",
+        "Conseil",
+        "Services juridiques"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 12:00, 13:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 12:00, 13:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 12:00, 13:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 12:00, 13:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 12:00, 13:00 to 18:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.260184",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJoTzavfNv5kcRSoENjJ5XLmc",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20Droit%20des%20affaires%20et%20Commerce%20%C3%A0%20Paris%2C%20Ma%C3%AEtre%20Jabouley%20Marie-Pierre%20%7C%20Conseil%20juridique%20%7C%20Vente%20et%20achat%20de%20fonds%20de%20commerceI%20Cession%20entreprise%20I%20Cr%C3%A9ation%20Soci%C3%A9t%C3%A9%20I%20Contrats&query_place_id=ChIJoTzavfNv5kcRSoENjJ5XLmc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_8",
+      "company_name": "Kohen Avocats, cabinet d'avocats en droit immobilier et droit des affaires \u00e0 Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 46 60 58 22",
+      "website": "https://kohenavocats.fr/",
+      "address": "155 Bd Malesherbes, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 79,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 20:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.260365",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJvRSMfNJv5kcRoBAxgaYQ91c",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kohen%20Avocats%2C%20cabinet%20d'avocats%20en%20droit%20immobilier%20et%20droit%20des%20affaires%20%C3%A0%20Paris&query_place_id=ChIJvRSMfNJv5kcRoBAxgaYQ91c",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_9",
+      "company_name": "Avocat droit des \u00e9trangers - Reynolds Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 82 65 88 73",
+      "website": "https://www.reynolds-avocat.fr/",
+      "address": "20 Rue du Vertbois, 75003 Paris, France",
+      "city": "Paris",
+      "postal_code": "75003",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 112,
+      "category": [
+        "Avocat en droit de l'immigration",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 12:30, 14:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 12:30, 14:00 to 18:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 12:30, 14:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 12:30, 14:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 12:30, 14:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.260635",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJnYLNNi9u5kcR7tP4ETo2MyY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20droit%20des%20%C3%A9trangers%20-%20Reynolds%20Avocat&query_place_id=ChIJnYLNNi9u5kcR7tP4ETo2MyY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_10",
+      "company_name": "Nadia Tigzim : Avocat droit des affaires, droit commercial, baux commerciaux",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 46 36 79 33",
+      "website": "https://avocat-tigzim.fr/",
+      "address": "222 Bd Saint-Germain, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 63,
+      "category": [
+        "Avocat",
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.260881",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJy5bD3DVu5kcRfMUkZc-LUc0",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nadia%20Tigzim%20%3A%20Avocat%20droit%20des%20affaires%2C%20droit%20commercial%2C%20baux%20commerciaux&query_place_id=ChIJy5bD3DVu5kcRfMUkZc-LUc0",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_11",
+      "company_name": "Avocat droit des affaires Paris \u2014 Chama Benseghir",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 98 06 25 92",
+      "website": "https://benseghir-juris.com/",
+      "address": "115 Rue de la Pompe, 75116 Paris, France",
+      "city": "Paris",
+      "postal_code": "75116",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 77,
+      "category": [
+        "Avocat",
+        "Avocat plaidant"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 20:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:30 to 20:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "08:30 to 20:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.261167",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJVTUgSLtv5kcRQ289i9My8Q4",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20droit%20des%20affaires%20Paris%20%E2%80%94%20Chama%20Benseghir&query_place_id=ChIJVTUgSLtv5kcRQ289i9My8Q4",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_12",
+      "company_name": "Drouot Avocats SAS",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 44 82 73 82",
+      "website": "http://www.drouot-avocats.fr/",
+      "address": "8 Rue Drouot, 75009 Paris, France",
+      "city": "Paris",
+      "postal_code": "75009",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 86,
+      "category": [
+        "Avocat",
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail",
+        "Avocat en droit de l'environnement",
+        "Avocat en succession",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Cabinet d'avocats",
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat plaidant"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.261478",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJKd_Hyz5u5kcR30oxEOWzF-g",
+        "url": "https://www.google.com/maps/search/?api=1&query=Drouot%20Avocats%20SAS&query_place_id=ChIJKd_Hyz5u5kcR30oxEOWzF-g",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_13",
+      "company_name": "Emmanuel Boukris Avocat \u2013 Droit Immobilier, Droit des Affaires, Droit du Dommage Corporel",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 55 43 88 56",
+      "website": "http://www.emmanuelboukris.com/",
+      "address": "31 Bd Malesherbes, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 84,
+      "category": [
+        "Avocat",
+        "Avocat.e en droit civil",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 17:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.261730",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJpwW8OLZv5kcRIFYcMd8ZSLI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Emmanuel%20Boukris%20Avocat%20%E2%80%93%20Droit%20Immobilier%2C%20Droit%20des%20Affaires%2C%20Droit%20du%20Dommage%20Corporel&query_place_id=ChIJpwW8OLZv5kcRIFYcMd8ZSLI",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_14",
+      "company_name": "Jane Geitner",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 48 04 06 44",
+      "website": null,
+      "address": "16 Rue Lucien Sampaix, 75010 Paris, France",
+      "city": "Paris",
+      "postal_code": "75010",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 41,
+      "category": [
+        "Avocat",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Notaire"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:15"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:15"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:15"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:15"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:15"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.261991",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJv33-Owxu5kcRWuXvVAiD9MY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jane%20Geitner&query_place_id=ChIJv33-Owxu5kcRWuXvVAiD9MY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_15",
+      "company_name": "JEM-AVOCAT",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 84 80 23 99",
+      "website": "https://jem-avocat.fr/",
+      "address": "99 Rue de Prony, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 43,
+      "category": [
+        "Avocat d'affaires"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 17:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.262208",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJteaq8B5u5kcRJcV_F7Bsqgk",
+        "url": "https://www.google.com/maps/search/?api=1&query=JEM-AVOCAT&query_place_id=ChIJteaq8B5u5kcRJcV_F7Bsqgk",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_16",
+      "company_name": "Avocat Droit Public - Droit Immobilier - Paris - Marion Lacome d'Estalenx",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 45 73 25 15",
+      "website": "https://lacomemarquis.fr/",
+      "address": "15 Rue de Bellefond, 75009 Paris, France",
+      "city": "Paris",
+      "postal_code": "75009",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 19,
+      "category": [
+        "Avocat.e en droit civil",
+        "Avocat en droit administratif"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.263823",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJVVV52ulv5kcREPrutPBuQRw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20Droit%20Public%20-%20Droit%20Immobilier%20-%20Paris%20-%20Marion%20Lacome%20d'Estalenx&query_place_id=ChIJVVV52ulv5kcREPrutPBuQRw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_17",
+      "company_name": "Laurence Mayer",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 88 24 37 13",
+      "website": "https://www.avocat-paris-lmayer.com/",
+      "address": "28 Rue Racine, 75006 Paris, France",
+      "city": "Paris",
+      "postal_code": "75006",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 144,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 13:00, 14:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.264329",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJLcJUdeJv5kcRXFnT9gHU_3w",
+        "url": "https://www.google.com/maps/search/?api=1&query=Laurence%20Mayer&query_place_id=ChIJLcJUdeJv5kcRXFnT9gHU_3w",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_18",
+      "company_name": "Antoine Gouin | Avocat au Barreau de Paris | Droit fiscal | Droit patrimonial | Droit des affaires",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 89 16 40 90",
+      "website": "https://alphard.law/",
+      "address": "13 Rue Royale, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 102,
+      "category": [
+        "Avocat fiscaliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.269309",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJOcY63Zhv5kcRnNwDJAKucPk",
+        "url": "https://www.google.com/maps/search/?api=1&query=Antoine%20Gouin%20%7C%20Avocat%20au%20Barreau%20de%20Paris%20%7C%20Droit%20fiscal%20%7C%20Droit%20patrimonial%20%7C%20Droit%20des%20affaires&query_place_id=ChIJOcY63Zhv5kcRnNwDJAKucPk",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_19",
+      "company_name": "L.co",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "http://www.lco.legal/",
+      "address": "Rue de Paradis, 75010 Paris, France",
+      "city": "Paris",
+      "postal_code": "75010",
+      "country": "France",
+      "rating": null,
+      "reviews_count": 0,
+      "category": [
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.270227",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJn86bvklv5kcRcg69K-eg6hw",
+        "url": "https://www.google.com/maps/search/?api=1&query=L.co&query_place_id=ChIJn86bvklv5kcRcg69K-eg6hw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_20",
+      "company_name": "M\u00e9lanie Vion Avocat Propri\u00e9t\u00e9 intellectuelle & Droit commercial",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 84 25 79 32",
+      "website": "http://www.mev-avocat.com/",
+      "address": "37 Rue Louis Morard, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 53,
+      "category": [
+        "Avocat g\u00e9n\u00e9raliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.270708",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ5y_-YgRu5kcRfvMlsRvmLlc",
+        "url": "https://www.google.com/maps/search/?api=1&query=M%C3%A9lanie%20Vion%20Avocat%20Propri%C3%A9t%C3%A9%20intellectuelle%20%26%20Droit%20commercial&query_place_id=ChIJ5y_-YgRu5kcRfvMlsRvmLlc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_21",
+      "company_name": "Ma\u00eetre Ulysse BENAZERAF - Avocat (droit du travail, droit des contrats, droit p\u00e9nal)",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 22 00 47 28",
+      "website": "http://ulysse-benazeraf-avocat.com/",
+      "address": "16 Rue Poirier de Nar\u00e7ay, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 40,
+      "category": [
+        "Avocat g\u00e9n\u00e9raliste",
+        "Avocat.e en droit civil",
+        "Avocat p\u00e9naliste",
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 20:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.271450",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ7-5diRFx5kcRri4c1765uOk",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Ulysse%20BENAZERAF%20-%20Avocat%20(droit%20du%20travail%2C%20droit%20des%20contrats%2C%20droit%20p%C3%A9nal)&query_place_id=ChIJ7-5diRFx5kcRri4c1765uOk",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_22",
+      "company_name": "Avocat Gr\u00e9goire Normier - Divorce - Droit civil - Droit des contrats",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 62 40 19 09",
+      "website": "https://normiergregoire.fr/",
+      "address": "22 Av. de l'Observatoire, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 89,
+      "category": [
+        "Avocat",
+        "Avocat plaidant",
+        "Avocat.e en droit civil",
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Avocat en droit de l'immigration",
+        "Cabinet d'avocats",
+        "Avocat sp\u00e9cialis\u00e9 en dommages corporels"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.274182",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJc3NWw8Zx5kcRxRbKdPCqZOg",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20Gr%C3%A9goire%20Normier%20-%20Divorce%20-%20Droit%20civil%20-%20Droit%20des%20contrats&query_place_id=ChIJc3NWw8Zx5kcRxRbKdPCqZOg",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_23",
+      "company_name": "\u00c9ris Avocat\uff5cPropri\u00e9t\u00e9 Intellectuelle, Droit des Marques, IA, Num\u00e9rique, Communication, E-commerce, RGPD, Contentieux",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 95 59 57 68",
+      "website": "http://www.erisavocat.com/",
+      "address": "37 Rue Louis Morard, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 45,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.274870",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJYWdBUdZx5kcRhyFRZNr4I1Q",
+        "url": "https://www.google.com/maps/search/?api=1&query=%C3%89ris%20Avocat%EF%BD%9CPropri%C3%A9t%C3%A9%20Intellectuelle%2C%20Droit%20des%20Marques%2C%20IA%2C%20Num%C3%A9rique%2C%20Communication%2C%20E-commerce%2C%20RGPD%2C%20Contentieux&query_place_id=ChIJYWdBUdZx5kcRhyFRZNr4I1Q",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_24",
+      "company_name": "Cabinet d'avocat ENTFELLNER",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 70 20 57 00",
+      "website": "https://www.maitre-entfellner.fr/",
+      "address": "17 Rue de la Sabli\u00e8re, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": 4.4,
+      "reviews_count": 60,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:30 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:30 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:30 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:30 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:30 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.275467",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJv_FUd7Rx5kcR2WxvAzJIMF0",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cabinet%20d'avocat%20ENTFELLNER&query_place_id=ChIJv_FUd7Rx5kcR2WxvAzJIMF0",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_25",
+      "company_name": "Tricaud Avocats - Anis HARABI & Dominique TRICAUD - D\u00e9fense p\u00e9nale & contentieux - Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 40 64 00 25",
+      "website": "https://tricaudavocats.fr/",
+      "address": "4 Pl. Denfert-Rochereau, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": 4.4,
+      "reviews_count": 26,
+      "category": [
+        "Avocat",
+        "Avocat.e en droit civil",
+        "Avocat p\u00e9naliste",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Cabinet d'avocats",
+        "Avocat sp\u00e9cialis\u00e9 en droit social"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.275952",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJwdEpIrhx5kcRhIWxujC7FZc",
+        "url": "https://www.google.com/maps/search/?api=1&query=Tricaud%20Avocats%20-%20Anis%20HARABI%20%26%20Dominique%20TRICAUD%20-%20D%C3%A9fense%20p%C3%A9nale%20%26%20contentieux%20-%20Paris&query_place_id=ChIJwdEpIrhx5kcRhIWxujC7FZc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_26",
+      "company_name": "PRIMO Avocats | Avocats droit des affaires et droit du travail \u00e0 Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 89 16 54 74",
+      "website": "http://www.primo-avocats.fr/",
+      "address": "99 Rue de Courcelles, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 36,
+      "category": [
+        "Avocat d'affaires"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.276723",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJjS7tXARv5kcRaaMlC3I0IQg",
+        "url": "https://www.google.com/maps/search/?api=1&query=PRIMO%20Avocats%20%7C%20Avocats%20droit%20des%20affaires%20et%20droit%20du%20travail%20%C3%A0%20Paris&query_place_id=ChIJjS7tXARv5kcRaaMlC3I0IQg",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_27",
+      "company_name": "ADER JOLIBOIS : cabinet d'avocats en droit des affaires, droit social, droit fiscal et droit du dommage corporel",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 45 44 10 33",
+      "website": "http://www.aderjolibois.com/",
+      "address": "6 Pl. Saint-Sulpice, 75006 Paris, France",
+      "city": "Paris",
+      "postal_code": "75006",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 4,
+      "category": [
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.277548",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJj3m3OdRx5kcRIRoqPJE5OUM",
+        "url": "https://www.google.com/maps/search/?api=1&query=ADER%20JOLIBOIS%20%3A%20cabinet%20d'avocats%20en%20droit%20des%20affaires%2C%20droit%20social%2C%20droit%20fiscal%20et%20droit%20du%20dommage%20corporel&query_place_id=ChIJj3m3OdRx5kcRIRoqPJE5OUM",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_28",
+      "company_name": "Julie Soudaz - Avocat droit des Affaires",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 31 68 82 91",
+      "website": "https://avocat-soudaz.com/",
+      "address": "10 bis Av. de la Grande Arm\u00e9e, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 22,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 21:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 21:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.278203",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJf1W_BCBl5kcRdspwPNwM3CY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Julie%20Soudaz%20-%20Avocat%20droit%20des%20Affaires&query_place_id=ChIJf1W_BCBl5kcRdspwPNwM3CY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_29",
+      "company_name": "Me Isabelle Mayadoux Avocat du travail",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 84 25 78 77",
+      "website": "https://consultation.avocat.fr/avocat-paris/isabelle-mayadoux-3599.html",
+      "address": "25 Rue Jean Dolent, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 9,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail",
+        "Conseil",
+        "Consultant en ressources humaines",
+        "Services juridiques",
+        "Avocat sp\u00e9cialis\u00e9 en droit social"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.278961",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJuwtxd79v5kcRQ3MUY4Z1mS8",
+        "url": "https://www.google.com/maps/search/?api=1&query=Me%20Isabelle%20Mayadoux%20Avocat%20du%20travail&query_place_id=ChIJuwtxd79v5kcRQ3MUY4Z1mS8",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_30",
+      "company_name": "Ronald VARDAGUER Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 45 22 54 77",
+      "website": "http://www.avocats-vardaguer.fr/",
+      "address": "Cabinet d'avocats, 36-38 Rue des Plantes, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": null,
+      "reviews_count": 0,
+      "category": [
+        "Avocat en droit du travail"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.279577",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJne2D6a1x5kcRkaoQ3h84FDE",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ronald%20VARDAGUER%20Avocat&query_place_id=ChIJne2D6a1x5kcRkaoQ3h84FDE",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_31",
+      "company_name": "Des Avocats \u00e0 votre \u00e9coute : Cabinet JACQUIN UZAN - Paris 14",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 7 56 85 22 19",
+      "website": "http://www.jacquin-uzan-avocats-paris.fr/",
+      "address": "18 Rue Saint-Yves, 75014 Paris, France",
+      "city": "Paris",
+      "postal_code": "75014",
+      "country": "France",
+      "rating": 4.2,
+      "reviews_count": 22,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.280427",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJi9iZLqVx5kcRy1-xvnIOjgY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Des%20Avocats%20%C3%A0%20votre%20%C3%A9coute%20%3A%20Cabinet%20JACQUIN%20UZAN%20-%20Paris%2014&query_place_id=ChIJi9iZLqVx5kcRy1-xvnIOjgY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_32",
+      "company_name": "JADDE Avocats",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 9 83 35 41 70",
+      "website": "https://www.jaddeavocats.com/",
+      "address": "35 Rue du Laos, 75015 Paris, France",
+      "city": "Paris",
+      "postal_code": "75015",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 75,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.280746",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJw5y24yJw5kcRlNHYkJ17BJU",
+        "url": "https://www.google.com/maps/search/?api=1&query=JADDE%20Avocats&query_place_id=ChIJw5y24yJw5kcRlNHYkJ17BJU",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_33",
+      "company_name": "Cabinet CCL - Maitre DALVIN et Ma\u00eetre GUILLEN",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 47 23 69 00",
+      "website": "https://www.cclavocats-paris.com/",
+      "address": "170 Rue de l'Universit\u00e9, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": 4.4,
+      "reviews_count": 34,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.281148",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJNTFksd5v5kcRoRWxY696i5k",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cabinet%20CCL%20-%20Maitre%20DALVIN%20et%20Ma%C3%AEtre%20GUILLEN&query_place_id=ChIJNTFksd5v5kcRoRWxY696i5k",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_34",
+      "company_name": "Ivan Nasio Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 76 42 06 55",
+      "website": "https://www.avocat-nasio.fr/",
+      "address": "78 Rue des Saints-P\u00e8res, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": 4.5,
+      "reviews_count": 310,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:30 to 17:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:30 to 17:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.281471",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJtWgpuNZx5kcRewIdTVLTuCk",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ivan%20Nasio%20Avocat&query_place_id=ChIJtWgpuNZx5kcRewIdTVLTuCk",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_35",
+      "company_name": "Cabinet Fellous Avocats - Droit des affaires - Droit du Sport",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 84 80 75 31",
+      "website": "https://www.legalacte.fr/",
+      "address": "174 Bd Saint-Germain, 75006 Paris, France",
+      "city": "Paris",
+      "postal_code": "75006",
+      "country": "France",
+      "rating": 4.5,
+      "reviews_count": 23,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.281849",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJmTT6CtZx5kcRG4pBbI-gkjw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cabinet%20Fellous%20Avocats%20-%20Droit%20des%20affaires%20-%20Droit%20du%20Sport&query_place_id=ChIJmTT6CtZx5kcRG4pBbI-gkjw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_36",
+      "company_name": "Ma\u00eetre Rafik RABIA, Avocat en droit des affaires Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 83 81 51 23",
+      "website": "http://vartis.fr/",
+      "address": "222 Bd Saint-Germain, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 24,
+      "category": [
+        "Avocat",
+        "Conseil",
+        "Cabinet d'avocats",
+        "Services juridiques"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 18:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.282276",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJx3Aa1Pxv5kcRtZ75sgccTb8",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Rafik%20RABIA%2C%20Avocat%20en%20droit%20des%20affaires%20Paris&query_place_id=ChIJx3Aa1Pxv5kcRtZ75sgccTb8",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_37",
+      "company_name": "CABINET D'AVOCATS MAHBOULI PARIS",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 48 78 19 59",
+      "website": "https://www.avocat-mahbouli.com/",
+      "address": "11 Rue Rousselet, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 142,
+      "category": [
+        "Avocat",
+        "Avocat en droit administratif",
+        "Avocat p\u00e9naliste",
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Service d'immigration et de naturalisation",
+        "Avocat en droit de l'immigration",
+        "Services juridiques"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 20:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.282743",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJyU0UQtZx5kcRzN_V3kSVXLo",
+        "url": "https://www.google.com/maps/search/?api=1&query=CABINET%20D'AVOCATS%20MAHBOULI%20PARIS&query_place_id=ChIJyU0UQtZx5kcRzN_V3kSVXLo",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_38",
+      "company_name": "SENSEI Avocats",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 44 42 02 70",
+      "website": "http://www.sensei-avocats.fr/",
+      "address": "6 Av. de Villars, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": 2.3,
+      "reviews_count": 3,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.283100",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJMS1x2Chw5kcRyylAwtCNTyQ",
+        "url": "https://www.google.com/maps/search/?api=1&query=SENSEI%20Avocats&query_place_id=ChIJMS1x2Chw5kcRyylAwtCNTyQ",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_39",
+      "company_name": "AMIGUES AUBERTY JOUARY POMMIER",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 45 44 43 01",
+      "website": "http://www.apja.fr/",
+      "address": "215 bis Bd Saint-Germain, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": null,
+      "reviews_count": 0,
+      "category": [
+        "Avocat",
+        "Notaire"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:00 to 12:00, 14:00 to 18:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "10:30 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "10:30 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "10:30 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "10:30 to 18:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.283556",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ9wK4hipu5kcRnoTPkC_IL9A",
+        "url": "https://www.google.com/maps/search/?api=1&query=AMIGUES%20AUBERTY%20JOUARY%20POMMIER&query_place_id=ChIJ9wK4hipu5kcRnoTPkC_IL9A",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_40",
+      "company_name": "\u2705 Avocat garde d'enfants | Sophie Hag\u00e8ge | Avocat Divorce | Avocat P\u00e9naliste | Avocat liquidation judiciaire | Paris 17|",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 20 41 47 18",
+      "website": "https://www.sophiehagege-avocat.com/",
+      "address": "177 Av. de Clichy, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 269,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 en droit de la famille",
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Service juridique de gestion des divorces",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "08:00 to 22:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 22:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 22:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 22:30"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 22:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "08:00 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.284013",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJr-Jkx5lv5kcRjNPdiLIXo_w",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E2%9C%85%20Avocat%20garde%20d'enfants%20%7C%20Sophie%20Hag%C3%A8ge%20%7C%20Avocat%20Divorce%20%7C%20Avocat%20P%C3%A9naliste%20%7C%20Avocat%20liquidation%20judiciaire%20%7C%20Paris%2017%7C&query_place_id=ChIJr-Jkx5lv5kcRjNPdiLIXo_w",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_41",
+      "company_name": "Ma\u00eetre Val\u00e9rie Piau",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 48 88 90 00",
+      "website": "http://www.cabinet-piau.fr/",
+      "address": "159 Rue de Rome, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 107,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 20:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.284465",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJXd26ILBv5kcROlfojiPb4uk",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Val%C3%A9rie%20Piau&query_place_id=ChIJXd26ILBv5kcROlfojiPb4uk",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_42",
+      "company_name": "Ugo Valls - Avocat",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 10 71 46 50",
+      "website": "http://valls-nadjar-avocats.com/",
+      "address": "136 Av. de Clichy, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 55,
+      "category": [
+        "Avocat p\u00e9naliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "vendredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ouvert 24h/24"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.284820",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ0cyBmAVv5kcRCMgfDYU9vSU",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ugo%20Valls%20-%20Avocat&query_place_id=ChIJ0cyBmAVv5kcRCMgfDYU9vSU",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_43",
+      "company_name": "Call A Lawyer | Trouver le bon avocat imm\u00e9diatement",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 76 44 03 06",
+      "website": "https://callalawyer.fr/",
+      "address": "38 Rue de Li\u00e8ge, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.4,
+      "reviews_count": 39,
+      "category": [
+        "Avocat",
+        "Avocat sp\u00e9cialis\u00e9 en droit de la faillite",
+        "Avocat sp\u00e9cialis\u00e9 en droit du travail",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Services aux entreprises",
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat sp\u00e9cialis\u00e9 en droit social",
+        "Avocat fiscaliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.285294",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJY0CBotx75kcRpuRC8pKdcfY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Call%20A%20Lawyer%20%7C%20Trouver%20le%20bon%20avocat%20imm%C3%A9diatement&query_place_id=ChIJY0CBotx75kcRpuRC8pKdcfY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_44",
+      "company_name": "COLMAN Avocats | Commercial, Affaires & Immobilier.",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 81 70 34 56",
+      "website": "https://www.colman-avocats.fr/",
+      "address": "La Boutique Bleue, 89 Bd Malesherbes, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.8,
+      "reviews_count": 8,
+      "category": [
+        "Cabinet d'avocats",
+        "Avocat d'affaires",
+        "Avocat sp\u00e9cialis\u00e9 en droit immobilier",
+        "Avocat plaidant"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:30 to 12:00, 14:00 to 18:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.286191",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJteaq8B5u5kcRzPRnteBL4fc",
+        "url": "https://www.google.com/maps/search/?api=1&query=COLMAN%20Avocats%20%7C%20Commercial%2C%20Affaires%20%26%20Immobilier.&query_place_id=ChIJteaq8B5u5kcRzPRnteBL4fc",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_45",
+      "company_name": "Made Avocats",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 45 00 39 56",
+      "website": null,
+      "address": "5 Vla de Guelma, 75018 Paris, France",
+      "city": "Paris",
+      "postal_code": "75018",
+      "country": "France",
+      "rating": 5,
+      "reviews_count": 60,
+      "category": [
+        "Cabinet d'avocats"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.286689",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJDXh0j_hv5kcRq6OGuv-6eFg",
+        "url": "https://www.google.com/maps/search/?api=1&query=Made%20Avocats&query_place_id=ChIJDXh0j_hv5kcRq6OGuv-6eFg",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_46",
+      "company_name": "Jenny Lamy",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 17 02 27 39",
+      "website": "https://www.avocat-lamy.com/",
+      "address": "2 Rue de Constantinople 5 \u00e8me \u00e9tage, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4,
+      "reviews_count": 20,
+      "category": [
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.287112",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJoxzjgzNu5kcR4I5BwjSseVI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jenny%20Lamy&query_place_id=ChIJoxzjgzNu5kcR4I5BwjSseVI",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_47",
+      "company_name": "Avocat international \u00e0 Paris en droit des affaires",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 6 61 72 85 30",
+      "website": "https://avocat-international-a-paris-en-droit-des-affaires.net-lab.fr/",
+      "address": "159 Rue de Rome, 75017 Paris, France",
+      "city": "Paris",
+      "postal_code": "75017",
+      "country": "France",
+      "rating": 4,
+      "reviews_count": 2,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.287524",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ0XCpIbBv5kcRZIEkEMdgTZE",
+        "url": "https://www.google.com/maps/search/?api=1&query=Avocat%20international%20%C3%A0%20Paris%20en%20droit%20des%20affaires&query_place_id=ChIJ0XCpIbBv5kcRZIEkEMdgTZE",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_48",
+      "company_name": "Ambroise Soreau avocat",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 48 42 01 81",
+      "website": "http://www.soreau-avocat.fr/",
+      "address": "192 Rue Lecourbe, 75015 Paris, France",
+      "city": "Paris",
+      "postal_code": "75015",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 16,
+      "category": [
+        "Avocat"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 19:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.288038",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ5UBlxNBx5kcR-v86QtWBN98",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ambroise%20Soreau%20avocat&query_place_id=ChIJ5UBlxNBx5kcR-v86QtWBN98",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745752958_49",
+      "company_name": "FRANK Judith, avocat au barreau de Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": "+33 1 43 44 44 15",
+      "website": "https://consultation.avocat.fr/blog/judith-frank/",
+      "address": "238 Rue de la Croix Nivert, 75015 Paris, France",
+      "city": "Paris",
+      "postal_code": "75015",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 27,
+      "category": [
+        "Avocat",
+        "Avocat.e en droit civil",
+        "Avocat sp\u00e9cialis\u00e9 dans les divorces",
+        "Avocat g\u00e9n\u00e9raliste",
+        "Avocat sp\u00e9cialis\u00e9 en droit social",
+        "Avocat plaidant"
+      ],
+      "opening_hours": [
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:30 to 20:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:30 to 20:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:30 to 20:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "vendredi",
+          "hours": "08:30 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ferm\u00e9"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-27T11:22:38.288633",
+      "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+      "raw_data": {
+        "place_id": "ChIJ0yB__Gxw5kcRiR4alzLSCcA",
+        "url": "https://www.google.com/maps/search/?api=1&query=FRANK%20Judith%2C%20avocat%20au%20barreau%20de%20Paris&query_place_id=ChIJ0yB__Gxw5kcRiR4alzLSCcA",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "count": 50,
+  "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+  "campaign_id": null,
+  "time_taken": 24.53447675704956,
+  "api_used": true,
+  "status": "COMPLETED"
+}

@@ -1,0 +1,1734 @@
+=== CRMExporterAgent LOG ===
+Timestamp: 2025-04-27T14:53:26.741529
+Operation: execute
+Status: UNKNOWN
+
+Input: {
+  "classified_leads": [
+    {
+      "id": "apollo_1745765606_0",
+      "first_name": "Paul",
+      "last_name": "Petit",
+      "full_name": "Paul Petit",
+      "job_title": "Attorney",
+      "seniority": "Executive",
+      "email": "paul.petit@cabinet-petit.fr",
+      "email_status": "verified",
+      "phone": "+33784628698",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Petit & Associ\u00e9s",
+        "website": "https://www.cabinet-petit.fr",
+        "industry": "Legal Services",
+        "size": 2,
+        "founded": 2007,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-petit-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Bordeaux",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/paul-petit-10690",
+        "twitter_url": "https://twitter.com/paulpetit",
+        "facebook_url": "https://facebook.com/paul.petit"
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 61,
+        "intent_score": 72,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542327",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547570"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_1",
+      "first_name": "Michel",
+      "last_name": "Petit",
+      "full_name": "Michel Petit",
+      "job_title": "Attorney",
+      "seniority": "Executive",
+      "email": "michel.petit@cabinet-petit.fr",
+      "email_status": "verified",
+      "phone": "+33673197505",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Petit & Associ\u00e9s",
+        "website": "https://www.cabinet-petit.fr",
+        "industry": "Legal Services",
+        "size": 5,
+        "founded": 2015,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-petit-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Montpellier",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/michel-petit-30389",
+        "twitter_url": "https://twitter.com/michelpetit",
+        "facebook_url": "https://facebook.com/michel.petit"
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-01-03T14:53:26.542369",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 56,
+        "intent_score": 37,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542382",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547618"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_2",
+      "first_name": "David",
+      "last_name": "Dubois",
+      "full_name": "David Dubois",
+      "job_title": "Managing Partner",
+      "seniority": "Executive",
+      "email": "david.dubois@cabinet-dubois.fr",
+      "email_status": "verified",
+      "phone": "+33629658420",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Dubois & Associ\u00e9s",
+        "website": "https://www.cabinet-dubois.fr",
+        "industry": "Legal Services",
+        "size": 41,
+        "founded": 1994,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-dubois-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Nantes",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/david-dubois-80559",
+        "twitter_url": "https://twitter.com/daviddubois",
+        "facebook_url": "https://facebook.com/david.dubois"
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 81,
+        "intent_score": 57,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542426",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547648"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_3",
+      "first_name": "C\u00e9line",
+      "last_name": "Lefebvre",
+      "full_name": "C\u00e9line Lefebvre",
+      "job_title": "Managing Partner",
+      "seniority": "Owner",
+      "email": "c\u00e9line.lefebvre@cabinet-lefebvre.fr",
+      "email_status": "verified",
+      "phone": "+33692196570",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Lefebvre & Associ\u00e9s",
+        "website": "https://www.cabinet-lefebvre.fr",
+        "industry": "Legal Services",
+        "size": 29,
+        "founded": 2003,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-lefebvre-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Lille",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/c\u00e9line-lefebvre-84574",
+        "twitter_url": "https://twitter.com/c\u00e9linelefebvre",
+        "facebook_url": "https://facebook.com/c\u00e9line.lefebvre"
+      },
+      "buying_signals": "high",
+      "last_contacted": "2025-01-21T14:53:26.542540",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 73,
+        "intent_score": 77,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542572",
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Format invalide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547676"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.55,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.6513333333333332,
+      "score_details": {
+        "email": 0.55,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.6513333333333332,
+      "classification": {
+        "qualite_lead": "COLD",
+        "score": 0.6513333333333332,
+        "priorite": "basse"
+      }
+    },
+    {
+      "id": "apollo_1745765606_4",
+      "first_name": "Thomas",
+      "last_name": "Simon",
+      "full_name": "Thomas Simon",
+      "job_title": "Attorney",
+      "seniority": "Senior",
+      "email": "thomas.simon@cabinet-simon.switzerland",
+      "email_status": "verified",
+      "phone": "+41783673983",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Simon & Associ\u00e9s",
+        "website": "https://www.cabinet-simon.switzerland",
+        "industry": "Legal Services",
+        "size": 17,
+        "founded": 1995,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-simon-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Lausanne",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/thomas-simon-86138",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 90,
+        "intent_score": 61,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542695",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547707"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.8,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7013333333333334,
+      "score_details": {
+        "email": 0.8,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7013333333333334,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7013333333333334,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_5",
+      "first_name": "Pierre",
+      "last_name": "Dubois",
+      "full_name": "Pierre Dubois",
+      "job_title": "Managing Partner",
+      "seniority": "Owner",
+      "email": "pierre.dubois@cabinet-dubois.fr",
+      "email_status": "unverified",
+      "phone": "+33635219393",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Dubois & Associ\u00e9s",
+        "website": "https://www.cabinet-dubois.fr",
+        "industry": "Legal Services",
+        "size": 41,
+        "founded": 2005,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-dubois-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Toulouse",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/pierre-dubois-35189",
+        "twitter_url": "https://twitter.com/pierredubois",
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": "2025-03-10T14:53:26.542729",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 81,
+        "intent_score": 74,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542740",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547735"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_6",
+      "first_name": "Michel",
+      "last_name": "Durand",
+      "full_name": "Michel Durand",
+      "job_title": "Attorney",
+      "seniority": "Senior",
+      "email": "michel.durand@cabinet-durand.fr",
+      "email_status": "unverified",
+      "phone": "+33680928405",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Durand & Associ\u00e9s",
+        "website": "https://www.cabinet-durand.fr",
+        "industry": "Legal Services",
+        "size": 37,
+        "founded": 2000,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-durand-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Marseille",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/michel-durand-40064",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": "2025-02-28T14:53:26.542770",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 63,
+        "intent_score": 68,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542781",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547763"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_7",
+      "first_name": "Nicolas",
+      "last_name": "Richard",
+      "full_name": "Nicolas Richard",
+      "job_title": "Owner",
+      "seniority": "Owner",
+      "email": "nicolas.richard@cabinet-richard.fr",
+      "email_status": "verified",
+      "phone": "+33675127174",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Richard & Associ\u00e9s",
+        "website": "https://www.cabinet-richard.fr",
+        "industry": "Legal Services",
+        "size": 13,
+        "founded": 2019,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-richard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Lyon",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nicolas-richard-57733",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 55,
+        "intent_score": 55,
+        "funding_round": "Series A",
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542824",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547791"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_8",
+      "first_name": "Sophie",
+      "last_name": "Robert",
+      "full_name": "Sophie Robert",
+      "job_title": "Attorney",
+      "seniority": "Executive",
+      "email": "sophie.robert@cabinet-robert.switzerland",
+      "email_status": "verified",
+      "phone": "+41731270661",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Robert & Associ\u00e9s",
+        "website": "https://www.cabinet-robert.switzerland",
+        "industry": "Legal Services",
+        "size": 28,
+        "founded": 1983,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-robert-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Geneva",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/sophie-robert-35208",
+        "twitter_url": "https://twitter.com/sophierobert",
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 60,
+        "intent_score": 74,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542871",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547820"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.8,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7013333333333334,
+      "score_details": {
+        "email": 0.8,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7013333333333334,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7013333333333334,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_9",
+      "first_name": "Sophie",
+      "last_name": "Robert",
+      "full_name": "Sophie Robert",
+      "job_title": "Owner",
+      "seniority": "Senior",
+      "email": "sophie.robert@cabinet-robert.switzerland",
+      "email_status": "verified",
+      "phone": "+41702643895",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Robert & Associ\u00e9s",
+        "website": "https://www.cabinet-robert.switzerland",
+        "industry": "Legal Services",
+        "size": 26,
+        "founded": 1994,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-robert-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Basel",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/sophie-robert-62823",
+        "twitter_url": "https://twitter.com/sophierobert",
+        "facebook_url": null
+      },
+      "buying_signals": "high",
+      "last_contacted": "2025-02-04T14:53:26.542898",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 69,
+        "intent_score": 44,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542909",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547848"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.8,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7013333333333334,
+      "score_details": {
+        "email": 0.8,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7013333333333334,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7013333333333334,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_10",
+      "first_name": "Nathalie",
+      "last_name": "Robert",
+      "full_name": "Nathalie Robert",
+      "job_title": "Partner",
+      "seniority": "Senior",
+      "email": "nathalie.robert@cabinet-robert.fr",
+      "email_status": "verified",
+      "phone": "+33641713571",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Robert & Associ\u00e9s",
+        "website": "https://www.cabinet-robert.fr",
+        "industry": "Legal Services",
+        "size": 19,
+        "founded": 1986,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-robert-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Toulouse",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nathalie-robert-97211",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-03-10T14:53:26.542938",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 89,
+        "intent_score": 38,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542948",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547876"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_11",
+      "first_name": "Marie",
+      "last_name": "Bernard",
+      "full_name": "Marie Bernard",
+      "job_title": "Managing Partner",
+      "seniority": "Senior",
+      "email": "marie.bernard@cabinet-bernard.fr",
+      "email_status": "verified",
+      "phone": "+33732550576",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Bernard & Associ\u00e9s",
+        "website": "https://www.cabinet-bernard.fr",
+        "industry": "Legal Services",
+        "size": 29,
+        "founded": 1998,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-bernard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Toulouse",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/marie-bernard-87716",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/marie.bernard"
+      },
+      "buying_signals": "high",
+      "last_contacted": "2025-03-04T14:53:26.542982",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 55,
+        "intent_score": 31,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.542992",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547904"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_12",
+      "first_name": "Marie",
+      "last_name": "Robert",
+      "full_name": "Marie Robert",
+      "job_title": "Owner",
+      "seniority": "Executive",
+      "email": "marie.robert@cabinet-robert.fr",
+      "email_status": "verified",
+      "phone": "+33714021800",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Robert & Associ\u00e9s",
+        "website": "https://www.cabinet-robert.fr",
+        "industry": "Legal Services",
+        "size": 29,
+        "founded": 1988,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-robert-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Rennes",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/marie-robert-24641",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 52,
+        "intent_score": 54,
+        "funding_round": null,
+        "account_stage": "Prospect",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.543031",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547931"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_13",
+      "first_name": "Michel",
+      "last_name": "Robert",
+      "full_name": "Michel Robert",
+      "job_title": "Managing Partner",
+      "seniority": "Executive",
+      "email": "michel.robert@cabinet-robert.belgium",
+      "email_status": "unverified",
+      "phone": "+32404024499",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Robert & Associ\u00e9s",
+        "website": "https://www.cabinet-robert.belgium",
+        "industry": "Legal Services",
+        "size": 23,
+        "founded": 2004,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-robert-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Antwerp",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/michel-robert-93639",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/michel.robert"
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 94,
+        "intent_score": 75,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.543069",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547959"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.8,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7013333333333334,
+      "score_details": {
+        "email": 0.8,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7013333333333334,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7013333333333334,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_14",
+      "first_name": "Jean",
+      "last_name": "Dubois",
+      "full_name": "Jean Dubois",
+      "job_title": "Lawyer",
+      "seniority": "Owner",
+      "email": "jean.dubois@cabinet-dubois.switzerland",
+      "email_status": "verified",
+      "phone": "+41716477249",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Dubois & Associ\u00e9s",
+        "website": "https://www.cabinet-dubois.switzerland",
+        "industry": "Legal Services",
+        "size": 19,
+        "founded": 2001,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-dubois-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Basel",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/jean-dubois-70404",
+        "twitter_url": null,
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 73,
+        "intent_score": 56,
+        "funding_round": null,
+        "account_stage": "Lead",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.543123",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.547987"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.8,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7013333333333334,
+      "score_details": {
+        "email": 0.8,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7013333333333334,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7013333333333334,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_15",
+      "first_name": "\u00c9milie",
+      "last_name": "Dubois",
+      "full_name": "\u00c9milie Dubois",
+      "job_title": "Owner",
+      "seniority": "Owner",
+      "email": "\u00e9milie.dubois@cabinet-dubois.fr",
+      "email_status": "verified",
+      "phone": "+33790688694",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Dubois & Associ\u00e9s",
+        "website": "https://www.cabinet-dubois.fr",
+        "industry": "Legal Services",
+        "size": 33,
+        "founded": 2011,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-dubois-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Bordeaux",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/\u00e9milie-dubois-28111",
+        "twitter_url": "https://twitter.com/\u00e9miliedubois",
+        "facebook_url": "https://facebook.com/\u00e9milie.dubois"
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 72,
+        "intent_score": 43,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.543162",
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Format invalide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.548014"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.55,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.6513333333333332,
+      "score_details": {
+        "email": 0.55,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.6513333333333332,
+      "classification": {
+        "qualite_lead": "COLD",
+        "score": 0.6513333333333332,
+        "priorite": "basse"
+      }
+    },
+    {
+      "id": "apollo_1745765606_16",
+      "first_name": "Nicolas",
+      "last_name": "Bernard",
+      "full_name": "Nicolas Bernard",
+      "job_title": "Partner",
+      "seniority": "Senior",
+      "email": "nicolas.bernard@cabinet-bernard.belgium",
+      "email_status": "verified",
+      "phone": "+32485416713",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Bernard & Associ\u00e9s",
+        "website": "https://www.cabinet-bernard.belgium",
+        "industry": "Legal Services",
+        "size": 7,
+        "founded": 2006,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-bernard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Belgium",
+        "city": "Li\u00e8ge",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nicolas-bernard-73785",
+        "twitter_url": "https://twitter.com/nicolasbernard",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 85,
+        "intent_score": 87,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.543386",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.548042"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.8,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7013333333333334,
+      "score_details": {
+        "email": 0.8,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7013333333333334,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7013333333333334,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_17",
+      "first_name": "C\u00e9line",
+      "last_name": "Richard",
+      "full_name": "C\u00e9line Richard",
+      "job_title": "Owner",
+      "seniority": "Executive",
+      "email": "c\u00e9line.richard@cabinet-richard.fr",
+      "email_status": "verified",
+      "phone": "+33630929295",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Richard & Associ\u00e9s",
+        "website": "https://www.cabinet-richard.fr",
+        "industry": "Legal Services",
+        "size": 4,
+        "founded": 2001,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-richard-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Grenoble",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/c\u00e9line-richard-35066",
+        "twitter_url": null,
+        "facebook_url": "https://facebook.com/c\u00e9line.richard"
+      },
+      "buying_signals": "high",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 90,
+        "intent_score": 79,
+        "funding_round": "Seed",
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.543467",
+      "validation": {
+        "valid": true,
+        "errors": [
+          "Email invalide: Format invalide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.548068"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.55,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.6513333333333332,
+      "score_details": {
+        "email": 0.55,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.6513333333333332,
+      "classification": {
+        "qualite_lead": "COLD",
+        "score": 0.6513333333333332,
+        "priorite": "basse"
+      }
+    },
+    {
+      "id": "apollo_1745765606_18",
+      "first_name": "Marie",
+      "last_name": "Michel",
+      "full_name": "Marie Michel",
+      "job_title": "Attorney",
+      "seniority": "Executive",
+      "email": "marie.michel@cabinet-michel.fr",
+      "email_status": "verified",
+      "phone": "+33687331316",
+      "phone_status": "unverified",
+      "company": {
+        "name": "Cabinet Michel & Associ\u00e9s",
+        "website": "https://www.cabinet-michel.fr",
+        "industry": "Legal Services",
+        "size": 25,
+        "founded": 2020,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-michel-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "France",
+        "city": "Lille",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/marie-michel-94778",
+        "twitter_url": "https://twitter.com/mariemichel",
+        "facebook_url": "https://facebook.com/marie.michel"
+      },
+      "buying_signals": "low",
+      "last_contacted": "2025-01-18T14:53:26.543529",
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 66,
+        "intent_score": 49,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.543554",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.548096"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.9500000000000002,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7313333333333333,
+      "score_details": {
+        "email": 0.9500000000000002,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7313333333333333,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7313333333333333,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_19",
+      "first_name": "Julie",
+      "last_name": "Laurent",
+      "full_name": "Julie Laurent",
+      "job_title": "Partner",
+      "seniority": "Senior",
+      "email": "julie.laurent@cabinet-laurent.switzerland",
+      "email_status": "verified",
+      "phone": "+41709346475",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Laurent & Associ\u00e9s",
+        "website": "https://www.cabinet-laurent.switzerland",
+        "industry": "Legal Services",
+        "size": 30,
+        "founded": 2000,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-laurent-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Geneva",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/julie-laurent-95678",
+        "twitter_url": "https://twitter.com/julielaurent",
+        "facebook_url": "https://facebook.com/julie.laurent"
+      },
+      "buying_signals": "medium",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 80,
+        "intent_score": 78,
+        "funding_round": null,
+        "account_stage": "Target",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.543641",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.548124"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.8,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7013333333333334,
+      "score_details": {
+        "email": 0.8,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7013333333333334,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7013333333333334,
+        "priorite": "moyenne"
+      }
+    },
+    {
+      "id": "apollo_1745765606_20",
+      "first_name": "Nicolas",
+      "last_name": "Petit",
+      "full_name": "Nicolas Petit",
+      "job_title": "Lawyer",
+      "seniority": "Senior",
+      "email": "nicolas.petit@cabinet-petit.switzerland",
+      "email_status": "verified",
+      "phone": "+41744887663",
+      "phone_status": "verified",
+      "company": {
+        "name": "Cabinet Petit & Associ\u00e9s",
+        "website": "https://www.cabinet-petit.switzerland",
+        "industry": "Legal Services",
+        "size": 1,
+        "founded": 1992,
+        "linkedin_url": "https://www.linkedin.com/company/cabinet-petit-&-associ\u00e9s"
+      },
+      "location": {
+        "country": "Switzerland",
+        "city": "Bern",
+        "continent": "Europe"
+      },
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/nicolas-petit-55261",
+        "twitter_url": "https://twitter.com/nicolaspetit",
+        "facebook_url": null
+      },
+      "buying_signals": "low",
+      "last_contacted": null,
+      "lead_source": "Apollo",
+      "apollo_specific": {
+        "lead_score": 50,
+        "intent_score": 52,
+        "funding_round": null,
+        "account_stage": "Qualified",
+        "technologies": []
+      },
+      "scrape_date": "2025-04-27T14:53:26.543738",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "level": "standard",
+        "cleaned_at": "2025-04-27T14:53:26.548162"
+      },
+      "heuristic_score": 0.52,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.5,
+        "company_size_score": 0.5,
+        "location_score": 0.6
+      },
+      "email_score": 0.8,
+      "phone_score": 1.0,
+      "profile_score": 0.6299999999999999,
+      "global_score": 0.7013333333333334,
+      "score_details": {
+        "email": 0.8,
+        "phone": 1.0,
+        "profile": 0.6299999999999999,
+        "heuristic": 0.52
+      },
+      "qualitative_insights": [
+        "Lead automatiquement classifi\u00e9 sans enrichissement GPT"
+      ],
+      "calculated_temperature": null,
+      "gpt_temperature": "warm",
+      "suggested_actions": [
+        "Contacter pour qualification"
+      ],
+      "priority_score": 0.7013333333333334,
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.7013333333333334,
+        "priorite": "moyenne"
+      }
+    }
+  ],
+  "campaign_id": null,
+  "daily_limit": 50,
+  "exported_today": 0
+}
+
+Output: {
+  "export_decision": {
+    "leads_to_export_now": [
+      {
+        "id": "test_lead_1",
+        "qualite": "WARM",
+        "raison_export": "Lead prioritaire avec fort potentiel"
+      },
+      {
+        "id": "test_lead_3",
+        "qualite": "HOT",
+        "raison_export": "Lead tr\u00e8s chaud avec besoin imm\u00e9diat"
+      }
+    ],
+    "leads_to_delay": [
+      {
+        "id": "test_lead_2",
+        "qualite": "COLD",
+        "raison_delai": "Lead froid n\u00e9cessitant plus de qualification",
+        "moment_recommande": "Semaine prochaine"
+      }
+    ],
+    "batching_strategy": {
+      "methode": "PAR_QUALITE",
+      "explication": "Les leads sont regroup\u00e9s par niveau de qualit\u00e9 pour permettre une approche personnalis\u00e9e"
+    },
+    "system_load_management": {
+      "charge_actuelle": "mod\u00e9r\u00e9e",
+      "limite_quotidienne_respectee": true,
+      "recommandation_charge": "Continuer les exports au rythme actuel"
+    }
+  },
+  "summary": {
+    "total_leads_received": 3,
+    "leads_exported_now": 2,
+    "leads_delayed": 1,
+    "quality_distribution": {
+      "chauds_exportes": 1,
+      "chauds_retardes": 0,
+      "tiedes_exportes": 1,
+      "tiedes_retardes": 0,
+      "froids_exportes": 0,
+      "froids_retardes": 1
+    }
+  },
+  "crm_impact_forecast": {
+    "charge_estimee": "L'export actuel repr\u00e9sente 10% de la capacit\u00e9 quotidienne",
+    "timing_optimal": "L'export en milieu de journ\u00e9e permet un traitement dans l'apr\u00e8s-midi",
+    "recommandations_futures": "Continuer d'exporter les leads chauds imm\u00e9diatement"
+  },
+  "export_status": "success",
+  "leads_count": 21,
+  "message": "Export r\u00e9ussi de 21 leads",
+  "leads_exported": [
+    "apollo_1745765606_0",
+    "apollo_1745765606_1",
+    "apollo_1745765606_2",
+    "apollo_1745765606_3",
+    "apollo_1745765606_4",
+    "apollo_1745765606_5",
+    "apollo_1745765606_6",
+    "apollo_1745765606_7",
+    "apollo_1745765606_8",
+    "apollo_1745765606_9",
+    "apollo_1745765606_10",
+    "apollo_1745765606_11",
+    "apollo_1745765606_12",
+    "apollo_1745765606_13",
+    "apollo_1745765606_14",
+    "apollo_1745765606_15",
+    "apollo_1745765606_16",
+    "apollo_1745765606_17",
+    "apollo_1745765606_18",
+    "apollo_1745765606_19",
+    "apollo_1745765606_20"
+  ]
+}

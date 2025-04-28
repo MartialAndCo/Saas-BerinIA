@@ -1,0 +1,20 @@
+=== CRMExporterAgent LOG ===
+Timestamp: 2025-04-27T10:53:58.837691
+Operation: execute
+Status: UNKNOWN
+
+Input: {
+  "classified_leads": [],
+  "campaign_id": "test_campaign_123",
+  "pending_leads_count": 5,
+  "daily_limit": 20,
+  "exported_today": 10
+}
+
+Output: {
+  "error": "Aucun lead \u00e0 exporter",
+  "export_decision": {
+    "leads_to_export_now": [],
+    "leads_to_delay": []
+  }
+}

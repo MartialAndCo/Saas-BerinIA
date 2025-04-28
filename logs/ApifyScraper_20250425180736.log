@@ -1,0 +1,461 @@
+=== ApifyScraper LOG ===
+Timestamp: 2025-04-25T18:07:36.935758
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "params": {
+    "language": "fr",
+    "locationQuery": "Paris, FR",
+    "maxCrawledPlacesPerSearch": 10,
+    "searchStringsArray": [
+      "restaurant"
+    ],
+    "skipClosedPlaces": false
+  }
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "lead_1745604456_0",
+      "company_name": "Restaurant Julie Leroy",
+      "contact_name": "Julie Leroy",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": "0622436392",
+      "website": "https://www.resto-leroy.fr",
+      "address": "5 rue de la R\u00e9publique",
+      "city": "Strasbourg",
+      "postal_code": "71000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:07:36.934245",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_1",
+      "company_name": "Restaurant \u00c9milie Lefebvre",
+      "contact_name": "\u00c9milie Lefebvre",
+      "position": "Fondateur",
+      "email": "\u00e9milie.lefebvre@resto.fr",
+      "phone": "0131468933",
+      "website": null,
+      "address": "46 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "53000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:07:36.934394",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_2",
+      "company_name": "Restaurant Pierre Dubois",
+      "contact_name": "Pierre Dubois",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": "0620209917",
+      "website": "https://www.resto-dubois.fr",
+      "address": "45 rue de la R\u00e9publique",
+      "city": "Strasbourg",
+      "postal_code": "52000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:07:36.934461",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_3",
+      "company_name": "Restaurant Marie Lefebvre",
+      "contact_name": "Marie Lefebvre",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": "0638984038",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "144 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "56000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:07:36.934523",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_4",
+      "company_name": "Restaurant Thomas Dubois",
+      "contact_name": "Thomas Dubois",
+      "position": "Associ\u00e9",
+      "email": "thomas.dubois@gmail.com",
+      "phone": "0672718257",
+      "website": null,
+      "address": "42 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "41000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:07:36.934584",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_5",
+      "company_name": "Restaurant Michel Lefebvre",
+      "contact_name": "Michel Lefebvre",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "10 rue de Marseille",
+      "city": "Strasbourg",
+      "postal_code": "91000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:07:36.934661",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_6",
+      "company_name": "Restaurant Sophie Laurent",
+      "contact_name": "Sophie Laurent",
+      "position": "Associ\u00e9",
+      "email": "sophie.laurent@resto.fr",
+      "phone": "0690109706",
+      "website": "https://www.resto-laurent.fr",
+      "address": "87 rue de la R\u00e9publique",
+      "city": "Strasbourg",
+      "postal_code": "41000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:07:36.934720",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_7",
+      "company_name": "Restaurant L\u00e9a Moreau",
+      "contact_name": "L\u00e9a Moreau",
+      "position": "Associ\u00e9",
+      "email": "l\u00e9a.moreau@resto.fr",
+      "phone": "0637363927",
+      "website": "https://www.resto-moreau.fr",
+      "address": "69 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "95000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:07:36.934773",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_8",
+      "company_name": "Restaurant Thomas Martin",
+      "contact_name": "Thomas Martin",
+      "position": "G\u00e9rant",
+      "email": "thomas.martin@gmail.com",
+      "phone": "0669055070",
+      "website": "https://www.resto-martin.fr",
+      "address": "24 rue de la R\u00e9publique",
+      "city": "Strasbourg",
+      "postal_code": "80000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:07:36.934846",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_9",
+      "company_name": "Restaurant Paul Petit",
+      "contact_name": "Paul Petit",
+      "position": "G\u00e9rant",
+      "email": "paul.petit@orange.fr",
+      "phone": "0131377753",
+      "website": null,
+      "address": "70 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "46000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:07:36.934892",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_10",
+      "company_name": "Restaurant Julie Dubois",
+      "contact_name": "Julie Dubois",
+      "position": "Fondateur",
+      "email": null,
+      "phone": "0656271897",
+      "website": "https://www.resto-dubois.fr",
+      "address": "8 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "45000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:07:36.934934",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_11",
+      "company_name": "Restaurant Marie Richard",
+      "contact_name": "Marie Richard",
+      "position": "Associ\u00e9",
+      "email": null,
+      "phone": "0683440730",
+      "website": "https://www.resto-richard.fr",
+      "address": "86 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "55000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:07:36.935013",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_12",
+      "company_name": "Restaurant David Laurent",
+      "contact_name": "David Laurent",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0638097311",
+      "website": "https://www.resto-laurent.fr",
+      "address": "96 rue de Marseille",
+      "city": "Strasbourg",
+      "postal_code": "95000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:07:36.935084",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_13",
+      "company_name": "Restaurant L\u00e9a Michel",
+      "contact_name": "L\u00e9a Michel",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0667849419",
+      "website": null,
+      "address": "27 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "10000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:07:36.935132",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_14",
+      "company_name": "Restaurant \u00c9milie Petit",
+      "contact_name": "\u00c9milie Petit",
+      "position": "Fondateur",
+      "email": "\u00e9milie.petit@resto.fr",
+      "phone": "0650570933",
+      "website": null,
+      "address": "28 rue de la R\u00e9publique",
+      "city": "Strasbourg",
+      "postal_code": "27000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:07:36.935199",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_15",
+      "company_name": "Restaurant Jean Durand",
+      "contact_name": "Jean Durand",
+      "position": "Associ\u00e9",
+      "email": "jean.durand@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-durand.fr",
+      "address": "55 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "22000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:07:36.935261",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_16",
+      "company_name": "Restaurant David Moreau",
+      "contact_name": "David Moreau",
+      "position": "Associ\u00e9",
+      "email": null,
+      "phone": null,
+      "website": "https://www.resto-moreau.fr",
+      "address": "13 rue de Paris",
+      "city": "Strasbourg",
+      "postal_code": "87000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:07:36.935315",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_17",
+      "company_name": "Restaurant L\u00e9a Petit",
+      "contact_name": "L\u00e9a Petit",
+      "position": "Associ\u00e9",
+      "email": "l\u00e9a.petit@gmail.com",
+      "phone": null,
+      "website": "https://www.resto-petit.fr",
+      "address": "92 rue de Paris",
+      "city": "Strasbourg",
+      "postal_code": "40000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:07:36.935367",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_18",
+      "company_name": "Restaurant C\u00e9line Michel",
+      "contact_name": "C\u00e9line Michel",
+      "position": "G\u00e9rant",
+      "email": null,
+      "phone": "0628363922",
+      "website": null,
+      "address": "21 rue de Paris",
+      "city": "Strasbourg",
+      "postal_code": "88000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:07:36.935421",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_19",
+      "company_name": "Restaurant Jean Thomas",
+      "contact_name": "Jean Thomas",
+      "position": "Fondateur",
+      "email": "jean.thomas@orange.fr",
+      "phone": "0169477161",
+      "website": null,
+      "address": "58 rue de Marseille",
+      "city": "Strasbourg",
+      "postal_code": "77000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:07:36.935480",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_20",
+      "company_name": "Restaurant Sophie Moreau",
+      "contact_name": "Sophie Moreau",
+      "position": "G\u00e9rant",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-moreau.fr",
+      "address": "127 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "22000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:07:36.935531",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_21",
+      "company_name": "Restaurant Sophie Lefebvre",
+      "contact_name": "Sophie Lefebvre",
+      "position": "Fondateur",
+      "email": null,
+      "phone": "0692699166",
+      "website": "https://www.resto-lefebvre.fr",
+      "address": "131 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "72000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:07:36.935584",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_22",
+      "company_name": "Restaurant C\u00e9line Robert",
+      "contact_name": "C\u00e9line Robert",
+      "position": "Directeur",
+      "email": "c\u00e9line.robert@resto.fr",
+      "phone": "0640636991",
+      "website": "https://www.resto-robert.fr",
+      "address": "102 rue de la Paix",
+      "city": "Strasbourg",
+      "postal_code": "64000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:07:36.935653",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604456_23",
+      "company_name": "Restaurant Paul Dubois",
+      "contact_name": "Paul Dubois",
+      "position": "Associ\u00e9",
+      "email": "paul.dubois@orange.fr",
+      "phone": "0149260510",
+      "website": null,
+      "address": "65 rue de Paris",
+      "city": "Strasbourg",
+      "postal_code": "35000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:07:36.935729",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Strasbourg, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    }
+  ],
+  "count": 24,
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "time_taken": 1.8060004541602526,
+  "api_used": false,
+  "status": "COMPLETED"
+}

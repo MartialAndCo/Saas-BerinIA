@@ -1,0 +1,433 @@
+=== CleanerAgent LOG ===
+Timestamp: 2025-04-25T20:35:05.756003
+Operation: execute
+Status: UNKNOWN
+
+Input: {
+  "data": [
+    {
+      "id": "apify_1745613305_0",
+      "company_name": "Le Pr\u00e9 Catelan",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://leprecatelan.paris/le-restaurant-du-precatelan?utm_source=google_my_business&utm_medium=referencement_local&utm_campaign=precatelan&utm_content=fiche_gmb&utm_term=le_restaurant",
+      "address": "Bois de Boulogne, 75016 Paris, France",
+      "city": "Paris",
+      "postal_code": "75016",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 1706,
+      "category": [
+        "Restaurant gastronomique",
+        "Espace \u00e9v\u00e9nementiel",
+        "Restaurant fran\u00e7ais",
+        "Restaurant",
+        "Lieu de mariage"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 12:45, 19:00 to 20:45"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 12:45, 19:00 to 20:45"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 12:45, 19:00 to 20:45"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 12:45, 19:00 to 20:45"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:35:05.753768",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJXZ9lqzZl5kcRxIInGxIRFaI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Pr%C3%A9%20Catelan&query_place_id=ChIJXZ9lqzZl5kcRxIInGxIRFaI",
+        "description": "Cuisine gastronomique soigneusement dress\u00e9e dans un restaurant opulent et lumineux situ\u00e9 dans le bois de Boulogne.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745613305_1",
+      "company_name": "Le Flandrin",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://www.leflandrin.com/",
+      "address": "4 Pl. Tattegrain, 75116 Paris, France",
+      "city": "Paris",
+      "postal_code": "75116",
+      "country": "France",
+      "rating": 4.1,
+      "reviews_count": 1022,
+      "category": [
+        "Restaurant fran\u00e7ais",
+        "Brasserie"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 23:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 23:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 23:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:35:05.753810",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJfTHIxVZl5kcRWsoSezOFKAg",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Flandrin&query_place_id=ChIJfTHIxVZl5kcRWsoSezOFKAg",
+        "description": "Brasserie chic \u00e0 l'architecture Art d\u00e9co ; d\u00e9cor \u00e9tudi\u00e9, avec chaises 1950 en velours moutarde et terrasse.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745613305_2",
+      "company_name": "ANDIA",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://andia-paris.com/",
+      "address": "19 Chau. de la Muette, 75016 Paris, France",
+      "city": "Paris",
+      "postal_code": "75016",
+      "country": "France",
+      "rating": 4.3,
+      "reviews_count": 6828,
+      "category": [
+        "Restaurant",
+        "Bar \u00e0 cocktails",
+        "Restaurant p\u00e9ruvien"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 14:30, 19:00 to 02:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 15:00, 19:00 to 02:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "12:00 to 15:00, 19:00 to 01:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "12:00 to 14:30, 19:00 to 01:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 14:30, 19:00 to 01:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 14:30, 19:00 to 01:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 14:30, 19:00 to 02:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:35:05.753827",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ6RIysFRl5kcRgTQU1vLwwWg",
+        "url": "https://www.google.com/maps/search/?api=1&query=ANDIA&query_place_id=ChIJ6RIysFRl5kcRgTQU1vLwwWg",
+        "description": "Cuisine latino-am\u00e9ricaine et cocktails propos\u00e9s dans un somptueux restaurant dot\u00e9 d'une terrasse verdoyante.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "campaign_id": "TEST_restaurant_1745613291"
+}
+
+Output: {
+  "clean_data": [
+    {
+      "id": "apify_1745613305_0",
+      "company_name": "Le Pr\u00e9 Catelan",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "https://leprecatelan.paris/le-restaurant-du-precatelan?utm_source=google_my_business&utm_medium=referencement_local&utm_campaign=precatelan&utm_content=fiche_gmb&utm_term=le_restaurant",
+      "address": "Bois de Boulogne, 75016 Paris, France",
+      "city": "Paris",
+      "postal_code": "75016",
+      "country": "France",
+      "rating": 4.6,
+      "reviews_count": 1706,
+      "category": [
+        "Restaurant gastronomique",
+        "Espace \u00e9v\u00e9nementiel",
+        "Restaurant fran\u00e7ais",
+        "Restaurant",
+        "Lieu de mariage"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 12:45, 19:00 to 20:45"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 12:45, 19:00 to 20:45"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 12:45, 19:00 to 20:45"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 12:45, 19:00 to 20:45"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:35:05.753768",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJXZ9lqzZl5kcRxIInGxIRFaI",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Pr%C3%A9%20Catelan&query_place_id=ChIJXZ9lqzZl5kcRxIInGxIRFaI",
+        "description": "Cuisine gastronomique soigneusement dress\u00e9e dans un restaurant opulent et lumineux situ\u00e9 dans le bois de Boulogne.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:35:05.755940"
+      }
+    },
+    {
+      "id": "apify_1745613305_1",
+      "company_name": "Le Flandrin",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "https://www.leflandrin.com/",
+      "address": "4 Pl. Tattegrain, 75116 Paris, France",
+      "city": "Paris",
+      "postal_code": "75116",
+      "country": "France",
+      "rating": 4.1,
+      "reviews_count": 1022,
+      "category": [
+        "Restaurant fran\u00e7ais",
+        "Brasserie"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 23:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 23:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 23:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 23:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:35:05.753810",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJfTHIxVZl5kcRWsoSezOFKAg",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Flandrin&query_place_id=ChIJfTHIxVZl5kcRWsoSezOFKAg",
+        "description": "Brasserie chic \u00e0 l'architecture Art d\u00e9co ; d\u00e9cor \u00e9tudi\u00e9, avec chaises 1950 en velours moutarde et terrasse.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:35:05.755965"
+      }
+    },
+    {
+      "id": "apify_1745613305_2",
+      "company_name": "ANDIA",
+      "contact_name": null,
+      "position": null,
+      "email": "",
+      "phone": "",
+      "website": "https://andia-paris.com/",
+      "address": "19 Chau. de la Muette, 75016 Paris, France",
+      "city": "Paris",
+      "postal_code": "75016",
+      "country": "France",
+      "rating": 4.3,
+      "reviews_count": 6828,
+      "category": [
+        "Restaurant",
+        "Bar \u00e0 cocktails",
+        "Restaurant p\u00e9ruvien"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 14:30, 19:00 to 02:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 15:00, 19:00 to 02:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "12:00 to 15:00, 19:00 to 01:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "12:00 to 14:30, 19:00 to 01:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 14:30, 19:00 to 01:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 14:30, 19:00 to 01:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 14:30, 19:00 to 02:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:35:05.753827",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ6RIysFRl5kcRgTQU1vLwwWg",
+        "url": "https://www.google.com/maps/search/?api=1&query=ANDIA&query_place_id=ChIJ6RIysFRl5kcRgTQU1vLwwWg",
+        "description": "Cuisine latino-am\u00e9ricaine et cocktails propos\u00e9s dans un somptueux restaurant dot\u00e9 d'une terrasse verdoyante.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:35:05.755980"
+      }
+    }
+  ],
+  "validation_stats": {
+    "total": 3,
+    "valid": 0,
+    "invalid": 3,
+    "anomalies_count": 0
+  },
+  "anomaly_analysis": {
+    "summary": "Aucune anomalie d\u00e9tect\u00e9e",
+    "new_patterns": []
+  },
+  "validation_level": "standard"
+}

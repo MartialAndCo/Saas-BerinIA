@@ -1,0 +1,35 @@
+=== CleanerAgent LOG ===
+Timestamp: 2025-04-27T10:53:58.830583
+Operation: execute
+Status: FAILED
+
+Input: {
+  "raw_leads": [
+    {
+      "id": "test_lead_1",
+      "company_name": "Entreprise Test 1",
+      "email": "contact@test1.com",
+      "phone": "+33123456789"
+    },
+    {
+      "id": "test_lead_2",
+      "company_name": "Entreprise Test 2",
+      "email": "",
+      "phone": "+33987654321"
+    },
+    {
+      "id": "test_lead_3",
+      "company_name": "Entreprise Test 3",
+      "email": "info@test3.fr",
+      "phone": "+33555555555"
+    }
+  ],
+  "campaign_id": "test_campaign_123"
+}
+
+Output: {
+  "error": "Aucune donn\u00e9e \u00e0 nettoyer",
+  "clean_data": [],
+  "status": "FAILED",
+  "message": "Un ensemble de leads valide est requis pour le nettoyage. L'agent StrategyAgent ou ScraperAgent doit fournir des donn\u00e9es."
+}

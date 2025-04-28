@@ -1,0 +1,5 @@
+=== INPUT ===
+{'test': True, 'campaign_data': {'campaign_id': 'CAM-TEST'}, 'analytics_results': {'metrics': {'conversion_rate': 5.2}}}
+
+=== OUTPUT ===
+{'error': 'Format de réponse incorrect', 'timestamp': '2025-04-25T11:59:32.110220', 'campaign_id': 'CAM-TEST', 'decision': 'ERROR'}

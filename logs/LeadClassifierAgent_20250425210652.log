@@ -1,0 +1,189 @@
+=== LeadClassifierAgent LOG ===
+Timestamp: 2025-04-25T21:06:52.167531
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "leads": [
+    {
+      "id": "apify_1745615212_0",
+      "company_name": "Kamel DEROUICHE - Avocat p\u00e9naliste Paris",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": "https://derouiche-avocat.com/",
+      "address": "11 Rue Soufflot, 75005 Paris, France",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 56,
+      "category": [
+        "Avocat p\u00e9naliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ouvert 24h/24"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T21:06:52.160517",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kamel%20DEROUICHE%20-%20Avocat%20p%C3%A9naliste%20Paris&query_place_id=ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T21:06:52.163228"
+      },
+      "industry": "Avocat p\u00e9naliste",
+      "company_size": "small",
+      "location": "Paris, France"
+    }
+  ],
+  "campaign_id": "TEST_avocat_1745615198"
+}
+
+Output: {
+  "operation": "classify",
+  "campaign_id": "TEST_avocat_1745615198",
+  "timestamp": "2025-04-25T21:06:52.165696",
+  "status": "COMPLETED",
+  "classified_leads": [
+    {
+      "id": "apify_1745615212_0",
+      "company_name": "Kamel DEROUICHE - Avocat p\u00e9naliste Paris",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": "https://derouiche-avocat.com/",
+      "address": "11 Rue Soufflot, 75005 Paris, France",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 56,
+      "category": [
+        "Avocat p\u00e9naliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ouvert 24h/24"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T21:06:52.160517",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kamel%20DEROUICHE%20-%20Avocat%20p%C3%A9naliste%20Paris&query_place_id=ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T21:06:52.163228"
+      },
+      "industry": "Avocat p\u00e9naliste",
+      "company_size": "small",
+      "location": "Paris, France",
+      "heuristic_score": 0.7400000000000001,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.9,
+        "company_size_score": 0.7,
+        "location_score": 0.9
+      },
+      "email_score": 0.0,
+      "phone_score": 0.0,
+      "profile_score": 0.66,
+      "global_score": 0.42266666666666675,
+      "temperature": "cold",
+      "score_details": {
+        "email": 0.0,
+        "phone": 0.0,
+        "profile": 0.66,
+        "heuristic": 0.7400000000000001
+      }
+    }
+  ],
+  "metrics": {
+    "hot_leads_count": 0,
+    "warm_leads_count": 0,
+    "cold_leads_count": 1,
+    "total_leads": 1
+  }
+}

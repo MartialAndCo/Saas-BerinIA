@@ -1,0 +1,15 @@
+{
+  "learned_patterns": {
+    "email": {},
+    "phone": {},
+    "profile": {}
+  },
+  "adjustment_factors": {
+    "email": 1.0,
+    "phone": 1.0,
+    "profile": 1.0
+  },
+  "successful_classifications": [],
+  "misclassifications": [],
+  "last_learning_update": "2025-04-25T20:35:05.758897"
+}

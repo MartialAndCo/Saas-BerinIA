@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-04-27T10:31:52.382719",
+  "campaign_id": null,
+  "agent_flow": [
+    {
+      "agent": "DecisionBrainAgent",
+      "start_time": "2025-04-27T10:31:52.352224"
+    },
+    {
+      "agent": "CleanerAgent",
+      "start_time": "2025-04-27T10:31:52.373887",
+      "end_time": "2025-04-27T10:31:52.374508",
+      "status": "success"
+    },
+    {
+      "agent": "LeadClassifierAgent",
+      "start_time": "2025-04-27T10:31:52.375183",
+      "end_time": "2025-04-27T10:31:52.375841",
+      "status": "success"
+    },
+    {
+      "agent": "CRMExporterAgent",
+      "start_time": "2025-04-27T10:31:52.376655",
+      "end_time": "2025-04-27T10:31:52.379112",
+      "status": "success"
+    }
+  ],
+  "result": {
+    "decision": {
+      "decision_process": [
+        "Analyse des campagnes passées : aucune donnée disponible.",
+        "Analyse des campagnes actives : aucune donnée disponible.",
+        "Analyse des niches inexploitées : aucune donnée disponible.",
+        "Considération du contexte d'initialisation : système en phase de démarrage initial.",
+        "Décision basée sur l'absence de données historiques et la nécessité d'initier l'apprentissage du système."
+      ],
+      "action": "nouvelle",
+      "campagne_cible": null,
+      "commentaire": "Aucune campagne existante détectée. Le système doit initialiser une première campagne pour commencer à collecter des données et établir des références de performance. Cette phase initiale est cruciale pour l'apprentissage du système.",
+      "priorité": "haute",
+      "agents_à_impliquer": [
+        "StrategyAgent",
+        "PlanningAgent",
+        "CampaignStarterAgent",
+        "ScraperAgent",
+        "CleanerAgent",
+        "ClassifierAgent"
+      ]
+    },
+    "thinking_steps": [
+      "Réflexion stratégique en cours (GPT-4.1)..."
+    ],
+    "execution_time": 0.017596960067749023,
+    "timestamp": "2025-04-27T10:31:52.371233",
+    "brain_log_file": "logs/DecisionBrainAgent_20250427103151.log",
+    "agent_results": {
+      "StrategyAgent": {
+        "niche": "Avocats spécialisés en droit des affaires",
+        "justification": "Les cabinets d'avocats spécialisés en droit des affaires ont souvent des clients à forte valeur qui nécessitent une réactivité immédiate. Leur absence du bureau (audiences, rendez-vous) et leurs horaires chargés entraînent une perte de prospects potentiels. Un standard téléphonique IA et un chatbot permettraient de capturer ces opportunités manquées et de réaliser un premier filtrage.",
+        "potentiel_conversion": "élevé",
+        "suggestions_message": [
+          "Combien de clients potentiels estimez-vous perdre chaque mois à cause d'appels manqués ou sans réponse?",
+          "Votre expertise en droit des affaires est précieuse. Pendant vos audiences, qui répond à vos nouveaux clients potentiels?",
+          "Notre solution de standard téléphonique IA a permis à des cabinets similaires d'augmenter leur acquisition de clients de 30%"
+        ],
+        "approach_used": "initial",
+        "prompt_used": "\nTu es un agent stratégique chez BerinIA, une entreprise spécialisée dans l'installation de solutions d'IA pour les entreprises.\n\n🎯 Ce que nous proposons :\n- Installation de **chatbots intelligents** sur les sites web pour répondre aux questions, informer, guider, convertir.\n- Mise en place de **standards téléphoniques IA** pour ne plus perdre d'appels : l'IA répond, qualifie, redirige ou prend un RDV.\n\n👥 Nos cibles :\n- Nous travaillons exclusivement en **B2B**.\n- Nous visons des **TPE/PME ou indépendants**, notamment ceux qui perdent des clients à cause :\n  - d'un manque de disponibilité au téléphone\n  - de l'absence de réponses sur leur site\n  - d'un besoin d'automatiser une partie du service client\n\n🚫 Ne propose jamais :\n- De niches grand public (supermarchés, centres commerciaux, associations, grandes chaînes de distribution)\n- De niches déjà testées récemment ou sans pertinence pour notre service\n- De niches récemment rejetées par l'équipe de planification\n\n✅ Ce que tu dois faire :\n- Proposer **une niche d'activité professionnelle spécifique** (ex. : \"salons de massage\", \"plombiers\", \"cabinets dentaires\")\n- Cette niche doit avoir un **besoin évident** de présence téléphonique ou de chatbot\n- Elle doit être **logique avec notre offre**, et ne pas déjà avoir été testée\n\nTrouve une nouvelle niche originale à explorer.\n\n🧾 Voici les niches déjà testées :\n{\n  \"total_campaigns\": 0,\n  \"active_campaigns\": 0,\n  \"completed_campaigns\": 0,\n  \"top_performing_niches\": [],\n  \"underperforming_niches\": [],\n  \"average_conversion_rate\": 0,\n  \"lead_count_total\": 0,\n  \"most_recent_campaign\": null\n}\n\n📋 Voici les niches récemment rejetées par l'équipe de planification :\nAucune niche récemment rejetée.\n\n🔁 Ne propose rien de redondant ou trop proche s'il n'y a pas de vraie différence dans le besoin.\n\nDonne-moi :\n- Une seule niche, précise\n- Une justification stratégique et logique\n- Une estimation du potentiel de conversion (faible, moyen, élevé)\n- Des suggestions de message adaptés à cette niche pour le premier contact\n\nFormat attendu (strict) :\n- niche: <nom>\n- justification: <texte>\n- potentiel_conversion: <faible|moyen|élevé>\n- suggestions_message: <liste>\n",
+        "timestamp": "2025-04-27T10:31:52.367356"
+      },
+      "PlanningAgent": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "CampaignStarterAgent": {
+        "error": "Dépendances non satisfaites",
+        "status": "SKIPPED"
+      },
+      "ScraperAgent": {
+        "error": "Dépendances non satisfaites",
+        "status": "SKIPPED"
+      },
+      "CleanerAgent": {
+        "error": "Dépendances non satisfaites",
+        "status": "SKIPPED"
+      },
+      "ClassifierAgent": {
+        "error": "Dépendances non satisfaites",
+        "status": "SKIPPED"
+      }
+    },
+    "integration_tests": [
+      {
+        "agent": "CleanerAgent",
+        "start_time": "2025-04-27T10:31:52.373887",
+        "end_time": "2025-04-27T10:31:52.374508",
+        "status": "success",
+        "leads_processed": 0
+      },
+      {
+        "agent": "LeadClassifierAgent",
+        "start_time": "2025-04-27T10:31:52.375183",
+        "end_time": "2025-04-27T10:31:52.375841",
+        "status": "success",
+        "leads_processed": 0
+      },
+      {
+        "agent": "CRMExporterAgent",
+        "start_time": "2025-04-27T10:31:52.376655",
+        "end_time": "2025-04-27T10:31:52.379112",
+        "status": "success",
+        "leads_processed": 0,
+        "export_status": null,
+        "berinia_integration": "active"
+      }
+    ]
+  },
+  "execution_time": {
+    "start": "2025-04-27T10:31:52.352224",
+    "end": "2025-04-27T10:31:52.382731"
+  }
+}

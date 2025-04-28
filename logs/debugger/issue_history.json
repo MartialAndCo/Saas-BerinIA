@@ -1,0 +1,55 @@
+{
+  "issues": [
+    {
+      "timestamp": "2025-04-27T00:35:50.755650",
+      "agent": "CampaignStarterAgent",
+      "error_message": "Aucune niche valid\u00e9e fournie",
+      "error_type": "FUNCTIONAL",
+      "system_impact": "MODERATE",
+      "resolution_action": "NOTIFY_ADMIN",
+      "report_path": ""
+    },
+    {
+      "timestamp": "2025-04-27T00:44:31.534501",
+      "agent": "CampaignStarterAgent",
+      "error_message": "\u00c9chec de la classification: aucun lead classifi\u00e9",
+      "error_type": "FUNCTIONAL",
+      "system_impact": "MODERATE",
+      "resolution_action": "NOTIFY_ADMIN",
+      "report_path": ""
+    },
+    {
+      "timestamp": "2025-04-27T00:56:36.681784",
+      "agent": "CampaignStarterAgent",
+      "error_message": "\u00c9chec de la classification: aucun lead classifi\u00e9",
+      "error_type": "FUNCTIONAL",
+      "system_impact": "MODERATE",
+      "resolution_action": "NOTIFY_ADMIN",
+      "report_path": ""
+    }
+  ],
+  "resolutions": [],
+  "patterns": {
+    "PATTERN_1": {
+      "agent": "CampaignStarterAgent",
+      "error_signature": "Aucune niche valid\u00e9e fournie",
+      "name": "Erreur CampaignStarterAgent - DATA_VALIDATION",
+      "created_at": "2025-04-27T00:35:50.755650",
+      "last_occurrence": "2025-04-27T00:35:50.755650",
+      "occurrences": 1,
+      "successful_resolutions": 0,
+      "total_resolutions": 0
+    },
+    "PATTERN_2": {
+      "agent": "CampaignStarterAgent",
+      "error_signature": "\u00c9chec de la classification: aucun lead classifi\u00e9",
+      "name": "Erreur CampaignStarterAgent - UNKNOWN",
+      "created_at": "2025-04-27T00:44:31.534501",
+      "last_occurrence": "2025-04-27T00:56:36.681784",
+      "occurrences": 2,
+      "successful_resolutions": 0,
+      "total_resolutions": 0
+    }
+  },
+  "last_updated": "2025-04-27T00:56:36.682892"
+}

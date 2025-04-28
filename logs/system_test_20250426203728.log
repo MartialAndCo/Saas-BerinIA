@@ -1,0 +1,37 @@
+2025-04-26 20:37:28,670 - utils.config - INFO - Chargement des variables d'environnement depuis config/.env
+2025-04-26 20:37:28,675 - utils.config - WARNING - OPENAI_API_KEY manquante, les fonctionnalités LLM seront en mode simulation
+2025-04-26 20:37:28,675 - utils.config - WARNING - JWT_SECRET manquante, l'authentification API sera désactivée
+2025-04-26 20:37:28,675 - utils.config - WARNING - Paramètres manquants: OPENAI_API_KEY, JWT_SECRET. Copiez config/.env.example vers config/.env et configurez ces paramètres.
+2025-04-26 20:37:28,855 - system_test - INFO - ✅ Modules importés avec succès
+2025-04-26 20:37:28,857 - system_test - INFO - === Démarrage du test système complet ===
+2025-04-26 20:37:28,857 - system_test - INFO - Configuration: niche=avocat, location=Paris, France, max_leads=1
+2025-04-26 20:37:28,858 - system_test - INFO - 🚀 Démarrage du test complet avec niche: avocat
+2025-04-26 20:37:28,858 - system_test - INFO - Mode de test: agents individuels séquentiels
+2025-04-26 20:37:28,858 - system_test - INFO - 📡 Phase 1: Scraping des leads...
+2025-04-26 20:37:29,092 - agents.scraper.apify_client_scraper - INFO - Initialisation du client Apify avec API key: apif...
+2025-04-26 20:37:29,593 - agents.scraper.apify_client_scraper - INFO - Utilisation de l'API Apify réelle pour la niche: avocat
+2025-04-26 20:37:29,594 - agents.scraper.apify_client_scraper - INFO - Paramètres Apify préparés: {'searchStringsArray': ['avocat'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 1, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-26 20:37:29,594 - agents.scraper.apify_client_scraper - INFO - Appel de l'API Apify avec les paramètres: {'searchStringsArray': ['avocat'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 1, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-26 20:37:30,193 - httpx - INFO - HTTP Request: POST https://api.apify.com/v2/acts/2Mdma1N6Fd0y3QEjR/runs "HTTP/1.1 201 Created"
+2025-04-26 20:37:31,319 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/actor-runs/oU8B0Agmn3uMNABwn?waitForFinish=999999 "HTTP/1.1 200 OK"
+2025-04-26 20:37:42,324 - agents.scraper.apify_client_scraper - INFO - Acteur Apify exécuté avec succès. Dataset ID: GGg6lzrzdy7CGYUHi
+2025-04-26 20:37:42,478 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/datasets/GGg6lzrzdy7CGYUHi/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2025-04-26 20:37:42,501 - agents.scraper.apify_client_scraper - INFO - Récupération de 1 résultats depuis Apify
+2025-04-26 20:37:42,502 - agents.scraper.apify_client_scraper - INFO - Conversion de 1 résultats Apify en leads
+2025-04-26 20:37:42,502 - agents.scraper.apify_client_scraper - INFO - Contenu complet du résultat Apify pour Julien Riant Avocat: {"rank": 1, "title": "Julien Riant Avocat", "price": null, "categoryName": "Avocat", "address": "14 Rue Fagon, 75013 Paris, France", "neighborhood": null, "street": "14 Rue Fagon", "city": "Paris", "postalCode": "75013", "state": null, "countryCode": "FR", "website": "https://riant-avocat.fr/", "phone": "+33 7 66 99 18 23", "phoneUnformatted": "+33766991823", "claimThisBusiness": false, "location": {"lat": 48.8327033, "lng": 2.3573688}, "totalScore": 5, "permanentlyClosed": false, "temporarilyClosed": false, "placeId": "ChIJF47FmHFx5kcRmZLSKnzlqcA", "categories": ["Avocat"], "fid": "0x47e6717198c58e17:0xc0a9e57c2ad29299", "cid": "13882879647803413145", "reviewsCount": 22, "imagesCount": 2, "imageCategories": [], "scrapedAt": "2025-04-26T20:37:35.840Z", "googleFoodUrl": null, "hotelAds": [], "openingHours": [{"day": "samedi", "hours": "Fermé"}, {"day": "dimanche", "hours": "Fermé"}, {"day": "lundi", "hours": "09:00 to 19:00"}, {"day": "mardi", "hours": "09:00 to 19:00"}, {"day": "mercredi", "hours": "09:00 to 19:00"}, {"day": "jeudi", "hours": "09:00 to 19:00"}, {"day": "vendredi", "hours": "09:00 to 19:00"}], "peopleAlsoSearch": [], "placesTags": [], "reviewsTags": [], "additionalInfo": {"Services": [{"Toilettes": true}], "Planning": [{"Rendez-vous recommandés": true}], "Parking": [{"Parking payant dans la rue": true}]}, "gasPrices": [], "url": "https://www.google.com/maps/search/?api=1&query=Julien%20Riant%20Avocat&query_place_id=ChIJF47FmHFx5kcRmZLSKnzlqcA", "searchPageUrl": "https://www.google.com/maps/search/avocat/@48.83062391892036,2.3640684013900652,16z?hl=fr", "searchString": "avocat", "language": "fr", "isAdvertisement": false, "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=LVFIJoBzv_X9elMverSvQA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=10.61383&pitch=0&thumbfov=100", "kgmid": "/g/11qgkkjm5l"}
+2025-04-26 20:37:42,503 - agents.scraper.apify_client_scraper - INFO - Conversion terminée, 1 leads extraits
+2025-04-26 20:37:42,504 - agents - INFO - Agent ApifyClientScraper: execute - COMPLETED
+2025-04-26 20:37:42,504 - system_test - INFO - ✅ Scraping réussi: 1 leads extraits
+2025-04-26 20:37:42,505 - system_test - INFO - 🧹 Phase 2: Nettoyage des leads...
+2025-04-26 20:37:42,507 - agents - INFO - Agent CleanerAgent: execute - UNKNOWN
+2025-04-26 20:37:42,507 - system_test - INFO - ✅ Nettoyage réussi: 1 leads nettoyés
+2025-04-26 20:37:42,507 - system_test - INFO - 🏷️ Phase 3: Classification des leads...
+2025-04-26 20:37:42,510 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-26 20:37:42,511 - agents - INFO - Agent LeadClassifierAgent: execute - COMPLETED
+2025-04-26 20:37:42,511 - system_test - INFO - ✅ Classification réussie: 1 leads classifiés
+2025-04-26 20:37:42,511 - system_test - INFO - 📤 Phase 4: Export CRM...
+2025-04-26 20:37:42,512 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-26 20:37:42,513 - agents - INFO - Agent CRMExporterAgent: execute - UNKNOWN
+2025-04-26 20:37:42,514 - system_test - INFO - ✅ Export réussi: 0 leads à exporter maintenant, 0 différés
+2025-04-26 20:37:42,518 - system_test - INFO - 📊 Rapport final généré: system_test_report_TEST_avocat_1745699848.json
+2025-04-26 20:37:42,518 - system_test - INFO - ⏱️ Temps total d'exécution: 13.66 secondes

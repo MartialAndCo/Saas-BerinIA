@@ -1,0 +1,34 @@
+2025-04-27 00:05:59,573 - utils.config - INFO - Chargement des variables d'environnement depuis config/.env
+2025-04-27 00:05:59,578 - utils.config - WARNING - OPENAI_API_KEY manquante, les fonctionnalités LLM seront en mode simulation
+2025-04-27 00:05:59,578 - utils.config - WARNING - JWT_SECRET manquante, l'authentification API sera désactivée
+2025-04-27 00:05:59,578 - utils.config - WARNING - Paramètres manquants: OPENAI_API_KEY, JWT_SECRET. Copiez config/.env.example vers config/.env et configurez ces paramètres.
+2025-04-27 00:05:59,581 - brain_test - INFO - ✅ DecisionBrainAgent importé avec succès
+2025-04-27 00:05:59,586 - brain_test - INFO - 🚀 Démarrage du DecisionBrainAgent...
+2025-04-27 00:05:59,587 - brain_test - INFO - 🧠 DecisionBrainAgent initialisé
+2025-04-27 00:05:59,587 - brain_test - INFO - ⏳ Exécution de l'agent cerveau en cours...
+2025-04-27 00:05:59,587 - DecisionBrainAgent - INFO - [BRAIN] 🧠 ========== DÉCISION STRATÉGIQUE ==========
+2025-04-27 00:05:59,587 - DecisionBrainAgent - INFO - [BRAIN] 🔄 Début du processus de raisonnement stratégique global
+2025-04-27 00:05:59,587 - DecisionBrainAgent - INFO - [BRAIN] 📋 Opération demandée: evaluate_global_strategy
+2025-04-27 00:05:59,587 - DecisionBrainAgent - INFO - [BRAIN] 🔍 Récupération des données de campagnes passées et actives...
+2025-04-27 00:05:59,588 - DecisionBrainAgent - INFO - [BRAIN] 📊 Campagnes passées: 0 | Campagnes actives: 0
+2025-04-27 00:05:59,588 - DecisionBrainAgent - INFO - [BRAIN] 🧮 Interrogation de la mémoire vectorielle pour niches inexploitées...
+2025-04-27 00:05:59,588 - DecisionBrainAgent - INFO - [BRAIN] 💡 Découverte de 0 opportunités inexploitées
+2025-04-27 00:05:59,588 - DecisionBrainAgent - INFO - [BRAIN] ⚙️ Construction du prompt de décision stratégique...
+2025-04-27 00:05:59,588 - DecisionBrainAgent - INFO - [BRAIN] 💭 Réflexion stratégique en cours (GPT-4.1)...
+2025-04-27 00:05:59,588 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-27 00:05:59,589 - DecisionBrainAgent - INFO - [BRAIN] ⏱️ Décision prise en 0.00 secondes
+2025-04-27 00:05:59,589 - DecisionBrainAgent - INFO - [BRAIN] ❓ DÉCISION: Action inconnue 'unknown'
+2025-04-27 00:05:59,589 - DecisionBrainAgent - INFO - [BRAIN] 🔍 Processus décisionnel:
+2025-04-27 00:05:59,589 - DecisionBrainAgent - INFO - [BRAIN] 👥 Agents à impliquer dans l'exécution:
+2025-04-27 00:05:59,589 - DecisionBrainAgent - INFO - [BRAIN] ✅ Exécution terminée en 0.00 secondes
+2025-04-27 00:05:59,589 - DecisionBrainAgent - INFO - [BRAIN] 🧠 ==========================================
+2025-04-27 00:05:59,590 - agents - INFO - Agent DecisionBrainAgent: evaluate_global_strategy - UNKNOWN
+2025-04-27 00:05:59,590 - brain_test - INFO - ✅ Agent exécuté avec succès en 0.00 secondes
+2025-04-27 00:05:59,591 - brain_test - INFO - 💾 Résultat sauvegardé dans logs/brain_result_20250427000559.json
+2025-04-27 00:05:59,591 - brain_test - INFO - 📊 Détails de la décision :
+2025-04-27 00:05:59,591 - brain_test - INFO -   Action : non spécifiée
+2025-04-27 00:05:59,591 - brain_test - INFO -   Campagne cible : non spécifiée
+2025-04-27 00:05:59,591 - brain_test - INFO -   Priorité : non spécifiée
+2025-04-27 00:05:59,591 - brain_test - INFO -   Agents à impliquer : 
+2025-04-27 00:05:59,591 - brain_test - INFO - 🧩 Étapes de réflexion :
+2025-04-27 00:05:59,591 - brain_test - INFO -   1. Réflexion stratégique en cours (GPT-4.1)...

@@ -1,0 +1,8 @@
+Sujet: {{subject}}
+
+Bonjour {{name}},
+
+{{message_body}}
+
+Cordialement,
+L'équipe {{company}}

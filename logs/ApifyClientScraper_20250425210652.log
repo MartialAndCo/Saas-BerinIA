@@ -1,0 +1,86 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-25T21:06:52.160871
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "avocat",
+  "params": {
+    "locationQuery": "Paris, France",
+    "maxCrawledPlacesPerSearch": 1,
+    "language": "fr"
+  },
+  "campaign_id": "TEST_avocat_1745615198"
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "apify_1745615212_0",
+      "company_name": "Kamel DEROUICHE - Avocat p\u00e9naliste Paris",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://derouiche-avocat.com/",
+      "address": "11 Rue Soufflot, 75005 Paris, France",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 56,
+      "category": [
+        "Avocat p\u00e9naliste"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "samedi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mardi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ouvert 24h/24"
+        },
+        {
+          "day": "jeudi",
+          "hours": "Ouvert 24h/24"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T21:06:52.160517",
+      "niche": "avocat",
+      "raw_data": {
+        "place_id": "ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kamel%20DEROUICHE%20-%20Avocat%20p%C3%A9naliste%20Paris&query_place_id=ChIJKTWlGyhx5kcRfGEZeDAUJOw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "count": 1,
+  "niche": "avocat",
+  "campaign_id": "TEST_avocat_1745615198",
+  "time_taken": 12.521896123886108,
+  "api_used": true,
+  "status": "COMPLETED"
+}

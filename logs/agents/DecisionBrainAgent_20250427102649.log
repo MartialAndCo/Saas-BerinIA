@@ -1,0 +1,16 @@
+2025-04-27 10:26:49,252 - INFO - 🚀 DecisionBrainAgent démarré
+2025-04-27 10:26:49,253 - INFO - 📥 Données d'entrée: {"operation": "evaluate_global_strategy", "context": {"test_mode": false, "simulate_data": true, "verbose": true, "integration_tests": true, "berinia_available": true}}
+2025-04-27 10:26:49,253 - INFO - ⚙️ Exécution du DecisionBrainAgent démarrée
+2025-04-27 10:26:49,253 - INFO - [BRAIN] 🧠 ========== DÉCISION STRATÉGIQUE ==========
+2025-04-27 10:26:49,254 - INFO - [BRAIN] 🔄 Début du processus de raisonnement stratégique global
+2025-04-27 10:26:49,254 - INFO - [BRAIN] 📋 Opération demandée: evaluate_global_strategy
+2025-04-27 10:26:49,254 - INFO - [BRAIN] 🔍 Récupération des données de campagnes passées et actives...
+2025-04-27 10:26:49,254 - INFO - [BRAIN] 📊 Campagnes passées: 0 | Campagnes actives: 0
+2025-04-27 10:26:49,255 - INFO - [BRAIN] 🧮 Interrogation de la mémoire vectorielle pour niches inexploitées...
+2025-04-27 10:26:49,255 - INFO - [BRAIN] 💡 Découverte de 0 opportunités inexploitées
+2025-04-27 10:26:49,255 - INFO - [BRAIN] ⚙️ Construction du prompt de décision stratégique...
+2025-04-27 10:26:49,256 - INFO - [BRAIN] 💭 Réflexion stratégique en cours (GPT-4.1)...
+2025-04-27 10:26:49,256 - INFO - [BRAIN] ⏱️ Décision prise en 0.00 secondes
+2025-04-27 10:26:49,258 - ERROR - ❌ ERREUR: AttributeError: 'str' object has no attribute 'get'
+2025-04-27 10:26:49,259 - ERROR - Contexte de l'erreur: {"execution_time": 0.004247188568115234}
+2025-04-27 10:26:49,259 - WARNING - ⚠️ DecisionBrainAgent terminé avec statut 'error' en 7.24 ms

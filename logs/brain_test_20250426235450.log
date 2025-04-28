@@ -1,0 +1,1 @@
+2025-04-26 23:54:50,757 - brain_test - ERROR - ❌ Erreur lors de l'importation du DecisionBrainAgent: cannot import name 'get_campaign_data' from 'db.postgres' (/root/infra-ia/db/postgres.py)

@@ -1,0 +1,5 @@
+=== INPUT ===
+{'test': True, 'leads_to_contact': []}
+
+=== OUTPUT ===
+{'error': 'Aucun lead à contacter', 'contact_strategy': []}

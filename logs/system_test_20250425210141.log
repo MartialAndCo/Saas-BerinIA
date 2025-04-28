@@ -1,0 +1,37 @@
+2025-04-25 21:01:41,141 - utils.config - INFO - Chargement des variables d'environnement depuis config/.env
+2025-04-25 21:01:41,145 - utils.config - WARNING - OPENAI_API_KEY manquante, les fonctionnalités LLM seront en mode simulation
+2025-04-25 21:01:41,145 - utils.config - WARNING - JWT_SECRET manquante, l'authentification API sera désactivée
+2025-04-25 21:01:41,145 - utils.config - WARNING - Paramètres manquants: OPENAI_API_KEY, JWT_SECRET. Copiez config/.env.example vers config/.env et configurez ces paramètres.
+2025-04-25 21:01:41,352 - system_test - INFO - ✅ Modules importés avec succès
+2025-04-25 21:01:41,355 - system_test - INFO - === Démarrage du test système complet ===
+2025-04-25 21:01:41,355 - system_test - INFO - Configuration: niche=restaurant, location=Paris, France, max_leads=1
+2025-04-25 21:01:41,355 - system_test - INFO - 🚀 Démarrage du test complet avec niche: restaurant
+2025-04-25 21:01:41,355 - system_test - INFO - Mode de test: agents individuels séquentiels
+2025-04-25 21:01:41,355 - system_test - INFO - 📡 Phase 1: Scraping des leads...
+2025-04-25 21:01:41,649 - agents.scraper.apify_client_scraper - INFO - Initialisation du client Apify avec API key: apif...
+2025-04-25 21:01:42,150 - agents.scraper.apify_client_scraper - INFO - Utilisation de l'API Apify réelle pour la niche: restaurant
+2025-04-25 21:01:42,151 - agents.scraper.apify_client_scraper - INFO - Paramètres Apify préparés: {'searchStringsArray': ['restaurant'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 1, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-25 21:01:42,151 - agents.scraper.apify_client_scraper - INFO - Appel de l'API Apify avec les paramètres: {'searchStringsArray': ['restaurant'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 1, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-25 21:01:42,806 - httpx - INFO - HTTP Request: POST https://api.apify.com/v2/acts/2Mdma1N6Fd0y3QEjR/runs "HTTP/1.1 201 Created"
+2025-04-25 21:01:43,947 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/actor-runs/JaWM0zCZFiUjHUdH7?waitForFinish=999999 "HTTP/1.1 200 OK"
+2025-04-25 21:01:57,387 - agents.scraper.apify_client_scraper - INFO - Acteur Apify exécuté avec succès. Dataset ID: bdAQQxCXkC8DQCofD
+2025-04-25 21:01:57,524 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/datasets/bdAQQxCXkC8DQCofD/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2025-04-25 21:01:57,525 - agents.scraper.apify_client_scraper - INFO - Récupération de 1 résultats depuis Apify
+2025-04-25 21:01:57,526 - agents.scraper.apify_client_scraper - INFO - Conversion de 1 résultats Apify en leads
+2025-04-25 21:01:57,526 - agents.scraper.apify_client_scraper - INFO - Contenu complet du résultat Apify pour La Maison du Boulevard: {"rank": 1, "title": "La Maison du Boulevard", "price": "20–30 €", "categoryName": "Restaurant français", "address": "40 Bd de l'Hôpital, 75005 Paris, France", "neighborhood": null, "street": "40 Bd de l'Hôpital", "city": "Paris", "postalCode": "75005", "state": null, "countryCode": "FR", "website": "https://www.instagram.com/lamaisonduboulevard_paris/", "claimThisBusiness": false, "location": {"lat": 48.8401854, "lng": 2.3616122}, "totalScore": 4.8, "permanentlyClosed": false, "temporarilyClosed": false, "placeId": "ChIJFZAIBJVx5kcRVzImVeaKQQU", "categories": ["Restaurant français"], "fid": "0x47e6719504089015:0x5418ae655263257", "cid": "378736565551510103", "reviewsCount": 1617, "imagesCount": 834, "imageCategories": [], "scrapedAt": "2025-04-25T21:01:49.117Z", "googleFoodUrl": null, "hotelAds": [], "openingHours": [{"day": "vendredi", "hours": "11:00 to 14:30, 18:00 to 22:30"}, {"day": "samedi", "hours": "11:00 to 14:30, 18:00 to 22:30"}, {"day": "dimanche", "hours": "11:00 to 14:30, 18:00 to 22:30"}, {"day": "lundi", "hours": "11:00 to 14:30, 18:00 to 22:30"}, {"day": "mardi", "hours": "11:00 to 14:30, 18:00 to 22:30"}, {"day": "mercredi", "hours": "11:00 to 14:30, 18:00 to 22:30"}, {"day": "jeudi", "hours": "11:00 to 14:30, 18:00 to 22:30"}], "peopleAlsoSearch": [], "placesTags": [], "reviewsTags": [], "additionalInfo": {"Services disponibles": [{"Terrasse": true}, {"Repas sur place": true}, {"Livraison": false}, {"Vente à emporter": false}], "Points forts": [{"Excellent café": true}], "Populaire pour": [{"Déjeuner": true}, {"Dîner": true}, {"Dîner en solo": true}], "Accessibilité": [{"Entrée accessible en fauteuil roulant": true}, {"Places assises accessibles en fauteuil roulant": true}], "Offre": [{"Alcools": true}, {"Bière": true}, {"Cafés": true}, {"Cocktails et apéritifs": true}, {"Convient aux végétariens": true}, {"Plats halal": true}, {"Produits sains": true}, {"Spiritueux": true}, {"Vin": true}], "Services de restauration": [{"Petit déjeuner": true}, {"Déjeuner": true}, {"Dîner": true}, {"Traiteur": true}, {"Desserts": true}, {"Places assises": true}], "Services": [{"Toilettes": true}], "Ambiance": [{"Ambiance décontractée": true}, {"Cadre agréable": true}], "Planning": [{"Réservations acceptées": true}], "Paiements": [{"Cartes de crédit": true}, {"Cartes de débit": true}, {"Paiements mobiles NFC": true}, {"Pluxee": true}, {"Titres restaurant": true}, {"Cartes de crédit": true}], "Enfants": [{"Convient aux enfants": true}, {"Menu enfant": true}]}, "gasPrices": [], "url": "https://www.google.com/maps/search/?api=1&query=La%20Maison%20du%20Boulevard&query_place_id=ChIJFZAIBJVx5kcRVzImVeaKQQU", "searchPageUrl": "https://www.google.com/maps/search/restaurant/@48.84192065135221,2.3640684013900652,16z?hl=fr", "searchString": "restaurant", "language": "fr", "isAdvertisement": false, "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMPEuLxZ236QtVQIGc8Q2ezKHhtHdGvK6HJv3DV=w426-h240-k-no", "kgmid": "/g/11rfcn34cr"}
+2025-04-25 21:01:57,526 - agents.scraper.apify_client_scraper - INFO - Conversion terminée, 1 leads extraits
+2025-04-25 21:01:57,527 - agents - INFO - Agent ApifyClientScraper: execute - COMPLETED
+2025-04-25 21:01:57,527 - system_test - INFO - ✅ Scraping réussi: 1 leads extraits
+2025-04-25 21:01:57,527 - system_test - INFO - 🧹 Phase 2: Nettoyage des leads...
+2025-04-25 21:01:57,528 - agents - INFO - Agent CleanerAgent: execute - UNKNOWN
+2025-04-25 21:01:57,528 - system_test - INFO - ✅ Nettoyage réussi: 1 leads nettoyés
+2025-04-25 21:01:57,528 - system_test - INFO - 🏷️ Phase 3: Classification des leads...
+2025-04-25 21:01:57,529 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-25 21:01:57,530 - agents - INFO - Agent LeadClassifierAgent: execute - COMPLETED
+2025-04-25 21:01:57,531 - system_test - INFO - ✅ Classification réussie: 1 leads classifiés
+2025-04-25 21:01:57,531 - system_test - INFO - 📤 Phase 4: Export CRM...
+2025-04-25 21:01:57,531 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-25 21:01:57,532 - agents - INFO - Agent CRMExporterAgent: execute - UNKNOWN
+2025-04-25 21:01:57,532 - system_test - INFO - ✅ Export réussi: 0 leads à exporter maintenant, 0 différés
+2025-04-25 21:01:57,536 - system_test - INFO - 📊 Rapport final généré: system_test_report_TEST_restaurant_1745614901.json
+2025-04-25 21:01:57,536 - system_test - INFO - ⏱️ Temps total d'exécution: 16.18 secondes

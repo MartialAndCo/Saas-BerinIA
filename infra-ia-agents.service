@@ -1,0 +1,16 @@
+[Unit]
+Description=infra-ia Agents API Service
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/infra-ia
+Environment="AGENTS_API_PORT=8555"
+Environment="PYTHONPATH=/root:/root/infra-ia"
+Environment="LOG_LEVEL=INFO"
+ExecStart=/root/infra-ia/start_agent_service.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

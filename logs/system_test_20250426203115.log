@@ -1,0 +1,37 @@
+2025-04-26 20:31:15,692 - utils.config - INFO - Chargement des variables d'environnement depuis config/.env
+2025-04-26 20:31:15,695 - utils.config - WARNING - OPENAI_API_KEY manquante, les fonctionnalités LLM seront en mode simulation
+2025-04-26 20:31:15,695 - utils.config - WARNING - JWT_SECRET manquante, l'authentification API sera désactivée
+2025-04-26 20:31:15,695 - utils.config - WARNING - Paramètres manquants: OPENAI_API_KEY, JWT_SECRET. Copiez config/.env.example vers config/.env et configurez ces paramètres.
+2025-04-26 20:31:15,912 - system_test - INFO - ✅ Modules importés avec succès
+2025-04-26 20:31:15,915 - system_test - INFO - === Démarrage du test système complet ===
+2025-04-26 20:31:15,915 - system_test - INFO - Configuration: niche=avocat, location=Paris, France, max_leads=1
+2025-04-26 20:31:15,915 - system_test - INFO - 🚀 Démarrage du test complet avec niche: avocat
+2025-04-26 20:31:15,915 - system_test - INFO - Mode de test: agents individuels séquentiels
+2025-04-26 20:31:15,915 - system_test - INFO - 📡 Phase 1: Scraping des leads...
+2025-04-26 20:31:16,196 - agents.scraper.apify_client_scraper - INFO - Initialisation du client Apify avec API key: apif...
+2025-04-26 20:31:16,698 - agents.scraper.apify_client_scraper - INFO - Utilisation de l'API Apify réelle pour la niche: avocat
+2025-04-26 20:31:16,699 - agents.scraper.apify_client_scraper - INFO - Paramètres Apify préparés: {'searchStringsArray': ['avocat'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 1, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-26 20:31:16,699 - agents.scraper.apify_client_scraper - INFO - Appel de l'API Apify avec les paramètres: {'searchStringsArray': ['avocat'], 'locationQuery': 'Paris, France', 'maxCrawledPlacesPerSearch': 1, 'language': 'fr', 'skipClosedPlaces': False, 'placeMinimumStars': '', 'website': 'allPlaces', 'searchMatching': 'all'}
+2025-04-26 20:31:17,352 - httpx - INFO - HTTP Request: POST https://api.apify.com/v2/acts/2Mdma1N6Fd0y3QEjR/runs "HTTP/1.1 201 Created"
+2025-04-26 20:31:18,503 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/actor-runs/y57p0U7zgOLS5Vhgn?waitForFinish=999999 "HTTP/1.1 200 OK"
+2025-04-26 20:31:28,789 - agents.scraper.apify_client_scraper - INFO - Acteur Apify exécuté avec succès. Dataset ID: cArccw3gp3hUNfB0B
+2025-04-26 20:31:28,927 - httpx - INFO - HTTP Request: GET https://api.apify.com/v2/datasets/cArccw3gp3hUNfB0B/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2025-04-26 20:31:28,973 - agents.scraper.apify_client_scraper - INFO - Récupération de 1 résultats depuis Apify
+2025-04-26 20:31:28,973 - agents.scraper.apify_client_scraper - INFO - Conversion de 1 résultats Apify en leads
+2025-04-26 20:31:28,974 - agents.scraper.apify_client_scraper - INFO - Contenu complet du résultat Apify pour Maître Catherine Lam-Avocat: {"rank": 1, "title": "Maître Catherine Lam-Avocat", "price": null, "categoryName": "Avocat spécialisé dans les divorces", "address": "26 Rue des Petits Champs, 75002 Paris, France", "neighborhood": null, "street": "26 Rue des Petits Champs", "city": "Paris", "postalCode": "75002", "state": null, "countryCode": "FR", "website": "https://maprocedure.fr/", "phone": "+33 1 42 60 33 88", "phoneUnformatted": "+33142603388", "claimThisBusiness": false, "location": {"lat": 48.8670408, "lng": 2.3362956}, "totalScore": 4.9, "permanentlyClosed": false, "temporarilyClosed": false, "placeId": "ChIJm_800Dpu5kcRBsM1iQLd6oc", "categories": ["Avocat spécialisé dans les divorces"], "fid": "0x47e66e3ad034ff9b:0x87eadd028935c306", "cid": "9793883342632239878", "reviewsCount": 133, "imagesCount": 2, "imageCategories": [], "scrapedAt": "2025-04-26T20:31:22.321Z", "googleFoodUrl": null, "hotelAds": [], "openingHours": [{"day": "samedi", "hours": "Fermé"}, {"day": "dimanche", "hours": "Fermé"}, {"day": "lundi", "hours": "09:30 to 19:00"}, {"day": "mardi", "hours": "09:30 to 19:00"}, {"day": "mercredi", "hours": "09:30 to 19:00"}, {"day": "jeudi", "hours": "Fermé"}, {"day": "vendredi", "hours": "09:30 to 19:00"}], "peopleAlsoSearch": [], "placesTags": [], "reviewsTags": [], "additionalInfo": {"Services disponibles": [{"Rendez-vous en ligne": false}, {"Services sur place": false}], "Services": [{"Toilettes": true}], "Planning": [{"Rendez-vous obligatoire": true}, {"Rendez-vous recommandés": true}], "Parking": [{"Parking payant dans la rue": true}]}, "gasPrices": [], "url": "https://www.google.com/maps/search/?api=1&query=Ma%C3%AEtre%20Catherine%20Lam-Avocat&query_place_id=ChIJm_800Dpu5kcRBsM1iQLd6oc", "searchPageUrl": "https://www.google.com/maps/search/avocat/@48.864514116215915,2.3469127500000004,16z?hl=fr", "searchString": "avocat", "language": "fr", "isAdvertisement": false, "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPsE83FQcQRXvW4sQjAt7MOwi1pZHk-jQtAFS6O=w408-h240-k-no", "kgmid": "/g/1tmqfj78"}
+2025-04-26 20:31:28,974 - agents.scraper.apify_client_scraper - INFO - Conversion terminée, 1 leads extraits
+2025-04-26 20:31:28,975 - agents - INFO - Agent ApifyClientScraper: execute - COMPLETED
+2025-04-26 20:31:28,975 - system_test - INFO - ✅ Scraping réussi: 1 leads extraits
+2025-04-26 20:31:28,975 - system_test - INFO - 🧹 Phase 2: Nettoyage des leads...
+2025-04-26 20:31:28,976 - agents - INFO - Agent CleanerAgent: execute - UNKNOWN
+2025-04-26 20:31:28,976 - system_test - INFO - ✅ Nettoyage réussi: 1 leads nettoyés
+2025-04-26 20:31:28,976 - system_test - INFO - 🏷️ Phase 3: Classification des leads...
+2025-04-26 20:31:28,978 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-26 20:31:28,979 - agents - INFO - Agent LeadClassifierAgent: execute - COMPLETED
+2025-04-26 20:31:28,981 - system_test - INFO - ✅ Classification réussie: 1 leads classifiés
+2025-04-26 20:31:28,982 - system_test - INFO - 📤 Phase 4: Export CRM...
+2025-04-26 20:31:28,982 - llm - INFO - Simulation de requête GPT-4.1 avec température 0.7
+2025-04-26 20:31:28,983 - agents - INFO - Agent CRMExporterAgent: execute - UNKNOWN
+2025-04-26 20:31:28,983 - system_test - INFO - ✅ Export réussi: 0 leads à exporter maintenant, 0 différés
+2025-04-26 20:31:28,992 - system_test - INFO - 📊 Rapport final généré: system_test_report_TEST_avocat_1745699475.json
+2025-04-26 20:31:29,000 - system_test - INFO - ⏱️ Temps total d'exécution: 13.07 secondes

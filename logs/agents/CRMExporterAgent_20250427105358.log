@@ -1,0 +1,25 @@
+2025-04-27 10:53:58,834 - INFO - 🚀 CRMExporterAgent démarré
+2025-04-27 10:53:58,835 - INFO - 🚀 CRMExporterAgent démarré
+2025-04-27 10:53:58,835 - INFO - 🚀 CRMExporterAgent démarré
+2025-04-27 10:53:58,835 - INFO - 📥 Données d'entrée: {"classified_leads": [], "campaign_id": "test_campaign_123", "pending_leads_count": 5, "daily_limit": 20, "exported_today": 10}
+2025-04-27 10:53:58,835 - INFO - 📥 Données d'entrée: {"classified_leads": [], "campaign_id": "test_campaign_123", "pending_leads_count": 5, "daily_limit": 20, "exported_today": 10}
+2025-04-27 10:53:58,835 - INFO - 📥 Données d'entrée: {"classified_leads": [], "campaign_id": "test_campaign_123", "pending_leads_count": 5, "daily_limit": 20, "exported_today": 10}
+2025-04-27 10:53:58,835 - INFO - 📥 Données d'entrée: {"classified_leads": [], "campaign_id": "test_campaign_123", "pending_leads_count": 5, "daily_limit": 20, "exported_today": 10}
+2025-04-27 10:53:58,836 - INFO - ⚙️ Décision d'exportation des leads vers le CRM...
+2025-04-27 10:53:58,836 - INFO - ⚙️ Décision d'exportation des leads vers le CRM...
+2025-04-27 10:53:58,837 - ERROR - ❌ ERREUR: Aucun lead à exporter
+2025-04-27 10:53:58,837 - ERROR - ❌ ERREUR: Aucun lead à exporter
+2025-04-27 10:53:58,837 - ERROR - Contexte de l'erreur: {"input_data": "empty"}
+2025-04-27 10:53:58,837 - ERROR - Contexte de l'erreur: {"input_data": "empty"}
+2025-04-27 10:53:58,838 - INFO - 📤 Résultat: {"error": "Aucun lead à exporter", "export_decision": {"leads_to_export_now": [], "leads_to_delay": []}}
+2025-04-27 10:53:58,838 - INFO - 📤 Résultat: {"error": "Aucun lead à exporter", "export_decision": {"leads_to_export_now": [], "leads_to_delay": []}}
+2025-04-27 10:53:58,838 - INFO - ⏱️ Temps d'exécution: 2.96 ms
+2025-04-27 10:53:58,838 - INFO - ⏱️ Temps d'exécution: 2.96 ms
+2025-04-27 10:53:58,838 - WARNING - ⚠️ CRMExporterAgent terminé avec statut 'no_leads' en 3.70 ms
+2025-04-27 10:53:58,838 - WARNING - ⚠️ CRMExporterAgent terminé avec statut 'no_leads' en 3.70 ms
+2025-04-27 10:53:58,839 - INFO - 📤 Résultat: {"error": "Aucun lead à exporter", "export_decision": {"leads_to_export_now": [], "leads_to_delay": []}}
+2025-04-27 10:53:58,839 - INFO - 📤 Résultat: {"error": "Aucun lead à exporter", "export_decision": {"leads_to_export_now": [], "leads_to_delay": []}}
+2025-04-27 10:53:58,839 - INFO - ⏱️ Temps d'exécution: 4.34 ms
+2025-04-27 10:53:58,839 - INFO - ⏱️ Temps d'exécution: 4.34 ms
+2025-04-27 10:53:58,839 - WARNING - ⚠️ CRMExporterAgent terminé avec statut 'failure' en 4.95 ms
+2025-04-27 10:53:58,839 - WARNING - ⚠️ CRMExporterAgent terminé avec statut 'failure' en 4.95 ms

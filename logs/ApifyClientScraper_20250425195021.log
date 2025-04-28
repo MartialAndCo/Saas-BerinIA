@@ -1,0 +1,338 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-25T19:50:21.923793
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "restaurant",
+  "campaign_id": "real_test_comparison",
+  "params": {
+    "language": "fr",
+    "locationQuery": "Paris, FR",
+    "maxCrawledPlacesPerSearch": 5,
+    "searchStringsArray": [
+      "restaurant"
+    ],
+    "skipClosedPlaces": false
+  }
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "apify_1745610621_0",
+      "company_name": "Le 217 Brasserie Restaurant",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": null,
+      "address": "217 Av. Daumesnil, 75012 Paris, France",
+      "city": "Paris",
+      "postal_code": "75012",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 1209,
+      "category": [
+        "Restaurant",
+        "Restaurant fran\u00e7ais",
+        "Brasserie"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 16:00, 19:00 to 23:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 16:00, 19:00 to 23:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "12:00 to 16:00, 19:00 to 23:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 16:00, 19:00 to 23:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 16:00, 19:00 to 23:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 16:00, 19:00 to 23:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:50:21.923363",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJERw-nmhy5kcR2F6bGEVgvPw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20217%20Brasserie%20Restaurant&query_place_id=ChIJERw-nmhy5kcR2F6bGEVgvPw",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745610621_1",
+      "company_name": "Olympe Sport Caf\u00e9",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": null,
+      "address": "46 Av. du G\u00e9n\u00e9ral de Gaulle, 94300 Vincennes, France",
+      "city": "Vincennes",
+      "postal_code": "94300",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 655,
+      "category": [
+        "Restaurant",
+        "Bar"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "12:00 to 14:30, 18:30 to 23:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "12:00 to 14:30, 18:30 to 23:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "12:00 to 14:30, 18:30 to 23:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "12:00 to 14:30, 18:30 to 23:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "12:00 to 14:30, 18:30 to 23:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:50:21.923438",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ7Z7ZKpZy5kcRvc0ziZn3GKs",
+        "url": "https://www.google.com/maps/search/?api=1&query=Olympe%20Sport%20Caf%C3%A9&query_place_id=ChIJ7Z7ZKpZy5kcRvc0ziZn3GKs",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745610621_2",
+      "company_name": "La Table des Troys",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://www.latabledestroys.com/",
+      "address": "2 Av. de Paris, 94300 Vincennes, France",
+      "city": "Vincennes",
+      "postal_code": "94300",
+      "country": "France",
+      "rating": 4.3,
+      "reviews_count": 1627,
+      "category": [
+        "Restaurant",
+        "Restaurant de grillades"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "11:45 to 23:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "11:45 to 23:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "11:45 to 22:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "11:45 to 22:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "11:45 to 22:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "11:45 to 22:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "11:45 to 22:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:50:21.923468",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJA4HeSKNy5kcRMuMj-CDC3S4",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Table%20des%20Troys&query_place_id=ChIJA4HeSKNy5kcRMuMj-CDC3S4",
+        "description": "Cuisine traditionnelle avec sp\u00e9cialit\u00e9 de r\u00f4tisserie et glaces maison dans un vaste restaurant au d\u00e9cor sobre.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745610621_3",
+      "company_name": "Les Magnolias du Parc Floral",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "https://lesmagnoliasparcfloral.com/",
+      "address": "96 Rte de la Pyramide, 75012 Paris, France",
+      "city": "Paris",
+      "postal_code": "75012",
+      "country": "France",
+      "rating": 3.5,
+      "reviews_count": 436,
+      "category": [
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:30 to 19:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:30 to 19:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:50:21.923495",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ4ZnzsLRx5kcRHzYqf9Qa_jk",
+        "url": "https://www.google.com/maps/search/?api=1&query=Les%20Magnolias%20du%20Parc%20Floral&query_place_id=ChIJ4ZnzsLRx5kcRHzYqf9Qa_jk",
+        "description": "Cuisine fran\u00e7aise traditionnelle dans un restaurant/salon de th\u00e9 au sein du parc floral, avec terrasse.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "id": "apify_1745610621_4",
+      "company_name": "BSR RESTAURANT GROUPE CLUB ANNIVERSAIRE",
+      "contact_name": null,
+      "position": null,
+      "email": null,
+      "phone": null,
+      "website": "http://www.restaurantgroupe.com/",
+      "address": "7 ter Rue du Colonel Oudot, 75012 Paris, France",
+      "city": "Paris",
+      "postal_code": "75012",
+      "country": "France",
+      "rating": 4.9,
+      "reviews_count": 66,
+      "category": [
+        "Restaurant"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "09:00 to 11:00, 12:00 to 05:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "09:00 to 11:00, 12:00 to 05:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "09:00 to 11:00, 12:00 to 00:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "09:00 to 11:00, 12:00 to 01:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "09:00 to 11:00, 12:00 to 01:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "09:00 to 11:00, 12:00 to 01:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "09:00 to 11:00, 12:00 to 01:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T19:50:21.923535",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJgfPF5WBy5kcRt4NW5kGoffs",
+        "url": "https://www.google.com/maps/search/?api=1&query=BSR%20RESTAURANT%20GROUPE%20CLUB%20ANNIVERSAIRE&query_place_id=ChIJgfPF5WBy5kcRt4NW5kGoffs",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
+  "count": 5,
+  "niche": "restaurant",
+  "campaign_id": "real_test_comparison",
+  "time_taken": 12.836060523986816,
+  "api_used": true,
+  "status": "COMPLETED"
+}

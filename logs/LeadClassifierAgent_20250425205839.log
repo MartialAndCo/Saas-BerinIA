@@ -1,0 +1,527 @@
+=== LeadClassifierAgent LOG ===
+Timestamp: 2025-04-25T20:58:39.695456
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "leads": [
+    {
+      "id": "apify_1745614719_0",
+      "company_name": "Restaurant Cl\u00e9o",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": "http://www.restaurantcleo.fr/",
+      "address": "19 Bd de la Tour-Maubourg, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 604,
+      "category": [
+        "Restaurant",
+        "Restaurant fran\u00e7ais",
+        "Restaurant gastronomique"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "07:00 to 21:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:58:39.689536",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ_z4s3Nlv5kcRqRIM5cVK1LE",
+        "url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Cl%C3%A9o&query_place_id=ChIJ_z4s3Nlv5kcRqRIM5cVK1LE",
+        "description": "Restaurant sophistiqu\u00e9 proposant un menu local compos\u00e9 de plats cr\u00e9atifs de viande et de poisson, ainsi que des desserts et du vin.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:58:39.691183"
+      },
+      "industry": "Restaurant",
+      "company_size": "small",
+      "location": "Paris, France"
+    },
+    {
+      "id": "apify_1745614719_1",
+      "company_name": "Brasserie L'Alsace",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": "https://www.restaurantalsace.com/?utm_source=Google&utm_medium=GMB&utm_campaign=ALS&y_source=1_MTE2NjUxNzAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "address": "39 Av. des Champs-\u00c9lys\u00e9es, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.4,
+      "reviews_count": 13211,
+      "category": [
+        "Restaurant fran\u00e7ais",
+        "Restaurant de sp\u00e9cialit\u00e9s alsaciennes",
+        "Brasserie"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "07:00 to 04:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "07:00 to 04:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "07:00 to 02:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "07:00 to 02:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "07:00 to 02:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "07:00 to 02:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "07:00 to 02:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:58:39.689586",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJUWoNhMNv5kcRV_ttmJ0DYFw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Brasserie%20L'Alsace&query_place_id=ChIJUWoNhMNv5kcRV_ttmJ0DYFw",
+        "description": "Brasserie \u00e9l\u00e9gante et c\u00e9l\u00e8bre avec une terrasse, servant des sp\u00e9cialit\u00e9s de la mer et des cocktails ainsi que des plats \u00e0 emporter.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:58:39.691227"
+      },
+      "industry": "Restaurant fran\u00e7ais",
+      "company_size": "small",
+      "location": "Paris, France"
+    },
+    {
+      "id": "apify_1745614719_2",
+      "company_name": "Le Boissy d'Anglas",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": null,
+      "address": "41 Rue Boissy d'Anglas, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.5,
+      "reviews_count": 884,
+      "category": [
+        "Restaurant",
+        "Restaurant fran\u00e7ais"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 00:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:58:39.689615",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ2126xcxv5kcRQle19SseHTY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Boissy%20d'Anglas&query_place_id=ChIJ2126xcxv5kcRQle19SseHTY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:58:39.691261"
+      },
+      "industry": "Restaurant",
+      "company_size": "small",
+      "location": "Paris, France"
+    }
+  ],
+  "campaign_id": "TEST_restaurant_1745614704"
+}
+
+Output: {
+  "operation": "classify",
+  "campaign_id": "TEST_restaurant_1745614704",
+  "timestamp": "2025-04-25T20:58:39.693688",
+  "status": "COMPLETED",
+  "classified_leads": [
+    {
+      "id": "apify_1745614719_0",
+      "company_name": "Restaurant Cl\u00e9o",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": "http://www.restaurantcleo.fr/",
+      "address": "19 Bd de la Tour-Maubourg, 75007 Paris, France",
+      "city": "Paris",
+      "postal_code": "75007",
+      "country": "France",
+      "rating": 4.7,
+      "reviews_count": 604,
+      "category": [
+        "Restaurant",
+        "Restaurant fran\u00e7ais",
+        "Restaurant gastronomique"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "samedi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "dimanche",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "lundi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "mardi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "mercredi",
+          "hours": "07:00 to 21:30"
+        },
+        {
+          "day": "jeudi",
+          "hours": "07:00 to 21:30"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:58:39.689536",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ_z4s3Nlv5kcRqRIM5cVK1LE",
+        "url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Cl%C3%A9o&query_place_id=ChIJ_z4s3Nlv5kcRqRIM5cVK1LE",
+        "description": "Restaurant sophistiqu\u00e9 proposant un menu local compos\u00e9 de plats cr\u00e9atifs de viande et de poisson, ainsi que des desserts et du vin.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:58:39.691183"
+      },
+      "industry": "Restaurant",
+      "company_size": "small",
+      "location": "Paris, France",
+      "heuristic_score": 0.8300000000000001,
+      "heuristic_details": {
+        "industry_score": 0.8,
+        "position_score": 0.9,
+        "company_size_score": 0.7,
+        "location_score": 0.9
+      },
+      "email_score": 0.0,
+      "phone_score": 0.0,
+      "profile_score": 0.66,
+      "global_score": 0.4526666666666667,
+      "temperature": "cold",
+      "score_details": {
+        "email": 0.0,
+        "phone": 0.0,
+        "profile": 0.66,
+        "heuristic": 0.8300000000000001
+      }
+    },
+    {
+      "id": "apify_1745614719_1",
+      "company_name": "Brasserie L'Alsace",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": "https://www.restaurantalsace.com/?utm_source=Google&utm_medium=GMB&utm_campaign=ALS&y_source=1_MTE2NjUxNzAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "address": "39 Av. des Champs-\u00c9lys\u00e9es, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.4,
+      "reviews_count": 13211,
+      "category": [
+        "Restaurant fran\u00e7ais",
+        "Restaurant de sp\u00e9cialit\u00e9s alsaciennes",
+        "Brasserie"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "07:00 to 04:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "07:00 to 04:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "07:00 to 02:00"
+        },
+        {
+          "day": "lundi",
+          "hours": "07:00 to 02:00"
+        },
+        {
+          "day": "mardi",
+          "hours": "07:00 to 02:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "07:00 to 02:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "07:00 to 02:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:58:39.689586",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJUWoNhMNv5kcRV_ttmJ0DYFw",
+        "url": "https://www.google.com/maps/search/?api=1&query=Brasserie%20L'Alsace&query_place_id=ChIJUWoNhMNv5kcRV_ttmJ0DYFw",
+        "description": "Brasserie \u00e9l\u00e9gante et c\u00e9l\u00e8bre avec une terrasse, servant des sp\u00e9cialit\u00e9s de la mer et des cocktails ainsi que des plats \u00e0 emporter.",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:58:39.691227"
+      },
+      "industry": "Restaurant fran\u00e7ais",
+      "company_size": "small",
+      "location": "Paris, France",
+      "heuristic_score": 0.7400000000000001,
+      "heuristic_details": {
+        "industry_score": 0.5,
+        "position_score": 0.9,
+        "company_size_score": 0.7,
+        "location_score": 0.9
+      },
+      "email_score": 0.0,
+      "phone_score": 0.0,
+      "profile_score": 0.66,
+      "global_score": 0.42266666666666675,
+      "temperature": "cold",
+      "score_details": {
+        "email": 0.0,
+        "phone": 0.0,
+        "profile": 0.66,
+        "heuristic": 0.7400000000000001
+      }
+    },
+    {
+      "id": "apify_1745614719_2",
+      "company_name": "Le Boissy d'Anglas",
+      "contact_name": null,
+      "position": "Owner",
+      "email": "",
+      "phone": "",
+      "website": null,
+      "address": "41 Rue Boissy d'Anglas, 75008 Paris, France",
+      "city": "Paris",
+      "postal_code": "75008",
+      "country": "France",
+      "rating": 4.5,
+      "reviews_count": 884,
+      "category": [
+        "Restaurant",
+        "Restaurant fran\u00e7ais"
+      ],
+      "opening_hours": [
+        {
+          "day": "vendredi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "samedi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "dimanche",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "lundi",
+          "hours": "Ferm\u00e9"
+        },
+        {
+          "day": "mardi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "mercredi",
+          "hours": "08:00 to 00:00"
+        },
+        {
+          "day": "jeudi",
+          "hours": "08:00 to 00:00"
+        }
+      ],
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T20:58:39.689615",
+      "niche": "restaurant",
+      "raw_data": {
+        "place_id": "ChIJ2126xcxv5kcRQle19SseHTY",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Boissy%20d'Anglas&query_place_id=ChIJ2126xcxv5kcRQle19SseHTY",
+        "description": "",
+        "verified": false,
+        "location": {
+          "lat": null,
+          "lng": null
+        }
+      },
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Email invalide: Email vide",
+          "T\u00e9l\u00e9phone invalide: T\u00e9l\u00e9phone vide"
+        ],
+        "level": "standard",
+        "cleaned_at": "2025-04-25T20:58:39.691261"
+      },
+      "industry": "Restaurant",
+      "company_size": "small",
+      "location": "Paris, France",
+      "heuristic_score": 0.8300000000000001,
+      "heuristic_details": {
+        "industry_score": 0.8,
+        "position_score": 0.9,
+        "company_size_score": 0.7,
+        "location_score": 0.9
+      },
+      "email_score": 0.0,
+      "phone_score": 0.0,
+      "profile_score": 0.63,
+      "global_score": 0.4446666666666667,
+      "temperature": "cold",
+      "score_details": {
+        "email": 0.0,
+        "phone": 0.0,
+        "profile": 0.63,
+        "heuristic": 0.8300000000000001
+      }
+    }
+  ],
+  "metrics": {
+    "hot_leads_count": 0,
+    "warm_leads_count": 0,
+    "cold_leads_count": 3,
+    "total_leads": 3
+  }
+}

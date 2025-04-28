@@ -1,0 +1,61 @@
+{
+  "decision": {
+    "decision_process": [
+      "Analyse des campagnes pass\u00e9es : aucune donn\u00e9e disponible.",
+      "Analyse des campagnes actives : aucune donn\u00e9e disponible.",
+      "Analyse des niches inexploit\u00e9es : aucune donn\u00e9e disponible.",
+      "Consid\u00e9ration du contexte d'initialisation : syst\u00e8me en phase de d\u00e9marrage initial.",
+      "D\u00e9cision bas\u00e9e sur l'absence de donn\u00e9es historiques et la n\u00e9cessit\u00e9 d'initier l'apprentissage du syst\u00e8me."
+    ],
+    "action": "nouvelle",
+    "campagne_cible": null,
+    "commentaire": "Aucune campagne existante d\u00e9tect\u00e9e. Le syst\u00e8me doit initialiser une premi\u00e8re campagne pour commencer \u00e0 collecter des donn\u00e9es et \u00e9tablir des r\u00e9f\u00e9rences de performance. Cette phase initiale est cruciale pour l'apprentissage du syst\u00e8me.",
+    "priorit\u00e9": "haute",
+    "agents_\u00e0_impliquer": [
+      "StrategyAgent",
+      "PlanningAgent",
+      "CampaignStarterAgent",
+      "ScraperAgent",
+      "CleanerAgent",
+      "ClassifierAgent"
+    ]
+  },
+  "thinking_steps": [
+    "R\u00e9flexion strat\u00e9gique en cours (GPT-4.1)..."
+  ],
+  "execution_time": 1.7778315544128418,
+  "timestamp": "2025-04-27T00:10:19.310370",
+  "brain_log_file": "logs/DecisionBrainAgent_20250427001017.log",
+  "agent_results": {
+    "StrategyAgent": {
+      "niche": null,
+      "justification": null,
+      "potentiel_conversion": "moyen",
+      "suggestions_message": [],
+      "approach_used": "initial",
+      "prompt_used": "\nTu es un agent strat\u00e9gique chez BerinIA, une entreprise sp\u00e9cialis\u00e9e dans l'installation de solutions d'IA pour les entreprises.\n\n\ud83c\udfaf Ce que nous proposons :\n- Installation de **chatbots intelligents** sur les sites web pour r\u00e9pondre aux questions, informer, guider, convertir.\n- Mise en place de **standards t\u00e9l\u00e9phoniques IA** pour ne plus perdre d'appels : l'IA r\u00e9pond, qualifie, redirige ou prend un RDV.\n\n\ud83d\udc65 Nos cibles :\n- Nous travaillons exclusivement en **B2B**.\n- Nous visons des **TPE/PME ou ind\u00e9pendants**, notamment ceux qui perdent des clients \u00e0 cause :\n  - d'un manque de disponibilit\u00e9 au t\u00e9l\u00e9phone\n  - de l'absence de r\u00e9ponses sur leur site\n  - d'un besoin d'automatiser une partie du service client\n\n\ud83d\udeab Ne propose jamais :\n- De niches grand public (supermarch\u00e9s, centres commerciaux, associations, grandes cha\u00eenes de distribution)\n- De niches d\u00e9j\u00e0 test\u00e9es r\u00e9cemment ou sans pertinence pour notre service\n- De niches r\u00e9cemment rejet\u00e9es par l'\u00e9quipe de planification\n\n\u2705 Ce que tu dois faire :\n- Proposer **une niche d'activit\u00e9 professionnelle sp\u00e9cifique** (ex. : \"salons de massage\", \"plombiers\", \"cabinets dentaires\")\n- Cette niche doit avoir un **besoin \u00e9vident** de pr\u00e9sence t\u00e9l\u00e9phonique ou de chatbot\n- Elle doit \u00eatre **logique avec notre offre**, et ne pas d\u00e9j\u00e0 avoir \u00e9t\u00e9 test\u00e9e\n\nTrouve une nouvelle niche originale \u00e0 explorer.\n\n\ud83e\uddfe Voici les niches d\u00e9j\u00e0 test\u00e9es :\n{\n  \"total_campaigns\": 0,\n  \"active_campaigns\": 0,\n  \"completed_campaigns\": 0,\n  \"top_performing_niches\": [],\n  \"underperforming_niches\": [],\n  \"average_conversion_rate\": 0,\n  \"lead_count_total\": 0,\n  \"most_recent_campaign\": null\n}\n\n\ud83d\udccb Voici les niches r\u00e9cemment rejet\u00e9es par l'\u00e9quipe de planification :\nAucune niche r\u00e9cemment rejet\u00e9e.\n\n\ud83d\udd01 Ne propose rien de redondant ou trop proche s'il n'y a pas de vraie diff\u00e9rence dans le besoin.\n\nDonne-moi :\n- Une seule niche, pr\u00e9cise\n- Une justification strat\u00e9gique et logique\n- Une estimation du potentiel de conversion (faible, moyen, \u00e9lev\u00e9)\n- Des suggestions de message adapt\u00e9s \u00e0 cette niche pour le premier contact\n\nFormat attendu (strict) :\n- niche: <nom>\n- justification: <texte>\n- potentiel_conversion: <faible|moyen|\u00e9lev\u00e9>\n- suggestions_message: <liste>\n",
+      "timestamp": "2025-04-27T00:10:17.542298"
+    },
+    "PlanningAgent": {
+      "error": "replace() argument 2 must be str, not None"
+    },
+    "CampaignStarterAgent": {
+      "error": "Aucune niche valid\u00e9e fournie",
+      "status": "FAILED"
+    },
+    "ScraperAgent": {
+      "error": "Import error: cannot import name 'ScraperAgent' from 'agents.scraper.apify_scraper' (/root/infra-ia/agents/scraper/apify_scraper.py)"
+    },
+    "CleanerAgent": {
+      "error": "Aucune donn\u00e9e \u00e0 nettoyer",
+      "clean_data": []
+    },
+    "ClassifierAgent": {
+      "operation": "classify",
+      "campaign_id": null,
+      "timestamp": "2025-04-27T00:10:19.309316",
+      "status": "FAILED",
+      "error": "Aucun lead fourni pour la classification"
+    }
+  }
+}

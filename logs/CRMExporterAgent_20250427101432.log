@@ -1,0 +1,105 @@
+=== CRMExporterAgent LOG ===
+Timestamp: 2025-04-27T10:14:32.501082
+Operation: execute
+Status: UNKNOWN
+
+Input: {
+  "classified_leads": [
+    {
+      "id": "test_lead_1",
+      "company_name": "Entreprise Test 1",
+      "email": "contact@test1.com",
+      "phone": "+33123456789",
+      "classification": {
+        "qualite_lead": "WARM",
+        "score": 0.75,
+        "priorite": "\u00e9lev\u00e9e"
+      }
+    },
+    {
+      "id": "test_lead_2",
+      "company_name": "Entreprise Test 2",
+      "email": "",
+      "phone": "+33987654321",
+      "classification": {
+        "qualite_lead": "COLD",
+        "score": 0.35,
+        "priorite": "basse"
+      }
+    },
+    {
+      "id": "test_lead_3",
+      "company_name": "Entreprise Test 3",
+      "email": "info@test3.fr",
+      "phone": "+33555555555",
+      "classification": {
+        "qualite_lead": "HOT",
+        "score": 0.9,
+        "priorite": "tr\u00e8s \u00e9lev\u00e9e"
+      }
+    }
+  ],
+  "pending_leads_count": 5,
+  "daily_limit": 20,
+  "exported_today": 10,
+  "campaign_id": 123
+}
+
+Output: {
+  "export_decision": {
+    "leads_to_export_now": [
+      {
+        "id": "test_lead_1",
+        "qualite": "WARM",
+        "raison_export": "Lead prioritaire avec fort potentiel"
+      },
+      {
+        "id": "test_lead_3",
+        "qualite": "HOT",
+        "raison_export": "Lead tr\u00e8s chaud avec besoin imm\u00e9diat"
+      }
+    ],
+    "leads_to_delay": [
+      {
+        "id": "test_lead_2",
+        "qualite": "COLD",
+        "raison_delai": "Lead froid n\u00e9cessitant plus de qualification",
+        "moment_recommande": "Semaine prochaine"
+      }
+    ],
+    "batching_strategy": {
+      "methode": "PAR_QUALITE",
+      "explication": "Les leads sont regroup\u00e9s par niveau de qualit\u00e9 pour permettre une approche personnalis\u00e9e"
+    },
+    "system_load_management": {
+      "charge_actuelle": "mod\u00e9r\u00e9e",
+      "limite_quotidienne_respectee": true,
+      "recommandation_charge": "Continuer les exports au rythme actuel"
+    }
+  },
+  "summary": {
+    "total_leads_received": 3,
+    "leads_exported_now": 2,
+    "leads_delayed": 1,
+    "quality_distribution": {
+      "chauds_exportes": 1,
+      "chauds_retardes": 0,
+      "tiedes_exportes": 1,
+      "tiedes_retardes": 0,
+      "froids_exportes": 0,
+      "froids_retardes": 1
+    }
+  },
+  "crm_impact_forecast": {
+    "charge_estimee": "L'export actuel repr\u00e9sente 10% de la capacit\u00e9 quotidienne",
+    "timing_optimal": "L'export en milieu de journ\u00e9e permet un traitement dans l'apr\u00e8s-midi",
+    "recommandations_futures": "Continuer d'exporter les leads chauds imm\u00e9diatement"
+  },
+  "export_status": "success",
+  "leads_count": 2,
+  "message": "Export r\u00e9ussi de 2 leads",
+  "leads_exported": [
+    "test_lead_1",
+    "test_lead_3"
+  ]
+}

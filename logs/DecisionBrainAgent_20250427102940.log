@@ -1,0 +1,41 @@
+2025-04-27 10:29:41,059 - DecisionBrainAgent - INFO - 🚀 DecisionBrainAgent démarré
+2025-04-27 10:29:41,061 - DecisionBrainAgent - INFO - 📥 Données d'entrée: {"operation": "evaluate_global_strategy", "context": {"test_mode": false, "simulate_data": true, "verbose": true, "integration_tests": true, "berinia_available": true}}
+2025-04-27 10:29:41,061 - DecisionBrainAgent - INFO - ⚙️ Exécution du DecisionBrainAgent démarrée
+2025-04-27 10:29:41,061 - DecisionBrainAgent - INFO - [BRAIN] 🧠 ========== DÉCISION STRATÉGIQUE ==========
+2025-04-27 10:29:41,062 - DecisionBrainAgent - INFO - [BRAIN] 🔄 Début du processus de raisonnement stratégique global
+2025-04-27 10:29:41,062 - DecisionBrainAgent - INFO - [BRAIN] 📋 Opération demandée: evaluate_global_strategy
+2025-04-27 10:29:41,062 - DecisionBrainAgent - INFO - [BRAIN] 🔍 Récupération des données de campagnes passées et actives...
+2025-04-27 10:29:41,063 - DecisionBrainAgent - INFO - [BRAIN] 📊 Campagnes passées: 0 | Campagnes actives: 0
+2025-04-27 10:29:41,063 - DecisionBrainAgent - INFO - [BRAIN] 🧮 Interrogation de la mémoire vectorielle pour niches inexploitées...
+2025-04-27 10:29:41,063 - DecisionBrainAgent - INFO - [BRAIN] 💡 Découverte de 0 opportunités inexploitées
+2025-04-27 10:29:41,064 - DecisionBrainAgent - INFO - [BRAIN] ⚙️ Construction du prompt de décision stratégique...
+2025-04-27 10:29:41,064 - DecisionBrainAgent - INFO - [BRAIN] 💭 Réflexion stratégique en cours (GPT-4.1)...
+2025-04-27 10:29:41,065 - DecisionBrainAgent - INFO - [BRAIN] ⏱️ Décision prise en 0.00 secondes
+2025-04-27 10:29:41,065 - DecisionBrainAgent - INFO - [BRAIN] 🆕 DÉCISION: Démarrer une nouvelle campagne
+2025-04-27 10:29:41,065 - DecisionBrainAgent - INFO - [BRAIN] 🔍 Processus décisionnel:
+2025-04-27 10:29:41,065 - DecisionBrainAgent - INFO - [BRAIN] 🧩   1. Analyse des campagnes passées : aucune donnée disponible.
+2025-04-27 10:29:41,066 - DecisionBrainAgent - INFO - [BRAIN] 🧩   2. Analyse des campagnes actives : aucune donnée disponible.
+2025-04-27 10:29:41,066 - DecisionBrainAgent - INFO - [BRAIN] 🧩   3. Analyse des niches inexploitées : aucune donnée disponible.
+2025-04-27 10:29:41,066 - DecisionBrainAgent - INFO - [BRAIN] 🧩   4. Considération du contexte d'initialisation : système en phase de démarrage initial.
+2025-04-27 10:29:41,066 - DecisionBrainAgent - INFO - [BRAIN] 🧩   5. Décision basée sur l'absence de données historiques et la nécessité d'initier l'apprentissage du système.
+2025-04-27 10:29:41,066 - DecisionBrainAgent - INFO - [BRAIN] 👥 Agents à impliquer dans l'exécution:
+2025-04-27 10:29:41,067 - DecisionBrainAgent - INFO - [BRAIN] 🤖   → StrategyAgent
+2025-04-27 10:29:41,067 - DecisionBrainAgent - INFO - [BRAIN] 🤖   → PlanningAgent
+2025-04-27 10:29:41,067 - DecisionBrainAgent - INFO - [BRAIN] 🤖   → CampaignStarterAgent
+2025-04-27 10:29:41,067 - DecisionBrainAgent - INFO - [BRAIN] 🤖   → ScraperAgent
+2025-04-27 10:29:41,067 - DecisionBrainAgent - INFO - [BRAIN] 🤖   → CleanerAgent
+2025-04-27 10:29:41,068 - DecisionBrainAgent - INFO - [BRAIN] 🤖   → ClassifierAgent
+2025-04-27 10:29:41,068 - DecisionBrainAgent - INFO - [BRAIN] 🚀 Démarrage des agents subordonnés...
+2025-04-27 10:29:41,068 - DecisionBrainAgent - INFO - [BRAIN] 📞 Appel de l'agent StrategyAgent...
+2025-04-27 10:29:41,070 - DecisionBrainAgent - ERROR - [BRAIN] ❌ Erreur lors de l'exécution de l'agent StrategyAgent: 'str' object has no attribute 'get'
+2025-04-27 10:29:41,070 - DecisionBrainAgent - INFO - [BRAIN] ⚠️ Agent StrategyAgent a signalé une erreur: 'str' object has no attribute 'get'
+2025-04-27 10:29:41,070 - DecisionBrainAgent - INFO - [BRAIN] ⏭️ Agent PlanningAgent ignoré: chaîne d'exécution interrompue par des dépendances échouées: ['StrategyAgent']
+2025-04-27 10:29:41,071 - DecisionBrainAgent - INFO - [BRAIN] ⏭️ Agent CampaignStarterAgent ignoré: chaîne d'exécution interrompue par des dépendances échouées: ['StrategyAgent', 'PlanningAgent']
+2025-04-27 10:29:41,071 - DecisionBrainAgent - INFO - [BRAIN] ⏭️ Agent ScraperAgent ignoré: chaîne d'exécution interrompue par des dépendances échouées: ['CampaignStarterAgent']
+2025-04-27 10:29:41,071 - DecisionBrainAgent - INFO - [BRAIN] ⏭️ Agent CleanerAgent ignoré: chaîne d'exécution interrompue par des dépendances échouées: ['ScraperAgent']
+2025-04-27 10:29:41,071 - DecisionBrainAgent - INFO - [BRAIN] ⏭️ Agent ClassifierAgent ignoré: chaîne d'exécution interrompue par des dépendances échouées: ['CleanerAgent']
+2025-04-27 10:29:41,071 - DecisionBrainAgent - INFO - [BRAIN] ✅ Exécution terminée en 0.01 secondes
+2025-04-27 10:29:41,072 - DecisionBrainAgent - INFO - [BRAIN] 🧠 ==========================================
+2025-04-27 10:29:41,073 - DecisionBrainAgent - INFO - 📤 Résultat: {"decision": {"decision_process": ["Analyse des campagnes passées : aucune donnée disponible.", "Analyse des campagnes actives : aucune donnée disponible.", "Analyse des niches inexploitées : aucune donnée disponible.", "Considération du contexte d'initialisation : système en phase de démarrage initial.", "Décision basée sur l'absence de données historiques et la nécessité d'initier l'apprentissage du système."], "action": "nouvelle", "campagne_cible": null, "commentaire": "Aucune campagne existante détectée. Le système doit initialiser une première campagne pour commencer à collecter des données et établir des références de performance. Cette phase initiale est cruciale pour l'apprentissage du système.", "priorité": "haute", "agents_à_impliquer": ["StrategyAgent", "PlanningAgent", "CampaignStarterAgent", "ScraperAgent", "CleanerAgent", "ClassifierAgent"]}, "thinking_steps": ["Réflexion stratégique en cours (GPT-4.1)..."], "execution_time": 0.010098457336425781, "timestamp": "2025-04-27T10:29:41.072365", "brain_log_file": "logs/DecisionBrainAgent_20250427102940.log", "agent_results": {"StrategyAgent": {"error": "'str' object has no attribute 'get'"}, "PlanningAgent": {"error": "Dépendances non satisfaites", "status": "SKIPPED"}, "CampaignStarterAgent": {"error": "Dépendances non satisfaites", "status": "SKIPPED"}, "ScraperAgent": {"error": "Dépendances non satisfaites", "status": "SKIPPED"}, "CleanerAgent": {"error": "Dépendances non satisfaites", "status": "SKIPPED"}, "ClassifierAgent": {"error": "Dépendances non satisfaites", "status": "SKIPPED"}}}
+2025-04-27 10:29:41,073 - DecisionBrainAgent - INFO - ⏱️ Temps d'exécution: 13.72 ms
+2025-04-27 10:29:41,074 - DecisionBrainAgent - INFO - ✅ DecisionBrainAgent terminé avec succès en 14.46 ms

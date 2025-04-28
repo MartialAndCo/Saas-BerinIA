@@ -1,0 +1,29 @@
+{
+  "confidence_threshold": 0.8,
+  "auto_approve": true,
+  "service_monitoring": {
+    "interval_minutes": 15,
+    "services": ["berinia-api"]
+  },
+  "memory_sync": {
+    "interval_hours": 24
+  },
+  "error_types": {
+    "indentation": {
+      "description": "Problèmes d'indentation dans les fichiers Python",
+      "auto_fix": true
+    },
+    "sa_instance_state": {
+      "description": "Erreurs de sérialisation avec SQLAlchemy",
+      "auto_fix": true
+    },
+    "router_not_defined": {
+      "description": "Problèmes de définition du router FastAPI",
+      "auto_fix": true
+    },
+    "router_prefix_duplicate": {
+      "description": "Problèmes de duplication de préfixes dans les routes",
+      "auto_fix": true
+    }
+  }
+}

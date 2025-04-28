@@ -1,0 +1,767 @@
+=== ApifyClientScraper LOG ===
+Timestamp: 2025-04-25T18:12:27.196267
+Operation: execute
+Status: COMPLETED
+
+Input: {
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "params": {
+    "language": "fr",
+    "locationQuery": "Paris, FR",
+    "maxCrawledPlacesPerSearch": 10,
+    "searchStringsArray": [
+      "restaurant"
+    ],
+    "skipClosedPlaces": false
+  }
+}
+
+Output: {
+  "leads": [
+    {
+      "id": "lead_1745604747_0",
+      "company_name": "Restaurant Thomas Bernard",
+      "contact_name": "Thomas Bernard",
+      "position": "G\u00e9rant",
+      "email": "thomas.bernard@orange.fr",
+      "phone": "0188014082",
+      "website": null,
+      "address": "147 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "36000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:27.193838",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_1",
+      "company_name": "Restaurant Julie Bernard",
+      "contact_name": "Julie Bernard",
+      "position": "G\u00e9rant",
+      "email": "contact@resto.fr",
+      "phone": "0151822684",
+      "website": "https://www.resto-bernard.fr",
+      "address": "122 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "84000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.193935",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_2",
+      "company_name": "Restaurant David Dubois",
+      "contact_name": "David Dubois",
+      "position": "Fondateur",
+      "email": "david.dubois@gmail.com",
+      "phone": "0697883253",
+      "website": "https://www.resto-dubois.fr",
+      "address": "2 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "79000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.194031",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_3",
+      "company_name": "Restaurant Thomas Bernard",
+      "contact_name": "Thomas Bernard",
+      "position": "Directeur",
+      "email": "thomas.bernard@yahoo.fr",
+      "phone": "0695942996",
+      "website": null,
+      "address": "34 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "24000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:27.194084",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_4",
+      "company_name": "Restaurant Nicolas Petit",
+      "contact_name": "Nicolas Petit",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-petit.fr",
+      "address": "139 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "15000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:27.194123",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_5",
+      "company_name": "Restaurant Thomas Laurent",
+      "contact_name": "Thomas Laurent",
+      "position": "G\u00e9rant",
+      "email": "thomas.laurent@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-laurent.fr",
+      "address": "120 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "55000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.194164",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_6",
+      "company_name": "Restaurant L\u00e9a Richard",
+      "contact_name": "L\u00e9a Richard",
+      "position": "Associ\u00e9",
+      "email": "l\u00e9a.richard@yahoo.fr",
+      "phone": null,
+      "website": "https://www.resto-richard.fr",
+      "address": "46 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "42000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.194210",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_7",
+      "company_name": "Restaurant David Dubois",
+      "contact_name": "David Dubois",
+      "position": "G\u00e9rant",
+      "email": null,
+      "phone": "0128893843",
+      "website": "https://www.resto-dubois.fr",
+      "address": "69 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "28000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:27.194283",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_8",
+      "company_name": "Restaurant C\u00e9line Thomas",
+      "contact_name": "C\u00e9line Thomas",
+      "position": "Associ\u00e9",
+      "email": null,
+      "phone": "0665965171",
+      "website": null,
+      "address": "54 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "18000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:27.194343",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_9",
+      "company_name": "Restaurant Julie Michel",
+      "contact_name": "Julie Michel",
+      "position": "G\u00e9rant",
+      "email": null,
+      "phone": "0162935787",
+      "website": "https://www.resto-michel.fr",
+      "address": "40 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "21000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:27.194384",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_10",
+      "company_name": "Restaurant Jean Laurent",
+      "contact_name": "Jean Laurent",
+      "position": "Directeur",
+      "email": null,
+      "phone": null,
+      "website": "https://www.resto-laurent.fr",
+      "address": "141 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "91000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.194413",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_11",
+      "company_name": "Restaurant Nicolas Martin",
+      "contact_name": "Nicolas Martin",
+      "position": "Directeur",
+      "email": "nicolas.martin@resto.fr",
+      "phone": "0682332639",
+      "website": "https://www.resto-martin.fr",
+      "address": "38 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "32000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:27.194473",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_12",
+      "company_name": "Restaurant Nathalie Richard",
+      "contact_name": "Nathalie Richard",
+      "position": "Associ\u00e9",
+      "email": "nathalie.richard@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-richard.fr",
+      "address": "92 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "41000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:27.194525",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_13",
+      "company_name": "Restaurant L\u00e9a Lefebvre",
+      "contact_name": "L\u00e9a Lefebvre",
+      "position": "Fondateur",
+      "email": "l\u00e9a.lefebvre@resto.fr",
+      "phone": "0648589758",
+      "website": null,
+      "address": "59 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "20000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.194570",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_14",
+      "company_name": "Restaurant L\u00e9a Petit",
+      "contact_name": "L\u00e9a Petit",
+      "position": "Fondateur",
+      "email": "l\u00e9a.petit@orange.fr",
+      "phone": "0112475005",
+      "website": null,
+      "address": "106 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "26000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:27.194661",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_15",
+      "company_name": "Restaurant Michel Durand",
+      "contact_name": "Michel Durand",
+      "position": "Responsable",
+      "email": "michel.durand@yahoo.fr",
+      "phone": "0145668973",
+      "website": "https://www.resto-durand.fr",
+      "address": "123 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "37000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.194732",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_16",
+      "company_name": "Restaurant Michel Leroy",
+      "contact_name": "Michel Leroy",
+      "position": "Fondateur",
+      "email": null,
+      "phone": "0169841440",
+      "website": "https://www.resto-leroy.fr",
+      "address": "88 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "88000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:27.194782",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_17",
+      "company_name": "Restaurant L\u00e9a Lefebvre",
+      "contact_name": "L\u00e9a Lefebvre",
+      "position": "G\u00e9rant",
+      "email": "l\u00e9a.lefebvre@orange.fr",
+      "phone": "0196967162",
+      "website": null,
+      "address": "135 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "65000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.194839",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_18",
+      "company_name": "Restaurant C\u00e9line Dubois",
+      "contact_name": "C\u00e9line Dubois",
+      "position": "Responsable",
+      "email": "c\u00e9line.dubois@outlook.fr",
+      "phone": "0690137366",
+      "website": "https://www.resto-dubois.fr",
+      "address": "104 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "25000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.194890",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_19",
+      "company_name": "Restaurant Sophie Moreau",
+      "contact_name": "Sophie Moreau",
+      "position": "G\u00e9rant",
+      "email": "sophie.moreau@orange.fr",
+      "phone": null,
+      "website": "https://www.resto-moreau.fr",
+      "address": "29 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "44000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:27.194937",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_20",
+      "company_name": "Restaurant Sophie Laurent",
+      "contact_name": "Sophie Laurent",
+      "position": "Directeur",
+      "email": null,
+      "phone": "0612405471",
+      "website": "https://www.resto-laurent.fr",
+      "address": "69 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "20000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.195008",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_21",
+      "company_name": "Restaurant Pierre Durand",
+      "contact_name": "Pierre Durand",
+      "position": "Associ\u00e9",
+      "email": "contact@resto.fr",
+      "phone": "0184380364",
+      "website": "https://www.resto-durand.fr",
+      "address": "117 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "17000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.195079",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_22",
+      "company_name": "Restaurant Julie Lefebvre",
+      "contact_name": "Julie Lefebvre",
+      "position": "Associ\u00e9",
+      "email": "julie.lefebvre@resto.fr",
+      "phone": "0629152005",
+      "website": null,
+      "address": "127 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "82000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:27.195129",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_23",
+      "company_name": "Restaurant Jean Richard",
+      "contact_name": "Jean Richard",
+      "position": "Directeur",
+      "email": "jean.richard@resto.fr",
+      "phone": "0180701853",
+      "website": "https://www.resto-richard.fr",
+      "address": "128 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "17000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.195180",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_24",
+      "company_name": "Restaurant L\u00e9a Martin",
+      "contact_name": "L\u00e9a Martin",
+      "position": "G\u00e9rant",
+      "email": "l\u00e9a.martin@orange.fr",
+      "phone": null,
+      "website": null,
+      "address": "58 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "10000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:27.195236",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_25",
+      "company_name": "Restaurant L\u00e9a Robert",
+      "contact_name": "L\u00e9a Robert",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": null,
+      "website": "https://www.resto-robert.fr",
+      "address": "100 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "15000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.195284",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_26",
+      "company_name": "Restaurant Jean Bernard",
+      "contact_name": "Jean Bernard",
+      "position": "Fondateur",
+      "email": "jean.bernard@yahoo.fr",
+      "phone": "0171365734",
+      "website": "https://www.resto-bernard.fr",
+      "address": "57 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "61000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.195378",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_27",
+      "company_name": "Restaurant Paul Durand",
+      "contact_name": "Paul Durand",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0179342937",
+      "website": null,
+      "address": "52 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "29000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.195424",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_28",
+      "company_name": "Restaurant Marie Simon",
+      "contact_name": "Marie Simon",
+      "position": "Fondateur",
+      "email": null,
+      "phone": "0124832698",
+      "website": "https://www.resto-simon.fr",
+      "address": "39 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "44000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.195490",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_29",
+      "company_name": "Restaurant Thomas Dubois",
+      "contact_name": "Thomas Dubois",
+      "position": "Directeur",
+      "email": "thomas.dubois@orange.fr",
+      "phone": "0631231540",
+      "website": null,
+      "address": "73 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "67000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.195540",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_30",
+      "company_name": "Restaurant \u00c9milie Simon",
+      "contact_name": "\u00c9milie Simon",
+      "position": "Responsable",
+      "email": "contact@resto.fr",
+      "phone": "0145332775",
+      "website": "https://www.resto-simon.fr",
+      "address": "87 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "38000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:27.195587",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_31",
+      "company_name": "Restaurant David Martin",
+      "contact_name": "David Martin",
+      "position": "Associ\u00e9",
+      "email": "david.martin@resto.fr",
+      "phone": "0147208018",
+      "website": "https://www.resto-martin.fr",
+      "address": "130 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "21000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.195633",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_32",
+      "company_name": "Restaurant Nicolas Robert",
+      "contact_name": "Nicolas Robert",
+      "position": "Directeur",
+      "email": "contact@resto.fr",
+      "phone": "0675145160",
+      "website": "https://www.resto-robert.fr",
+      "address": "39 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "68000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:27.195682",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_33",
+      "company_name": "Restaurant Jean Martin",
+      "contact_name": "Jean Martin",
+      "position": "Fondateur",
+      "email": "jean.martin@gmail.com",
+      "phone": "0175277013",
+      "website": null,
+      "address": "66 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "70000",
+      "country": "France",
+      "source": "Annuaire",
+      "scrape_date": "2025-04-25T18:12:27.195765",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_34",
+      "company_name": "Restaurant Pierre Leroy",
+      "contact_name": "Pierre Leroy",
+      "position": "Responsable",
+      "email": null,
+      "phone": null,
+      "website": "https://www.resto-leroy.fr",
+      "address": "68 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "44000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.195801",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_35",
+      "company_name": "Restaurant Julie Michel",
+      "contact_name": "Julie Michel",
+      "position": "G\u00e9rant",
+      "email": null,
+      "phone": "0687204918",
+      "website": null,
+      "address": "141 rue de Paris",
+      "city": "Marseille",
+      "postal_code": "78000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.195874",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_36",
+      "company_name": "Restaurant Julie Richard",
+      "contact_name": "Julie Richard",
+      "position": "Fondateur",
+      "email": "contact@resto.fr",
+      "phone": "0631109280",
+      "website": "https://www.resto-richard.fr",
+      "address": "8 rue de la Paix",
+      "city": "Marseille",
+      "postal_code": "22000",
+      "country": "France",
+      "source": "Pages Jaunes",
+      "scrape_date": "2025-04-25T18:12:27.195931",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_37",
+      "company_name": "Restaurant Marie Petit",
+      "contact_name": "Marie Petit",
+      "position": "G\u00e9rant",
+      "email": "marie.petit@resto.fr",
+      "phone": "0645563750",
+      "website": "https://www.resto-petit.fr",
+      "address": "74 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "56000",
+      "country": "France",
+      "source": "Google Maps",
+      "scrape_date": "2025-04-25T18:12:27.196005",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_38",
+      "company_name": "Restaurant C\u00e9line Petit",
+      "contact_name": "C\u00e9line Petit",
+      "position": "Directeur",
+      "email": "c\u00e9line.petit@yahoo.fr",
+      "phone": null,
+      "website": "https://www.resto-petit.fr",
+      "address": "101 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "13000",
+      "country": "France",
+      "source": "Site Web",
+      "scrape_date": "2025-04-25T18:12:27.196060",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_39",
+      "company_name": "Restaurant Julie Bernard",
+      "contact_name": "Julie Bernard",
+      "position": "Fondateur",
+      "email": "julie.bernard@resto.fr",
+      "phone": null,
+      "website": null,
+      "address": "101 rue de Marseille",
+      "city": "Marseille",
+      "postal_code": "68000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:27.196193",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    },
+    {
+      "id": "lead_1745604747_40",
+      "company_name": "Restaurant Pierre Bernard",
+      "contact_name": "Pierre Bernard",
+      "position": "Fondateur",
+      "email": "pierre.bernard@resto.fr",
+      "phone": "0116687015",
+      "website": null,
+      "address": "50 rue de la R\u00e9publique",
+      "city": "Marseille",
+      "postal_code": "72000",
+      "country": "France",
+      "source": "LinkedIn",
+      "scrape_date": "2025-04-25T18:12:27.196240",
+      "raw_data": {
+        "description": "Entreprise de restaurant bas\u00e9e \u00e0 Marseille, sp\u00e9cialis\u00e9e dans les services aux professionnels."
+      }
+    }
+  ],
+  "count": 41,
+  "niche": "restaurant",
+  "campaign_id": "test_campaign",
+  "time_taken": 0.0029413700103759766,
+  "api_used": false,
+  "status": "COMPLETED"
+}

@@ -1,0 +1,29 @@
+=== MessengerAgent LOG ===
+Timestamp: 2025-04-27T12:03:37.801500
+Operation: execute
+Status: FAILED
+
+Input: {
+  "leads_to_contact": [
+    {
+      "id": "test_lead_1",
+      "qualite": "WARM",
+      "raison_export": "Lead prioritaire avec fort potentiel"
+    },
+    {
+      "id": "test_lead_3",
+      "qualite": "HOT",
+      "raison_export": "Lead tr\u00e8s chaud avec besoin imm\u00e9diat"
+    }
+  ],
+  "campaign_id": null,
+  "timezone": "Europe/Paris"
+}
+
+Output: {
+  "operation": "send",
+  "campaign_id": null,
+  "timestamp": "2025-04-27T12:03:37.801209",
+  "status": "FAILED",
+  "error": "Aucun lead fourni pour l'envoi de messages"
+}

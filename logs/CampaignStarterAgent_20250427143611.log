@@ -1,0 +1,86 @@
+=== CampaignStarterAgent LOG ===
+Timestamp: 2025-04-27T14:36:11.797576
+Operation: start_new_campaign
+Status: UNKNOWN
+
+Input: {
+  "initiated_by": "DecisionBrainAgent",
+  "brain_decision": {
+    "decision_process": [
+      "Analyse des campagnes pass\u00e9es : aucune donn\u00e9e disponible.",
+      "Analyse des campagnes actives : aucune donn\u00e9e disponible.",
+      "Analyse des niches inexploit\u00e9es : aucune donn\u00e9e disponible.",
+      "Consid\u00e9ration du contexte d'initialisation : syst\u00e8me en phase de d\u00e9marrage initial.",
+      "D\u00e9cision bas\u00e9e sur l'absence de donn\u00e9es historiques et la n\u00e9cessit\u00e9 d'initier l'apprentissage du syst\u00e8me."
+    ],
+    "action": "nouvelle",
+    "campagne_cible": null,
+    "commentaire": "Aucune campagne existante d\u00e9tect\u00e9e. Le syst\u00e8me doit initialiser une premi\u00e8re campagne pour commencer \u00e0 collecter des donn\u00e9es et \u00e9tablir des r\u00e9f\u00e9rences de performance. Cette phase initiale est cruciale pour l'apprentissage du syst\u00e8me.",
+    "priorit\u00e9": "haute",
+    "agents_\u00e0_impliquer": [
+      "StrategyAgent",
+      "PlanningAgent",
+      "CampaignStarterAgent",
+      "ScraperAgent",
+      "CleanerAgent",
+      "ClassifierAgent"
+    ]
+  },
+  "operation": "start_new_campaign",
+  "validated_niche": {
+    "niche": "Avocats sp\u00e9cialis\u00e9s en droit des affaires",
+    "source": "StrategyAgent"
+  }
+}
+
+Output: {
+  "export_decision": {
+    "leads_to_export_now": [
+      {
+        "id": "test_lead_1",
+        "qualite": "WARM",
+        "raison_export": "Lead prioritaire avec fort potentiel"
+      },
+      {
+        "id": "test_lead_3",
+        "qualite": "HOT",
+        "raison_export": "Lead tr\u00e8s chaud avec besoin imm\u00e9diat"
+      }
+    ],
+    "leads_to_delay": [
+      {
+        "id": "test_lead_2",
+        "qualite": "COLD",
+        "raison_delai": "Lead froid n\u00e9cessitant plus de qualification",
+        "moment_recommande": "Semaine prochaine"
+      }
+    ],
+    "batching_strategy": {
+      "methode": "PAR_QUALITE",
+      "explication": "Les leads sont regroup\u00e9s par niveau de qualit\u00e9 pour permettre une approche personnalis\u00e9e"
+    },
+    "system_load_management": {
+      "charge_actuelle": "mod\u00e9r\u00e9e",
+      "limite_quotidienne_respectee": true,
+      "recommandation_charge": "Continuer les exports au rythme actuel"
+    }
+  },
+  "summary": {
+    "total_leads_received": 3,
+    "leads_exported_now": 2,
+    "leads_delayed": 1,
+    "quality_distribution": {
+      "chauds_exportes": 1,
+      "chauds_retardes": 0,
+      "tiedes_exportes": 1,
+      "tiedes_retardes": 0,
+      "froids_exportes": 0,
+      "froids_retardes": 1
+    }
+  },
+  "crm_impact_forecast": {
+    "charge_estimee": "L'export actuel repr\u00e9sente 10% de la capacit\u00e9 quotidienne",
+    "timing_optimal": "L'export en milieu de journ\u00e9e permet un traitement dans l'apr\u00e8s-midi",
+    "recommandations_futures": "Continuer d'exporter les leads chauds imm\u00e9diatement"
+  }
+}

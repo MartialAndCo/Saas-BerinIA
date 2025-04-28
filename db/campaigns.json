@@ -1,0 +1,147 @@
+{
+  "campaigns": [
+    {
+      "campaign_id": "TEST-1745784087",
+      "niche": "Avocats",
+      "start_time": "2025-04-27T19:01:27.360751",
+      "end_time": "2025-04-27T20:01:27.360763",
+      "status": "PAUSED",
+      "phases": {
+        "scraping": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_scraped": 20,
+            "time_taken": 5.3,
+            "sources": {
+              "apify": {
+                "leads_scraped": 0,
+                "time_taken": 0.5
+              },
+              "apollo": {
+                "leads_scraped": 20,
+                "time_taken": 4.8
+              }
+            }
+          }
+        },
+        "cleaning": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_cleaned": 18,
+            "leads_rejected": 2
+          }
+        },
+        "classification": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_classified": 18,
+            "hot_leads": 5,
+            "warm_leads": 8,
+            "cold_leads": 5
+          }
+        },
+        "export": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_exported": 10,
+            "leads_delayed": 8,
+            "export_strategy": "PAR_QUALITE"
+          }
+        },
+        "contact": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_contacted": 10,
+            "by_channel": {
+              "email": 7,
+              "phone": 3
+            }
+          }
+        }
+      },
+      "summary": {
+        "leads_scraped": 20,
+        "leads_cleaned": 18,
+        "leads_classified": 18,
+        "leads_exported": 10,
+        "leads_contacted": 10
+      },
+      "_storage_metadata": {
+        "saved_at": "2025-04-27T20:01:27.360947",
+        "storage_id": "storage_1745784087_-1979673676992422080"
+      }
+    },
+    {
+      "campaign_id": "TEST-1745785017",
+      "niche": "Avocats",
+      "start_time": "2025-04-27T19:16:57.120507",
+      "end_time": "2025-04-27T20:16:57.120520",
+      "status": "PAUSED",
+      "phases": {
+        "scraping": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_scraped": 20,
+            "time_taken": 5.3,
+            "sources": {
+              "apify": {
+                "leads_scraped": 0,
+                "time_taken": 0.5
+              },
+              "apollo": {
+                "leads_scraped": 20,
+                "time_taken": 4.8
+              }
+            }
+          }
+        },
+        "cleaning": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_cleaned": 18,
+            "leads_rejected": 2
+          }
+        },
+        "classification": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_classified": 18,
+            "hot_leads": 5,
+            "warm_leads": 8,
+            "cold_leads": 5
+          }
+        },
+        "export": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_exported": 10,
+            "leads_delayed": 8,
+            "export_strategy": "PAR_QUALITE"
+          }
+        },
+        "contact": {
+          "status": "COMPLETED",
+          "metrics": {
+            "leads_contacted": 10,
+            "by_channel": {
+              "email": 7,
+              "phone": 3
+            }
+          }
+        }
+      },
+      "summary": {
+        "leads_scraped": 20,
+        "leads_cleaned": 18,
+        "leads_classified": 18,
+        "leads_exported": 10,
+        "leads_contacted": 10
+      },
+      "_storage_metadata": {
+        "saved_at": "2025-04-27T20:16:57.120772",
+        "storage_id": "storage_1745785017_5372920913805795112"
+      }
+    }
+  ],
+  "last_updated": "2025-04-27T20:16:57.120783"
+}

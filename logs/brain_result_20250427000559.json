@@ -1,0 +1,65 @@
+{
+  "decision": {
+    "metrics": {
+      "conversion_rate": 0.15,
+      "cost_per_lead": 26.5,
+      "roi": 1.75,
+      "lead_rate": 0.42,
+      "qualification_rate": 0.28
+    },
+    "traffic_sources": {
+      "Email": 35,
+      "Social": 40,
+      "Search": 25
+    },
+    "time_series": {
+      "dates": [
+        "2025-01-15",
+        "2025-02-15",
+        "2025-03-15",
+        "2025-04-15"
+      ],
+      "leads": [
+        30,
+        45,
+        38,
+        42
+      ],
+      "conversions": [
+        5,
+        8,
+        6,
+        7
+      ]
+    },
+    "insights": [
+      {
+        "description": "La campagne montre une forte croissance des leads sur les canaux sociaux.",
+        "impact": "Positif",
+        "confidence": 0.85
+      },
+      {
+        "description": "Le co\u00fbt par lead est 15% plus \u00e9lev\u00e9 que la moyenne du secteur.",
+        "impact": "N\u00e9gatif",
+        "confidence": 0.92
+      },
+      {
+        "description": "Le message de d\u00e9monstration a le taux de r\u00e9ponse le plus \u00e9lev\u00e9.",
+        "impact": "Positif",
+        "confidence": 0.78
+      }
+    ],
+    "interpretation": "La campagne performe relativement bien avec un ROI positif, mais il y a des possibilit\u00e9s d'optimisation des co\u00fbts. Les canaux sociaux sont particuli\u00e8rement efficaces.",
+    "recommendations": [
+      "Augmenter le budget allou\u00e9 aux canaux sociaux de 20%",
+      "Revoir la strat\u00e9gie email pour am\u00e9liorer le taux de conversion",
+      "Utiliser davantage le message 'demo_offer' qui montre les meilleurs r\u00e9sultats"
+    ]
+  },
+  "thinking_steps": [
+    "R\u00e9flexion strat\u00e9gique en cours (GPT-4.1)..."
+  ],
+  "execution_time": 0.002256631851196289,
+  "timestamp": "2025-04-27T00:05:59.589825",
+  "brain_log_file": "logs/DecisionBrainAgent_20250427000559.log"
+}

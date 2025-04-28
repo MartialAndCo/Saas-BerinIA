@@ -1,0 +1,111 @@
+{
+  "timestamp": "2025-04-27T10:29:41.084107",
+  "campaign_id": null,
+  "agent_flow": [
+    {
+      "agent": "DecisionBrainAgent",
+      "start_time": "2025-04-27T10:29:41.060534"
+    },
+    {
+      "agent": "CleanerAgent",
+      "start_time": "2025-04-27T10:29:41.074939",
+      "end_time": "2025-04-27T10:29:41.075643",
+      "status": "success"
+    },
+    {
+      "agent": "LeadClassifierAgent",
+      "start_time": "2025-04-27T10:29:41.076908",
+      "end_time": "2025-04-27T10:29:41.077914",
+      "status": "success"
+    },
+    {
+      "agent": "CRMExporterAgent",
+      "start_time": "2025-04-27T10:29:41.079418",
+      "end_time": "2025-04-27T10:29:41.083012",
+      "status": "success"
+    }
+  ],
+  "result": {
+    "decision": {
+      "decision_process": [
+        "Analyse des campagnes passées : aucune donnée disponible.",
+        "Analyse des campagnes actives : aucune donnée disponible.",
+        "Analyse des niches inexploitées : aucune donnée disponible.",
+        "Considération du contexte d'initialisation : système en phase de démarrage initial.",
+        "Décision basée sur l'absence de données historiques et la nécessité d'initier l'apprentissage du système."
+      ],
+      "action": "nouvelle",
+      "campagne_cible": null,
+      "commentaire": "Aucune campagne existante détectée. Le système doit initialiser une première campagne pour commencer à collecter des données et établir des références de performance. Cette phase initiale est cruciale pour l'apprentissage du système.",
+      "priorité": "haute",
+      "agents_à_impliquer": [
+        "StrategyAgent",
+        "PlanningAgent",
+        "CampaignStarterAgent",
+        "ScraperAgent",
+        "CleanerAgent",
+        "ClassifierAgent"
+      ]
+    },
+    "thinking_steps": [
+      "Réflexion stratégique en cours (GPT-4.1)..."
+    ],
+    "execution_time": 0.010098457336425781,
+    "timestamp": "2025-04-27T10:29:41.072365",
+    "brain_log_file": "logs/DecisionBrainAgent_20250427102940.log",
+    "agent_results": {
+      "StrategyAgent": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "PlanningAgent": {
+        "error": "Dépendances non satisfaites",
+        "status": "SKIPPED"
+      },
+      "CampaignStarterAgent": {
+        "error": "Dépendances non satisfaites",
+        "status": "SKIPPED"
+      },
+      "ScraperAgent": {
+        "error": "Dépendances non satisfaites",
+        "status": "SKIPPED"
+      },
+      "CleanerAgent": {
+        "error": "Dépendances non satisfaites",
+        "status": "SKIPPED"
+      },
+      "ClassifierAgent": {
+        "error": "Dépendances non satisfaites",
+        "status": "SKIPPED"
+      }
+    },
+    "integration_tests": [
+      {
+        "agent": "CleanerAgent",
+        "start_time": "2025-04-27T10:29:41.074939",
+        "end_time": "2025-04-27T10:29:41.075643",
+        "status": "success",
+        "leads_processed": 0
+      },
+      {
+        "agent": "LeadClassifierAgent",
+        "start_time": "2025-04-27T10:29:41.076908",
+        "end_time": "2025-04-27T10:29:41.077914",
+        "status": "success",
+        "leads_processed": 0
+      },
+      {
+        "agent": "CRMExporterAgent",
+        "start_time": "2025-04-27T10:29:41.079418",
+        "end_time": "2025-04-27T10:29:41.083012",
+        "status": "success",
+        "leads_processed": 0,
+        "export_status": null,
+        "berinia_integration": "active"
+      }
+    ]
+  },
+  "execution_time": {
+    "start": "2025-04-27T10:29:41.060534",
+    "end": "2025-04-27T10:29:41.084114"
+  }
+}

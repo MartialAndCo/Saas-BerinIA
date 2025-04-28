@@ -1,0 +1,5 @@
+2025-04-27 10:31:52,373 - INFO - 🚀 CleanerAgent démarré
+2025-04-27 10:31:52,373 - INFO - 📥 Données d'entrée: {"raw_leads": [{"id": "test_lead_1", "company_name": "Entreprise Test 1", "email": "contact@test1.com", "phone": "+33123456789"}, {"id": "test_lead_2", "company_name": "Entreprise Test 2", "email": "", "phone": "+33987654321"}, {"id": "test_lead_3", "company_name": "Entreprise Test 3", "email": "info@test3.fr", "phone": "+33555555555"}], "campaign_id": "test_campaign_123"}
+2025-04-27 10:31:52,374 - INFO - 📤 Résultat: {"error": "Aucune donnée à nettoyer", "clean_data": [], "status": "FAILED", "message": "Un ensemble de leads valide est requis pour le nettoyage. L'agent StrategyAgent ou ScraperAgent doit fournir des données."}
+2025-04-27 10:31:52,374 - INFO - ⏱️ Temps d'exécution: 0.90 ms
+2025-04-27 10:31:52,374 - INFO - ✅ CleanerAgent terminé avec succès en 1.10 ms
